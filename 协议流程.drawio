@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-28T13:27:20.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="CRDLB_pUxwGPHFPor6wi" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-28T13:34:43.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="rx65bgsVfKNN5GIXNWG1" version="21.8.0" type="github">
   <diagram name="第 1 页" id="kYDKt0bIS9psy3Maj4CA">
-    <mxGraphModel dx="1055" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="897" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -703,7 +703,7 @@
             <mxPoint x="217" y="4162" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n1iCXKJO0722P-5B4_Fn-77" value="sync8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-76">
+        <mxCell id="n1iCXKJO0722P-5B4_Fn-77" value="sync9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-76">
           <mxGeometry x="-0.1923" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -725,7 +725,7 @@
             <mxPoint x="704.5" y="4230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n1iCXKJO0722P-5B4_Fn-81" value="sync8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-80">
+        <mxCell id="n1iCXKJO0722P-5B4_Fn-81" value="sync10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-80">
           <mxGeometry x="-0.0857" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -759,7 +759,7 @@
             <mxPoint x="383" y="4035" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n1iCXKJO0722P-5B4_Fn-93" value="受申req6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-91">
+        <mxCell id="n1iCXKJO0722P-5B4_Fn-93" value="受申req7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-91">
           <mxGeometry x="-0.0055" y="-1" relative="1" as="geometry">
             <mxPoint x="-15" y="4" as="offset" />
           </mxGeometry>
@@ -792,7 +792,7 @@
             <mxPoint x="349" y="4350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n1iCXKJO0722P-5B4_Fn-103" value="sync9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-102">
+        <mxCell id="n1iCXKJO0722P-5B4_Fn-103" value="sync10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-102">
           <mxGeometry x="-0.1923" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -803,7 +803,7 @@
             <mxPoint x="198" y="4172" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n1iCXKJO0722P-5B4_Fn-108" value="受申rsp7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-107">
+        <mxCell id="n1iCXKJO0722P-5B4_Fn-108" value="受申rsp8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-107">
           <mxGeometry x="0.3768" y="1" relative="1" as="geometry">
             <mxPoint x="55" y="-38" as="offset" />
           </mxGeometry>
@@ -815,6 +815,17 @@
         </mxCell>
         <mxCell id="n1iCXKJO0722P-5B4_Fn-110" value="noti允许丢包，但是受申req6不允许丢掉，定时请求直到收到回包，将状态解锁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="4060" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n1iCXKJO0722P-5B4_Fn-111" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.35;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="n1iCXKJO0722P-5B4_Fn-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="4030" as="sourcePoint" />
+            <mxPoint x="690" y="4380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1iCXKJO0722P-5B4_Fn-112" value="受申rsp6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n1iCXKJO0722P-5B4_Fn-111">
+          <mxGeometry x="-0.3772" y="2" relative="1" as="geometry">
+            <mxPoint x="40" y="68" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
