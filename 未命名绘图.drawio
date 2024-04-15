@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T09:07:29.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jLMo_E36E1Y_uhz7geuY" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-15T09:19:52.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tx8n4_QjSGuhlTX51F5c" version="24.2.3" type="github">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="1698" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2569" dy="1474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -284,7 +284,7 @@
         <mxCell id="X7OF4kSchoy8XItyaT_Y-82" value="CheckFinishAndUpdate，直接更新进度值" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1466" y="1515" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-84" value="例如：章节task_id=9165的完成条件类型是&lt;br&gt;&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:403pt&quot; width=&quot;537&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:14.25pt&quot; height=&quot;19&quot;&gt;  &lt;td style=&quot;height:14.25pt;width:403pt&quot; width=&quot;537&quot; class=&quot;xl64&quot; height=&quot;19&quot;&gt;E_TASK_CONDITION_MAP_OCCUPY_BLOCK_PLAYER_BC；&lt;br&gt;由于章节任务是在actor注册的，但是这个类型的条件管理类的归属是world，因此在actor注册该条件实例时，会向world发起注册条件的请求，使得world上创建一个该条件的实例。相对于actor来说，这个条件就是远程条件。&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div&gt;远程条件实例会被设置 src_id 表示该条件实例注册的来源进程。src_id = 0时表示非远程条件。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-84" value="例如：章节task_id=9165的完成条件类型是&lt;br&gt;&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:403pt&quot; width=&quot;537&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:14.25pt&quot; height=&quot;19&quot;&gt;  &lt;td style=&quot;height:14.25pt;width:403pt&quot; width=&quot;537&quot; class=&quot;xl64&quot; height=&quot;19&quot;&gt;E_TASK_CONDITION_MAP_OCCUPY_BLOCK_PLAYER_BC；&lt;br&gt;由于章节任务是在actor注册的，但是这个类型的条件管理类的归属是world，因此在actor注册该条件实例时，会向world发起注册条件的请求，使得world上创建一个该条件的实例。相对于actor来说，这个条件就是远程条件。&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div&gt;条件实例会被id_src进行标记，id_src非0时，表示当前条件实例的注册来源不是当前进程，而是进程id=id_src的进程。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1236.25" y="1615" width="460" height="139" as="geometry" />
         </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-88" target="X7OF4kSchoy8XItyaT_Y-65">
@@ -305,13 +305,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-94" value="事件触发notify" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="1010" width="120" height="60" as="geometry" />
+          <mxGeometry x="305" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-95" target="X7OF4kSchoy8XItyaT_Y-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-95" value="条件实例内的 connect 监听，进度值更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="1120" width="160" height="60" as="geometry" />
+          <mxGeometry x="285" y="1130" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-97" target="X7OF4kSchoy8XItyaT_Y-118">
           <mxGeometry relative="1" as="geometry" />
@@ -357,7 +357,7 @@
         <mxCell id="X7OF4kSchoy8XItyaT_Y-103" value="DoAddSyncCondTask添加到条件请求列表，等待发起协议请求到归属的进程" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="555" y="1422" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-107" target="X7OF4kSchoy8XItyaT_Y-97">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-107" target="X7OF4kSchoy8XItyaT_Y-97">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="830" y="1250" />
@@ -367,11 +367,8 @@
         <mxCell id="X7OF4kSchoy8XItyaT_Y-107" value="条件归属类收到后，处理进度值更新，&lt;div&gt;CheckFinishAndUpdate&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="1660" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-110" value="这条虚线表示在条件归属进程内拥有一样的逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="555" y="1210" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-111" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#181262;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="2060" width="600" height="410" as="geometry" />
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-110" value="回到了条件的源进程，再次进入这个逻辑，就可以走IsRemote=false的分支了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557" y="1260" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="X7OF4kSchoy8XItyaT_Y-99">
           <mxGeometry relative="1" as="geometry">
@@ -405,11 +402,11 @@
         <mxCell id="X7OF4kSchoy8XItyaT_Y-130" value="条件任务注册所在的进程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="544" y="1724" width="137" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-138" value="远程条件，表示这个条件的来源不是本进程，src_id表示来源进程id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="305" y="1880" width="385" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-139" value="标记远程条件的id_src，只有在跨进程注册条件时才会使用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-139" value="标记远程条件的id_src，只有在跨进程&lt;b&gt;注册条件&lt;/b&gt;时才会使用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="1200" width="315" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-140" value="标记远程条件的id_src，在跨进程&lt;b&gt;条件进度更新时，无效&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1416.25" y="1200" width="363.75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
