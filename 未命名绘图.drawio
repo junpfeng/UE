@@ -1,36 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T03:06:28.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="NH1gAAKf9L7V8d4sNfjw" version="24.2.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2024-05-30T13:15:53.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="KIQ_0i6b0qoYJ0lSqVVL" version="24.4.4" type="github" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="2655" dy="1728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-1" target="X7OF4kSchoy8XItyaT_Y-2">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-1" target="X7OF4kSchoy8XItyaT_Y-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-1" value="BaseConditionMgr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-1" value="BaseConditionMgr" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="315" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-2" target="X7OF4kSchoy8XItyaT_Y-6">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-2" target="X7OF4kSchoy8XItyaT_Y-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-2" value="InitMgr" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-2" value="InitMgr" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="415" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-4" target="X7OF4kSchoy8XItyaT_Y-1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-4" target="X7OF4kSchoy8XItyaT_Y-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-4" value="REGISTER_MGR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-4" value="REGISTER_MGR" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="225" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-6" target="X7OF4kSchoy8XItyaT_Y-8">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-6" target="X7OF4kSchoy8XItyaT_Y-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-10" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-9">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-10" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-9" vertex="1" connectable="0">
           <mxGeometry x="-0.2276" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-6" target="X7OF4kSchoy8XItyaT_Y-11">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="X7OF4kSchoy8XItyaT_Y-6" target="X7OF4kSchoy8XItyaT_Y-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="560" y="555" />
@@ -38,89 +38,89 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-14" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-13">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-14" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-13" vertex="1" connectable="0">
           <mxGeometry x="0.0082" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-6" value="IsLocalProcess" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-6" value="IsLocalProcess" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="515" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-8" target="X7OF4kSchoy8XItyaT_Y-11">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-8" target="X7OF4kSchoy8XItyaT_Y-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-8" value="Init，这里一般会注册一个事件监听connect，用于条件进度更新" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-8" value="Init，这里一般会注册一个事件监听connect，用于条件进度更新" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="645" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-11" value="return true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-11" value="return true" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="745" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-16" target="X7OF4kSchoy8XItyaT_Y-4">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="X7OF4kSchoy8XItyaT_Y-16" target="X7OF4kSchoy8XItyaT_Y-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-16" value="world and actor process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-16" value="world and actor process" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="135" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-18" target="X7OF4kSchoy8XItyaT_Y-19">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-18" target="X7OF4kSchoy8XItyaT_Y-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-18" value="actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-18" value="actor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-19" target="X7OF4kSchoy8XItyaT_Y-21">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-19" target="X7OF4kSchoy8XItyaT_Y-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-19" value="遍历 CHAPTER_TASKINFO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-19" value="遍历 CHAPTER_TASKINFO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-21" target="X7OF4kSchoy8XItyaT_Y-23">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-21" target="X7OF4kSchoy8XItyaT_Y-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-21" value="MakeCondition(E_COND_MODULE_TYPE_CHAPTER_TASK, task_id);" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-21" value="MakeCondition(E_COND_MODULE_TYPE_CHAPTER_TASK, task_id);" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="340" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-23" target="X7OF4kSchoy8XItyaT_Y-25">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-23" target="X7OF4kSchoy8XItyaT_Y-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-23" value="AddConditionRegisterTask" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-23" value="AddConditionRegisterTask" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="440" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-25" value="DoAddAsyncCondProcTask" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-25" value="DoAddAsyncCondProcTask" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="675" y="540" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-28" value="如果创建的条件归属的ConditionMgr的归属不是当前进程，&lt;div&gt;就会发起一个跨进程的协议去寻找ConditionMgr所归属的进程，来创建一个条件。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-28" value="如果创建的条件归属的ConditionMgr的归属不是当前进程，&lt;div&gt;就会发起一个跨进程的协议去寻找ConditionMgr所归属的进程，来创建一个条件。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1045" y="90" width="450" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-29" target="X7OF4kSchoy8XItyaT_Y-30">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-29" target="X7OF4kSchoy8XItyaT_Y-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-29" target="X7OF4kSchoy8XItyaT_Y-46">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-29" target="X7OF4kSchoy8XItyaT_Y-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-29" value="DoCondTickFunction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-29" value="DoCondTickFunction" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-30" target="X7OF4kSchoy8XItyaT_Y-32">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-30" target="X7OF4kSchoy8XItyaT_Y-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-30" value="CondRegisterProc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-30" value="CondRegisterProc" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-32" target="X7OF4kSchoy8XItyaT_Y-41">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-32" target="X7OF4kSchoy8XItyaT_Y-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-32" value="DoAddCondition" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-32" value="DoAddCondition" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-34" target="X7OF4kSchoy8XItyaT_Y-36">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-34" target="X7OF4kSchoy8XItyaT_Y-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-44" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-37">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-44" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-37" vertex="1" connectable="0">
           <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.94;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-34" target="X7OF4kSchoy8XItyaT_Y-38">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.94;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="X7OF4kSchoy8XItyaT_Y-34" target="X7OF4kSchoy8XItyaT_Y-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1156" y="610" />
@@ -129,283 +129,283 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-45" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-40">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-45" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-40" vertex="1" connectable="0">
           <mxGeometry x="-0.0908" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-34" value="IsLocalProcess" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-34" value="IsLocalProcess" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1015" y="570" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-36" target="X7OF4kSchoy8XItyaT_Y-38">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-36" target="X7OF4kSchoy8XItyaT_Y-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-36" target="X7OF4kSchoy8XItyaT_Y-64">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-36" target="X7OF4kSchoy8XItyaT_Y-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-133" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-131">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-133" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-131" vertex="1" connectable="0">
           <mxGeometry x="-0.2965" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-36" value="&lt;b&gt;AddRegisterRemoteCondTask&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-36" value="&lt;b&gt;AddRegisterRemoteCondTask&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="690" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-38" value="return" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-38" value="return" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-41" target="X7OF4kSchoy8XItyaT_Y-34">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-41" target="X7OF4kSchoy8XItyaT_Y-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-41" value="&lt;b&gt;CreateCondition，这一步是根据cond_id创建了实际的条件实例&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-41" value="&lt;b&gt;CreateCondition，这一步是根据cond_id创建了实际的条件实例&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-46" target="X7OF4kSchoy8XItyaT_Y-48">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-46" target="X7OF4kSchoy8XItyaT_Y-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-46" value="CondProgressProc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-46" value="CondProgressProc" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1380" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-48" target="X7OF4kSchoy8XItyaT_Y-50">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-48" target="X7OF4kSchoy8XItyaT_Y-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-48" value="CondProgressProc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-48" value="CondProgressProc" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1380" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-50" target="X7OF4kSchoy8XItyaT_Y-52">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-50" target="X7OF4kSchoy8XItyaT_Y-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-61" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-53">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-61" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-53" vertex="1" connectable="0">
           <mxGeometry x="0.4194" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-50" target="X7OF4kSchoy8XItyaT_Y-55">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-50" target="X7OF4kSchoy8XItyaT_Y-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-60" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-56">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-60" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-56" vertex="1" connectable="0">
           <mxGeometry x="-0.1778" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-50" value="IsRemote" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-50" value="IsRemote" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="460" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-52" target="X7OF4kSchoy8XItyaT_Y-57">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="X7OF4kSchoy8XItyaT_Y-52" target="X7OF4kSchoy8XItyaT_Y-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1660" y="800" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-52" target="X7OF4kSchoy8XItyaT_Y-64">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-52" target="X7OF4kSchoy8XItyaT_Y-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-135" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-134">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-135" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-134" vertex="1" connectable="0">
           <mxGeometry x="-0.2658" y="5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-52" value="&lt;b&gt;DoUpdateRemoteCondition&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-52" value="&lt;b&gt;DoUpdateRemoteCondition&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1580" y="630" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-55" target="X7OF4kSchoy8XItyaT_Y-57">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-55" target="X7OF4kSchoy8XItyaT_Y-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-55" value="CallCondCompleteFunction" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-55" value="CallCondCompleteFunction" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1355" y="630" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-57" value="return" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-57" value="return" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1380" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-62" value="条件管理类的归属进程是在构造函数的参数中设置的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-62" value="条件管理类的归属进程是在构造函数的参数中设置的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="85" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-63" value="actor遍历主线任务的配置，设置任务条件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-63" value="actor遍历主线任务的配置，设置任务条件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="630" y="90" width="237" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-64" target="X7OF4kSchoy8XItyaT_Y-88">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-64" target="X7OF4kSchoy8XItyaT_Y-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-64" value="DoSendRegisterRemoteCondReq" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-64" value="DoSendRegisterRemoteCondReq" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1229" y="980" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-65" target="X7OF4kSchoy8XItyaT_Y-67">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-65" target="X7OF4kSchoy8XItyaT_Y-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-65" target="X7OF4kSchoy8XItyaT_Y-69">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-65" target="X7OF4kSchoy8XItyaT_Y-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-65" value="ConditionRegisterRemoteReq" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-65" value="ConditionRegisterRemoteReq" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1251" y="1245" width="176" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-67" target="X7OF4kSchoy8XItyaT_Y-71">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-67" target="X7OF4kSchoy8XItyaT_Y-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-67" value="ConditionRegisterProc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-67" value="ConditionRegisterProc" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1015" y="1315" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-69" target="X7OF4kSchoy8XItyaT_Y-80">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-69" target="X7OF4kSchoy8XItyaT_Y-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-69" value="ConditionProgressSyncProc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-69" value="ConditionProgressSyncProc" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1475" y="1330" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-71" target="X7OF4kSchoy8XItyaT_Y-73">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-71" target="X7OF4kSchoy8XItyaT_Y-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-71" value="AddRemoteCondition" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-71" value="AddRemoteCondition" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1025" y="1405" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-73" target="X7OF4kSchoy8XItyaT_Y-75">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-73" target="X7OF4kSchoy8XItyaT_Y-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-73" value="DoAddCondition" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-73" value="DoAddCondition" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1025" y="1495" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-75" target="X7OF4kSchoy8XItyaT_Y-77">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-75" target="X7OF4kSchoy8XItyaT_Y-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-75" value="CreateCondition 创建一个条件实例。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-75" value="CreateCondition 创建一个条件实例。" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1025" y="1585" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-77" value="..." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-77" value="..." style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1025" y="1685" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-79" value="远程条件的注册和更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-79" value="远程条件的注册和更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1256.25" y="930" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-80" target="X7OF4kSchoy8XItyaT_Y-82">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-80" target="X7OF4kSchoy8XItyaT_Y-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-80" value="UpdateProgressInfoFromRemote" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-80" value="UpdateProgressInfoFromRemote" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1462.5" y="1425" width="195" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-82" value="CheckFinishAndUpdate，直接更新进度值" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-82" value="CheckFinishAndUpdate，直接更新进度值" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1466" y="1515" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-84" value="例如：章节task_id=9165的完成条件类型是&lt;br&gt;&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:403pt&quot; width=&quot;537&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:14.25pt&quot; height=&quot;19&quot;&gt;  &lt;td style=&quot;height:14.25pt;width:403pt&quot; width=&quot;537&quot; class=&quot;xl64&quot; height=&quot;19&quot;&gt;E_TASK_CONDITION_MAP_OCCUPY_BLOCK_PLAYER_BC；&lt;br&gt;由于章节任务是在actor注册的，但是这个类型的条件管理类的归属是world，因此在actor注册该条件实例时，会向world发起注册条件的请求，使得world上创建一个该条件的实例。相对于actor来说，这个条件就是远程条件。&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div&gt;条件实例会被id_src进行标记，id_src非0时，表示当前条件实例的注册来源不是当前进程，而是进程id=id_src的进程。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-84" value="例如：章节task_id=9165的完成条件类型是&lt;br&gt;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;537&quot; style=&quot;border-collapse:&lt;br/&gt; collapse;width:403pt&quot;&gt;&lt;tbody&gt;&lt;tr height=&quot;19&quot; style=&quot;height:14.25pt&quot;&gt;  &lt;td height=&quot;19&quot; class=&quot;xl64&quot; width=&quot;537&quot; style=&quot;height:14.25pt;width:403pt&quot;&gt;E_TASK_CONDITION_MAP_OCCUPY_BLOCK_PLAYER_BC；&lt;br&gt;由于章节任务是在actor注册的，但是这个类型的条件管理类的归属是world，因此在actor注册该条件实例时，会向world发起注册条件的请求，使得world上创建一个该条件的实例。相对于actor来说，这个条件就是远程条件。&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div&gt;条件实例会被id_src进行标记，id_src非0时，表示当前条件实例的注册来源不是当前进程，而是进程id=id_src的进程。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1236.25" y="1615" width="460" height="139" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-88" target="X7OF4kSchoy8XItyaT_Y-65">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-88" target="X7OF4kSchoy8XItyaT_Y-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-136" value="跨进程协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-90">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-136" value="跨进程协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-90" vertex="1" connectable="0">
           <mxGeometry x="-0.1051" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-88" value="&lt;span style=&quot;background-color: rgb(218, 153, 11);&quot;&gt;head.id_src = ns_bus_local_func()，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(218, 153, 11);&quot;&gt;id_src被设置后，即被标记为远程条件&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-88" value="&lt;span style=&quot;background-color: rgb(218, 153, 11);&quot;&gt;head.id_src = ns_bus_local_func()，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(218, 153, 11);&quot;&gt;id_src被设置后，即被标记为远程条件&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1159" y="1080" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-93" value="如果条件管理的归属不在当前进程，就不会注册监听connect，而是由远程条件发起的请求进行进度更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-93" value="如果条件管理的归属不在当前进程，就不会注册监听connect，而是由远程条件发起的请求进行进度更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="830" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-94" target="X7OF4kSchoy8XItyaT_Y-95">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-94" target="X7OF4kSchoy8XItyaT_Y-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-94" value="事件触发notify" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-94" value="事件触发notify" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="305" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-95" target="X7OF4kSchoy8XItyaT_Y-97">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-95" target="X7OF4kSchoy8XItyaT_Y-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-95" value="条件实例内的 connect 监听，进度值更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-95" value="条件实例内的 connect 监听，进度值更新" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="285" y="1130" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-97" target="X7OF4kSchoy8XItyaT_Y-118">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-97" target="X7OF4kSchoy8XItyaT_Y-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-121" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-119">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-121" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-119" vertex="1" connectable="0">
           <mxGeometry x="-0.2405" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-97" value="添加当前条件到异步处理列表，处理类型为条件进度更新处理DoAddAsyncCondProcTask" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-97" value="添加当前条件到异步处理列表，处理类型为条件进度更新处理DoAddAsyncCondProcTask" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1220" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-99" target="X7OF4kSchoy8XItyaT_Y-101">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-99" target="X7OF4kSchoy8XItyaT_Y-101" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-105" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-102">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-105" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-102" vertex="1" connectable="0">
           <mxGeometry x="0.0035" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-99" target="X7OF4kSchoy8XItyaT_Y-103">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-99" target="X7OF4kSchoy8XItyaT_Y-103" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-106" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-104">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-106" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-104" vertex="1" connectable="0">
           <mxGeometry x="-0.0394" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-99" value="IsRemote，&lt;div&gt;是否是远程条件&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-99" value="IsRemote，&lt;div&gt;是否是远程条件&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="1412" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-101" value="判断任务是否完成，完成则&amp;nbsp;CallCondCompleteFunction" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-101" value="判断任务是否完成，完成则&amp;nbsp;CallCondCompleteFunction" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="1542" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-103" target="X7OF4kSchoy8XItyaT_Y-122">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-103" target="X7OF4kSchoy8XItyaT_Y-122" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-124" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-123">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-124" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-123" vertex="1" connectable="0">
           <mxGeometry y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-103" value="DoAddSyncCondTask添加到条件请求列表，等待发起协议请求到归属的进程" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-103" value="DoAddSyncCondTask添加到条件请求列表，等待发起协议请求到归属的进程" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="555" y="1422" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-107" target="X7OF4kSchoy8XItyaT_Y-97">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="X7OF4kSchoy8XItyaT_Y-107" target="X7OF4kSchoy8XItyaT_Y-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="830" y="1250" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-107" value="条件归属类收到后，处理进度值更新，&lt;div&gt;CheckFinishAndUpdate&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-107" value="条件归属类收到后，处理进度值更新，&lt;div&gt;CheckFinishAndUpdate&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="1660" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-110" value="回到了条件的源进程，再次进入这个逻辑，就可以走IsRemote=false的分支了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-110" value="回到了条件的源进程，再次进入这个逻辑，就可以走IsRemote=false的分支了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="557" y="1260" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="X7OF4kSchoy8XItyaT_Y-99">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="X7OF4kSchoy8XItyaT_Y-99" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="364.48" y="1392" as="sourcePoint" />
             <mxPoint x="364.48" y="1412" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-118" value="CondProgressProc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-118" value="CondProgressProc" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="305" y="1332" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-122" target="X7OF4kSchoy8XItyaT_Y-125">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-122" target="X7OF4kSchoy8XItyaT_Y-125" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-127" value="跨进程协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-126">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-127" value="跨进程协议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X7OF4kSchoy8XItyaT_Y-126" vertex="1" connectable="0">
           <mxGeometry x="-0.05" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-122" value="DoSendRegisterRemoteCondReq" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-122" value="DoSendRegisterRemoteCondReq" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1542" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7OF4kSchoy8XItyaT_Y-125" target="X7OF4kSchoy8XItyaT_Y-107">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-125" target="X7OF4kSchoy8XItyaT_Y-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-125" value="ConditionProgressSyncProc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-125" value="ConditionProgressSyncProc" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="522.5" y="1660" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-129" value="远程条件所在的进程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-129" value="远程条件所在的进程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-140" y="1180" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-130" value="条件任务注册所在的进程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-130" value="条件任务注册所在的进程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="544" y="1724" width="137" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-139" value="标记远程条件的id_src，只有在跨进程&lt;b&gt;注册条件&lt;/b&gt;时才会使用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-139" value="标记远程条件的id_src，只有在跨进程&lt;b&gt;注册条件&lt;/b&gt;时才会使用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="1200" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X7OF4kSchoy8XItyaT_Y-140" value="标记远程条件的id_src，在跨进程&lt;b&gt;条件进度更新时，无效&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X7OF4kSchoy8XItyaT_Y-140" value="标记远程条件的id_src，在跨进程&lt;b&gt;条件进度更新时，无效&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1416.25" y="1200" width="363.75" height="30" as="geometry" />
         </mxCell>
       </root>
