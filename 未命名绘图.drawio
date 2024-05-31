@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T13:15:53.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="KIQ_0i6b0qoYJ0lSqVVL" version="24.4.4" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2024-05-31T12:39:46.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="2pdHy-rMPiQCW7ZbRNM5" version="24.4.4" type="github" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="2901" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1781" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -397,7 +397,7 @@
           <mxGeometry x="522.5" y="1660" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-129" value="远程条件所在的进程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="1180" width="110" height="30" as="geometry" />
+          <mxGeometry x="40" y="1260" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-130" value="条件任务注册所在的进程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="544" y="1724" width="137" height="30" as="geometry" />
@@ -407,6 +407,79 @@
         </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-140" value="标记远程条件的id_src，在跨进程&lt;b&gt;条件进度更新时，无效&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1416.25" y="1200" width="363.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-1" value="对于在接任务之前就已经完成目标的任务，该如何接取和设置" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6TLS5AYR3saVivaQgb9-2" target="e6TLS5AYR3saVivaQgb9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-2" value="DoCondTickFunction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6TLS5AYR3saVivaQgb9-3" target="e6TLS5AYR3saVivaQgb9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-3" value="CondRegisterProc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6TLS5AYR3saVivaQgb9-5" target="e6TLS5AYR3saVivaQgb9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-5" value="AddConditionData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e6TLS5AYR3saVivaQgb9-7" target="e6TLS5AYR3saVivaQgb9-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-7" value="DoAddConditionList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6TLS5AYR3saVivaQgb9-11" target="e6TLS5AYR3saVivaQgb9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-11" value="AddCondition" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e6TLS5AYR3saVivaQgb9-13" target="e6TLS5AYR3saVivaQgb9-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-13" value="&lt;div&gt;填充初始值，并添加到proc列表&lt;/div&gt;&amp;nbsp;new_cond-&amp;gt;InitDataFinish(cond_info.db_cond_data, cond_info.is_load_from_db);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="750" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-17" value="&lt;div&gt;另外 这个函数，似乎也有填充初值的作用&lt;/div&gt;GetCurrentProgress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="840" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-19" value="系统功能解锁 中涉及条件解锁的逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1602" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6TLS5AYR3saVivaQgb9-20" target="e6TLS5AYR3saVivaQgb9-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-20" value="add_init_system_function_condition" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1638" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-22" value="条件项的管理是归属于进程的，在 condition_mgr.h::ConditionContainer cond_list; 中。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1572" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6TLS5AYR3saVivaQgb9-23" target="e6TLS5AYR3saVivaQgb9-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-23" value="遍历系统解锁表时，会先过滤已经在玩家系统解锁管理器中存在的。然后再添加系统解锁条件。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1738" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-25" value="CommonCondSrc::MakeCondition(E_COND_MODULE_TYPE_SYSTEM_FUNCTION, res_system_unlock-&amp;gt;FunctionType());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="1840" width="670" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-27" value="在添加条件处理列表时，传入进度参数：例如&amp;nbsp;src/actor/achievement/achievement_trigger.c：&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;if (!ConditionModule()-&amp;gt;AddActorConditionList(actor.uid, cond_id, nullptr, 0,&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; running_task_it-&amp;gt;second.progress()))&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="100" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e6TLS5AYR3saVivaQgb9-29" value="然后异步注册条件时" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-372.5" y="260" width="245" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
