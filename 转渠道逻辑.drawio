@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T08:51:07.185Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FjwGWk4A3VpUBAynpWik" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-06T10:48:29.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZHIyepEJIRvFH2x311VM" version="24.5.5" type="github">
   <diagram name="第 1 页" id="PnygnAuGKxlmpIp5ZzvZ">
-    <mxGraphModel dx="1035" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="1322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,6 +110,11 @@
         <mxCell id="new3ilakPi4w05_GS01H-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="new3ilakPi4w05_GS01H-36" target="new3ilakPi4w05_GS01H-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="new3ilakPi4w05_GS01H-70" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="new3ilakPi4w05_GS01H-47">
+          <mxGeometry x="-0.3857" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="new3ilakPi4w05_GS01H-36" value="是否是合法值" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="1140" width="80" height="80" as="geometry" />
         </mxCell>
@@ -131,7 +136,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="new3ilakPi4w05_GS01H-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="new3ilakPi4w05_GS01H-46" target="new3ilakPi4w05_GS01H-52">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1360" />
+              <mxPoint x="260" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="new3ilakPi4w05_GS01H-71" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="new3ilakPi4w05_GS01H-53">
+          <mxGeometry x="-0.1854" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="new3ilakPi4w05_GS01H-46" value="是否是云游戏渠道注册" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="1260" width="80" height="80" as="geometry" />
@@ -149,6 +164,11 @@
         </mxCell>
         <mxCell id="new3ilakPi4w05_GS01H-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="new3ilakPi4w05_GS01H-52" target="new3ilakPi4w05_GS01H-60">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="new3ilakPi4w05_GS01H-72" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="new3ilakPi4w05_GS01H-61">
+          <mxGeometry x="-0.15" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="new3ilakPi4w05_GS01H-52" value="当前login_channel是否是非云游戏渠道" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="1380" width="80" height="80" as="geometry" />
