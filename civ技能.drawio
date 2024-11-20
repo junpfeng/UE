@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="881" dy="1016" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="1513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,40 +155,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-52" value="以主动技能为例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="587.75" y="1390" width="120" height="60" as="geometry" />
+          <mxGeometry x="821.25" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-53" target="o4tlsY2EU9AUbKgZ5aPZ-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-53" value="ActiveSkill::DoCast()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="587.75" y="1489" width="120" height="60" as="geometry" />
+          <mxGeometry x="821.25" y="1129" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-55" target="o4tlsY2EU9AUbKgZ5aPZ-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-55" value="owner_-&amp;gt;DoCastActiveSkill(this);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="558.25" y="1584" width="179" height="60" as="geometry" />
+          <mxGeometry x="791.75" y="1224" width="179" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-57" target="o4tlsY2EU9AUbKgZ5aPZ-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-57" value="DoAddBuffList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="558.25" y="1674" width="179" height="60" as="geometry" />
+          <mxGeometry x="791.75" y="1314" width="179" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-59" target="o4tlsY2EU9AUbKgZ5aPZ-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-59" value="DoAddBuffList(skill, skill-&amp;gt;GetSkillBuffList(), nullptr, skill);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="557.75" y="1774" width="179" height="60" as="geometry" />
+          <mxGeometry x="791.25" y="1414" width="179" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-68" target="o4tlsY2EU9AUbKgZ5aPZ-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-68" value="void DamageBuff::OnAdd2Target()&lt;div&gt;RecoverBuff::OnAdd2Target()&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="392.5" y="2305" width="260" height="50" as="geometry" />
+          <mxGeometry x="626" y="1945" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-69" value="&amp;nbsp;Buff::OnAdd2Target() { target_-&amp;gt;OnBuffAdd2Target(this);&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="677.5" y="2312" width="330" height="43" as="geometry" />
+          <mxGeometry x="911" y="1952" width="330" height="43" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry width="800" height="490" as="geometry" />
@@ -206,61 +206,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-73" value="伤害/治疗生效" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="467" y="2910" width="120" height="60" as="geometry" />
+          <mxGeometry x="700.5" y="2550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-74" value="Hero::DoHurt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="2995" width="120" height="60" as="geometry" />
+          <mxGeometry x="498.5" y="2635" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-76" value="Hero::DoRecover" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="665" y="2995" width="120" height="60" as="geometry" />
+          <mxGeometry x="898.5" y="2635" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-78" value="伤害 和 治疗都是表示英雄兵力的增减" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="376" y="2995" width="306" height="10" as="geometry" />
+          <mxGeometry x="609.5" y="2635" width="306" height="10" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-79" target="o4tlsY2EU9AUbKgZ5aPZ-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-79" value="DoSufferDamage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="469" y="2848" width="116" height="32" as="geometry" />
+          <mxGeometry x="702.5" y="2488" width="116" height="32" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-80" target="o4tlsY2EU9AUbKgZ5aPZ-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-80" value="DoHurt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="467" y="2790" width="120" height="20" as="geometry" />
+          <mxGeometry x="700.5" y="2430" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-81" value="&lt;b&gt;普通攻击也是一种技能，ID 是 1000，对应的Buf_ID 是1000101&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="321" y="2810" width="400" height="30" as="geometry" />
+          <mxGeometry x="554.5" y="2450" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-82">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="647.5" y="1920" as="targetPoint" />
+            <mxPoint x="881" y="1560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-82" value="释放技能时，将相应的Buff 施加到目标身上：DoAddBuffList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="467.5" y="1870" width="360" height="30" as="geometry" />
+          <mxGeometry x="701" y="1510" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-85" target="o4tlsY2EU9AUbKgZ5aPZ-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-85" value="ForeachAddBuff" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="572.5" y="1920" width="150" height="35" as="geometry" />
+          <mxGeometry x="806" y="1560" width="150" height="35" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-86" target="o4tlsY2EU9AUbKgZ5aPZ-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-86" value="DoAddBuff" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="587.5" y="1985" width="120" height="30" as="geometry" />
+          <mxGeometry x="821" y="1625" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-88" target="o4tlsY2EU9AUbKgZ5aPZ-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-88" value="OnBuffAdd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="587.5" y="2045" width="121" height="30" as="geometry" />
+          <mxGeometry x="821" y="1685" width="121" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-90">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="517.5" y="2215" as="targetPoint" />
+            <mxPoint x="751" y="1855" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-94" value="需要结算伤害/治疗的的buff" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o4tlsY2EU9AUbKgZ5aPZ-92">
@@ -270,9 +270,9 @@
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-90" target="o4tlsY2EU9AUbKgZ5aPZ-97">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="797.5" y="2215" as="targetPoint" />
+            <mxPoint x="1031" y="1855" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="877.5" y="2120" />
+              <mxPoint x="1111" y="1760" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -282,16 +282,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-90" value="OnAdd2Target" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="587.5" y="2105" width="121" height="30" as="geometry" />
+          <mxGeometry x="821" y="1745" width="121" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-96" target="o4tlsY2EU9AUbKgZ5aPZ-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-96" value="有治疗buff类和伤害Buff类重写" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="462.5" y="2215" width="120" height="60" as="geometry" />
+          <mxGeometry x="696" y="1855" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-97" value="基类接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="807.5" y="2215" width="120" height="60" as="geometry" />
+          <mxGeometry x="1041" y="1855" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-97" target="o4tlsY2EU9AUbKgZ5aPZ-69">
           <mxGeometry relative="1" as="geometry" />
@@ -300,43 +300,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-100" value="&lt;div&gt;DamageCalc::Calc(*attacker, *this, *damage_buff);&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="2395" width="305" height="30" as="geometry" />
+          <mxGeometry x="603.5" y="2035" width="305" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-104" target="o4tlsY2EU9AUbKgZ5aPZ-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-104" value="&lt;div&gt;OnBuffAdd2Target&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="2455" width="305" height="30" as="geometry" />
+          <mxGeometry x="603.5" y="2095" width="305" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-106" target="o4tlsY2EU9AUbKgZ5aPZ-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-106" value="&lt;div&gt;DoAdd2TargetTrigger&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="2515" width="305" height="30" as="geometry" />
+          <mxGeometry x="603.5" y="2155" width="305" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-108" target="o4tlsY2EU9AUbKgZ5aPZ-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-108" value="&lt;div&gt;DoTrigger&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="2585" width="305" height="30" as="geometry" />
+          <mxGeometry x="603.5" y="2225" width="305" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-110" value="&lt;div&gt;&lt;b&gt;DoActivate&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="2645" width="305" height="25" as="geometry" />
+          <mxGeometry x="603.5" y="2285" width="305" height="25" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-112" target="o4tlsY2EU9AUbKgZ5aPZ-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-112" value="&lt;div&gt;&lt;b&gt;&amp;nbsp;DamageBuff::OnActivate()&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="2730" width="314" height="30" as="geometry" />
+          <mxGeometry x="603.5" y="2370" width="314" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-118" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="247.5" y="2700" width="560" height="425" as="geometry" />
+          <mxGeometry x="481" y="2340" width="560" height="425" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.491;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-110" target="o4tlsY2EU9AUbKgZ5aPZ-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-120" value="激活伤害计算" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="247.5" y="2700" width="60" height="30" as="geometry" />
+          <mxGeometry x="481" y="2340" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
