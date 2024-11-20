@@ -155,28 +155,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-52" value="以主动技能为例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1136" width="120" height="60" as="geometry" />
+          <mxGeometry x="587.75" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-53" target="o4tlsY2EU9AUbKgZ5aPZ-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-53" value="ActiveSkill::DoCast()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1235" width="120" height="60" as="geometry" />
+          <mxGeometry x="587.75" y="1489" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-55" target="o4tlsY2EU9AUbKgZ5aPZ-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-55" value="owner_-&amp;gt;DoCastActiveSkill(this);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410.5" y="1330" width="179" height="60" as="geometry" />
+          <mxGeometry x="558.25" y="1584" width="179" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-57" target="o4tlsY2EU9AUbKgZ5aPZ-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-57" value="DoAddBuffList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410.5" y="1420" width="179" height="60" as="geometry" />
+          <mxGeometry x="558.25" y="1674" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-59" target="o4tlsY2EU9AUbKgZ5aPZ-82">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-59" value="DoAddBuffList(skill, skill-&amp;gt;GetSkillBuffList(), nullptr, skill);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="1520" width="179" height="60" as="geometry" />
+          <mxGeometry x="557.75" y="1774" width="179" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-68" target="o4tlsY2EU9AUbKgZ5aPZ-100">
           <mxGeometry relative="1" as="geometry" />
