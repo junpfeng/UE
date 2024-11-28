@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="3855" dy="3632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1624" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -350,11 +350,79 @@
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-125" value="技能释放 与 伤害结算" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="1150" y="45" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-127" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="1910" width="1170" height="970" as="geometry" />
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-128" value="火烧赤壁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1920" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-128" value="叠层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="1920" width="60" height="30" as="geometry" />
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-130" target="o4tlsY2EU9AUbKgZ5aPZ-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-130" value="焚烧复合效果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="629.5" y="1960" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-131" value="焚烧伤害" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="879.5" y="1960" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-132" target="o4tlsY2EU9AUbKgZ5aPZ-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-132" value="回合开始增加层数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="2050" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-133" target="o4tlsY2EU9AUbKgZ5aPZ-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-133" value="叠层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429.5" y="2050" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-134" target="o4tlsY2EU9AUbKgZ5aPZ-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-134" value="受到伤害增加层数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="2120" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-135" target="o4tlsY2EU9AUbKgZ5aPZ-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729.5" y="2010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-135" value="叠层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429.5" y="2120" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-143" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.5" y="1990" as="sourcePoint" />
+            <mxPoint x="609.5" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-144" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="59.5" y="1970" as="sourcePoint" />
+            <mxPoint x="59.5" y="2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-145" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.5" y="2144.7" as="sourcePoint" />
+            <mxPoint x="149.5" y="2144.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-146" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.5" y="2074.7" as="sourcePoint" />
+            <mxPoint x="149.5" y="2074.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-147" value="回合开始" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7.5" y="2010" width="22" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-148" value="（扣除叠层）触发伤害（二类）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="2190" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-149" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="73" y="2214.47" as="sourcePoint" />
+            <mxPoint x="153" y="2214.47" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
