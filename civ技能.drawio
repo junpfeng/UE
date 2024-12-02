@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="2765" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1850" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,28 +446,28 @@
           <mxGeometry x="190" y="2420" width="470" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-160" value="触发时点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="39" y="1620" width="120" height="60" as="geometry" />
+          <mxGeometry x="59" y="1737" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-161" value="范围" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="463.5" y="1620" width="120" height="60" as="geometry" />
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-161" value="范围，目标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="498.5" y="1737" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-162" value="BUFF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="1620" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="1733.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-163" value="参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="1620" width="120" height="60" as="geometry" />
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-163" value="条件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1733.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-165" value="奇数回合；随机两名敌军；施加失策和徒劳效果（减益效果）；持续一回合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="2500" width="470" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-166" value="生命周期" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1620" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-168" value="触发失策和徒劳的打断时；对触发目标；造成一次智力伤害" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="2500" width="470" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-170" value="触发条件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1620" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="1737" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-172" value="智略多奇" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="10" y="2590" width="140" height="30" as="geometry" />
@@ -477,6 +477,27 @@
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-174" value="由于要控制负面效果的生命周期，故采用二类：附带【燃烧、恐慌、灼烧、动摇】中的1~2种，生命周期2回合；&lt;div&gt;燃烧，由受到智力伤害的条件时点触发，其他三种效果的触发则有效果buff控制。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="2670" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-175" value="逆风领航" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="7.5" y="2760" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-176" value="自身无法暴击" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2790" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-177" value="每回合自身行动结束时；范围3以内的随机一名敌军；造成两次伤害；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2840" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-178" value="我军全体每次发动主动、追击、普攻后；&lt;div&gt;使得该技能的伤害类提升70%，自身造成的伤害提升10%，自身受到的伤害减低10%，最多可叠加6次；&lt;/div&gt;&lt;div&gt;持续本回合结束。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2980" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-179" value="叠层伤害二类；（触发条件）我军全军发动主动+追击+普攻后；（生命周期）本回合，（目标）技能逆风领航的（施加buff）伤害率提升，可叠加6层；同时 （目标）自身的（施加buff）增伤+减伤，可叠加6层。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2893" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-180" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="39" y="1724" width="291" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-181" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1717" width="300" height="93" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
