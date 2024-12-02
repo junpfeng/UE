@@ -475,8 +475,8 @@
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-173" value="概率发动；对敌军全军；造成一次智力伤害；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="2630" width="620" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-174" value="由于要控制负面效果的生命周期，故采用二类：附带【燃烧、恐慌、灼烧、动摇】中的1~2种，生命周期2回合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="2670" width="620" height="20" as="geometry" />
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-174" value="由于要控制负面效果的生命周期，故采用二类：附带【燃烧、恐慌、灼烧、动摇】中的1~2种，生命周期2回合；&lt;div&gt;燃烧，由受到智力伤害的条件时点触发，其他三种效果的触发则有效果buff控制。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2670" width="630" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
