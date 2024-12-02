@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="1850" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1538" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -449,7 +449,7 @@
           <mxGeometry x="59" y="1737" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-161" value="范围，目标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="498.5" y="1737" width="120" height="60" as="geometry" />
+          <mxGeometry x="498.5" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-162" value="BUFF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="1733.5" width="120" height="60" as="geometry" />
@@ -486,9 +486,6 @@
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-177" value="每回合自身行动结束时；范围3以内的随机一名敌军；造成两次伤害；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="2840" width="400" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-178" value="我军全体每次发动主动、追击、普攻后；&lt;div&gt;使得该技能的伤害类提升70%，自身造成的伤害提升10%，自身受到的伤害减低10%，最多可叠加6次；&lt;/div&gt;&lt;div&gt;持续本回合结束。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="2980" width="580" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-179" value="叠层伤害二类；（触发条件）我军全军发动主动+追击+普攻后；（生命周期）本回合，（目标）技能逆风领航的（施加buff）伤害率提升，可叠加6层；同时 （目标）自身的（施加buff）增伤+减伤，可叠加6层。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="2893" width="760" height="60" as="geometry" />
