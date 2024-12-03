@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="1538" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1688" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -487,7 +487,7 @@
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-177" value="每回合自身行动结束时；范围3以内的随机一名敌军；造成两次伤害；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="2840" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-179" value="叠层伤害二类；（触发条件）我军全军发动主动+追击+普攻后；（生命周期）本回合，（目标）技能逆风领航的（施加buff）伤害率提升，可叠加6层；同时 （目标）自身的（施加buff）增伤+减伤，可叠加6层。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-179" value="叠层伤害二类；（触发条件）我军全军发动主动+追击+普攻后；&lt;div&gt;施加二类：（生命周期）本回合，（目标）技能逆风领航的（施加buff）伤害率提升，可叠加6层；同时 （目标）自身的（施加buff）增伤+减伤，可叠加6层。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="2893" width="760" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-180" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -495,6 +495,24 @@
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-181" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="1717" width="300" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-182" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;纵横捭阖&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2" y="2960" width="151" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-183" value="敌军全体（范围），受到状态类持续伤害（触点），触发三种效果（二类）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="3000" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-184" value="敌军随机两名（范围），造成伤害下降（BUFF)，受到智力影响（加成），持续到战斗结束（生命周期）可叠加8层。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="3050" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-185" value="我军随机两名（范围），受到伤害下降（BUFF），受到智力影响（加成），持续战斗结束（生命周期）可叠加10层。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="3090" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-186" value="我军伤兵最多的英雄（范围），恢复一定兵力（BUFF），受到智力影响（加成）。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="3130" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-188" value="概率触发" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="3050" width="22" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
