@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="4627" dy="9402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1735" dy="4257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -881,6 +881,27 @@
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-369" value="工厂类的作用：类的实例化与存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2300" y="3540" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-370" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-376" value="数值加成逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="266.6199999999999" y="397.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-377" value="AdditionCalc::Calc 主要是位于Buff::Init 中，部分Buff子类会重写OnInit，以RecoverBuff为例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="256.6199999999999" y="467.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-378" value="AdditionCalc负责加成，主要是其中的AdditionCalc::Calc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="222" y="427.5" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-379" value="&lt;div&gt;关于各种加成的函数，位于&lt;/div&gt;src/battle/battle/calculate/calc_addition.cpp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="256.6199999999999" y="562.5" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-380" value="配置主要就是&lt;div&gt;buff_config-&amp;gt;AdditionList()&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="256.6199999999999" y="662.5" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-381" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="375" width="720" height="425" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
