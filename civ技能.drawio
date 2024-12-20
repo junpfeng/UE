@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="771" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1735" dy="2562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -324,7 +324,7 @@
           <mxGeometry x="850" y="-390" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-124" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="-1040" width="1360" height="1860" as="geometry" />
+          <mxGeometry x="1150" y="-1025" width="1360" height="1860" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-125" value="BUFF的添加逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="1654.75" y="-1015" width="250" height="40" as="geometry" />
@@ -739,27 +739,6 @@
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-300" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;这个Value值是提前计算好的，因此这个计算过程非常关键&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4042.75" y="3853" width="224.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-301" value="InitValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4478.38" y="3573" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-302" value="UpdateValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4720.38" y="3573" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-303" value="InitRecoverValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4478.38" y="3703" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-304" value="InitRecoverLayerValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4478.38" y="3793" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-305" value="OnUpdateLayerValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4720.38" y="3713" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-306" value="基类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4338.38" y="3588" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-307" value="ReciverBuff子类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4327" y="3753" width="96" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-323" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-320" target="o4tlsY2EU9AUbKgZ5aPZ-322">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -822,7 +801,7 @@
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-344" value="CalcRecoverValue" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2070" y="62" width="120" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-349" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-346" target="o4tlsY2EU9AUbKgZ5aPZ-348">
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-392" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-346" target="o4tlsY2EU9AUbKgZ5aPZ-391">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-346" value="buff.AddRecoverLayerValue(value);&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -832,7 +811,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-348" value="叠层的数值是以数组的形式存放，例如零层就是数组的索引0位置的值，一层就是所有1位置的值" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2230" y="120" width="220" height="60" as="geometry" />
+          <mxGeometry x="2230" y="195" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-350" value="这里的数值还不包括【加成项】例如受智力加成等" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2070" y="125" width="120" height="60" as="geometry" />
@@ -907,7 +886,34 @@
           <mxGeometry x="200" y="375" width="720" height="425" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-382" value="&lt;font color=&quot;#ff0000&quot;&gt;这里实际上是提前把所有的层数的值都提前计算好了，相当于数值固定了。&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2225" y="210" width="230" height="60" as="geometry" />
+          <mxGeometry x="2225" y="285" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-384" value="InitValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1428" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-385" value="UpdateValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-386" value="InitRecoverValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1428" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-387" value="InitRecoverLayerValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1428" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-388" value="OnUpdateLayerValue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-389" value="基类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="1035" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-390" value="ReciverBuff子类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1276.62" y="1200" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-393" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-391" target="o4tlsY2EU9AUbKgZ5aPZ-348">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-391" value="InitRecoverLayerValue" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="130" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
