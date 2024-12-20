@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="4627" dy="4882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1983" dy="2760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1017,14 +1017,14 @@
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-433" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-428" target="o4tlsY2EU9AUbKgZ5aPZ-431">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-428" value="有相同类型Buff存在时，如果允许叠层，则尝试叠加，否则比较新旧Buff的大小，用“更强的”替换“弱的”" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-428" value="有相同类型Buff存在时，&lt;font color=&quot;#ff0000&quot;&gt;如果允许叠层，则尝试叠加&lt;/font&gt;，否则比较新旧Buff的大小，用“更强的”替换“弱的”" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1584.5" y="1370" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-431" value="完成Buff添加" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1610" y="1570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-434" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="890" width="1130" height="740" as="geometry" />
+          <mxGeometry x="1130" y="910" width="1130" height="740" as="geometry" />
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-435" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Buff 堆叠判断&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1950" y="940" width="170" height="30" as="geometry" />
