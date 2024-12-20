@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="1735" dy="4257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="771" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -828,6 +828,9 @@
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-346" value="buff.AddRecoverLayerValue(value);&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2230" y="65" width="220" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-383" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o4tlsY2EU9AUbKgZ5aPZ-348" target="o4tlsY2EU9AUbKgZ5aPZ-382">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-348" value="叠层的数值是以数组的形式存放，例如零层就是数组的索引0位置的值，一层就是所有1位置的值" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2230" y="120" width="220" height="60" as="geometry" />
         </mxCell>
@@ -902,6 +905,9 @@
         </mxCell>
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-381" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="375" width="720" height="425" as="geometry" />
+        </mxCell>
+        <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-382" value="&lt;font color=&quot;#ff0000&quot;&gt;这里实际上是提前把所有的层数的值都提前计算好了，相当于数值固定了。&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2225" y="210" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
