@@ -560,7 +560,7 @@
           <mxGeometry x="-1725.99" y="2360" width="267.99" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hriY5-0mfKxtBmigg3l7-12" value="任务的状态&lt;div&gt;&lt;div&gt;enum E_TASK_STATUS&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_NONE = 0; // 未接收&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_FINISH&amp;nbsp; = 1;&amp;nbsp; // 已完成&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_RUNNING = 2;&amp;nbsp; // 进行中&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_REWARD&amp;nbsp; = 3;&amp;nbsp; // 已领取奖励&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-2060" y="2360" width="291.99" height="120" as="geometry" />
+          <mxGeometry x="-2090" y="2138" width="291.99" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
