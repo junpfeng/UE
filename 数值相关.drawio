@@ -1,11 +1,26 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="26.0.4">
   <diagram name="第 1 页" id="RtPFtg2yZ9OCVrg00MjC">
-    <mxGraphModel dx="404" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="404" dy="1542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OyX_vqqpmUJYmNwySUim-1" value="巨作iD&lt;div&gt;巨作装备状态&lt;/div&gt;&lt;div&gt;巨作词条&lt;/div&gt;&lt;div&gt;强化消耗（分解时需要返还材料）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry width="250" height="80" as="geometry" />
+          <mxGeometry y="30" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-2" value="创建巨作数据结构,DB和RT结构公用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="32.5" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-3" value="添加到 struct ACTOR&lt;br&gt;&lt;div&gt;补充增删改查的接口&lt;/div&gt;&lt;div&gt;补充同步的结构&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="160" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-4" value="添加玩家数据结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="-30" width="290" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-7" value="数据结构设计" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="-30" width="105" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
