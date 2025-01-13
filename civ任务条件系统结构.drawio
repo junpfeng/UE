@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="26.0.2" pages="15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="26.0.5" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="3122" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3122" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -523,50 +523,62 @@
         <mxCell id="e6TLS5AYR3saVivaQgb9-46" value="这样就可以在注册条件时，获取当前条件是否完成" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-280" y="760" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qtknaAsL8x96PviKZ6u-1" target="hriY5-0mfKxtBmigg3l7-4">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2qtknaAsL8x96PviKZ6u-1" target="hriY5-0mfKxtBmigg3l7-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2qtknaAsL8x96PviKZ6u-1" value="任务的查询" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2qtknaAsL8x96PviKZ6u-1" value="任务的查询" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1900" y="2080" width="116" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qtknaAsL8x96PviKZ6u-2" target="hriY5-0mfKxtBmigg3l7-13">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2qtknaAsL8x96PviKZ6u-2" target="hriY5-0mfKxtBmigg3l7-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2qtknaAsL8x96PviKZ6u-2" value="任务的接取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2qtknaAsL8x96PviKZ6u-2" value="任务的接取" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="2080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-1" value="任务的完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1100" y="2078" width="120" height="60" as="geometry" />
+        <mxCell id="jGse1JEu_eWPn1CX-bot-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hriY5-0mfKxtBmigg3l7-1" target="jGse1JEu_eWPn1CX-bot-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-2" value="任务的提交" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-1" value="任务的完成" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-827" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hriY5-0mfKxtBmigg3l7-2" value="任务的提交" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1230" y="2078" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hriY5-0mfKxtBmigg3l7-4" target="hriY5-0mfKxtBmigg3l7-6">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hriY5-0mfKxtBmigg3l7-4" target="hriY5-0mfKxtBmigg3l7-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-4" value="任务的数据结构管理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-4" value="任务的数据结构管理" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1902.99" y="2160" width="122" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hriY5-0mfKxtBmigg3l7-6" target="hriY5-0mfKxtBmigg3l7-8">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hriY5-0mfKxtBmigg3l7-6" target="hriY5-0mfKxtBmigg3l7-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-6" value="&lt;div&gt;struct ACTOR_TASK_MGR {&lt;/div&gt;&lt;div&gt;&amp;nbsp; protocol::DB_ACTOR_TASK task_data;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-6" value="&lt;div&gt;struct ACTOR_TASK_MGR {&lt;/div&gt;&lt;div&gt;&amp;nbsp; protocol::DB_ACTOR_TASK task_data;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1954.37" y="2208" width="224.75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hriY5-0mfKxtBmigg3l7-8" target="hriY5-0mfKxtBmigg3l7-10">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hriY5-0mfKxtBmigg3l7-8" target="hriY5-0mfKxtBmigg3l7-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-8" value="&lt;div&gt;正在进行或者完成但是还未领取奖励的任务；&lt;/div&gt;&lt;div&gt;已经完成并且领取奖励的任务&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-8" value="&lt;div&gt;正在进行或者完成但是还未领取奖励的任务；&lt;/div&gt;&lt;div&gt;已经完成并且领取奖励的任务&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1978.49" y="2280" width="272.99" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-10" value="任务id；&lt;div&gt;任务状态；&lt;/div&gt;&lt;div&gt;任务进度；&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-10" value="任务id；&lt;div&gt;任务状态；&lt;/div&gt;&lt;div&gt;任务进度；&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1975.99" y="2360" width="267.99" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-12" value="任务的状态&lt;div&gt;&lt;div&gt;enum E_TASK_STATUS&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_NONE = 0; // 未接收&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_FINISH&amp;nbsp; = 1;&amp;nbsp; // 已完成&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_RUNNING = 2;&amp;nbsp; // 进行中&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_REWARD&amp;nbsp; = 3;&amp;nbsp; // 已领取奖励&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-12" value="任务的状态&lt;div&gt;&lt;div&gt;enum E_TASK_STATUS&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_NONE = 0; // 未接收&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_FINISH&amp;nbsp; = 1;&amp;nbsp; // 已完成&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_RUNNING = 2;&amp;nbsp; // 进行中&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; E_TASK_STATUS_REWARD&amp;nbsp; = 3;&amp;nbsp; // 已领取奖励&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-2340" y="2138" width="291.99" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hriY5-0mfKxtBmigg3l7-13" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hriY5-0mfKxtBmigg3l7-13" value="" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="2168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jGse1JEu_eWPn1CX-bot-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jGse1JEu_eWPn1CX-bot-1" target="jGse1JEu_eWPn1CX-bot-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jGse1JEu_eWPn1CX-bot-1" value="章节子任务的完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-937.5" y="2240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jGse1JEu_eWPn1CX-bot-3" value="receive_chapter_task_reward_req" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1028.12" y="2350" width="301.25" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
