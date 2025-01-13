@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="26.0.4">
   <diagram name="第 1 页" id="RtPFtg2yZ9OCVrg00MjC">
-    <mxGraphModel dx="404" dy="1542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="681" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,10 +17,40 @@
           <mxGeometry x="60" y="130" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OyX_vqqpmUJYmNwySUim-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="-30" width="290" height="270" as="geometry" />
+          <mxGeometry y="-30" width="250" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="OyX_vqqpmUJYmNwySUim-7" value="数据结构设计" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="105" y="-30" width="105" height="30" as="geometry" />
+        <mxCell id="OyX_vqqpmUJYmNwySUim-7" value="RT/DB 数据结构设计" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="-30" width="117.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-8" value="独立巨作模块化&lt;div&gt;巨作系统的数据初始化和同步&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="526" y="330" width="176" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-9" value="数据同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OyX_vqqpmUJYmNwySUim-10" target="OyX_vqqpmUJYmNwySUim-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OyX_vqqpmUJYmNwySUim-10" target="OyX_vqqpmUJYmNwySUim-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-10" value="发送方" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-11" value="接收方" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-12" value="全量同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-13" value="增量同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-16" value="&lt;div&gt;world和 actor提供的同步接口：&lt;/div&gt;src/actor/common/actor_db_module.h&lt;div&gt;src/world/actor/world_actor_db_module.h&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="720" width="295" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OyX_vqqpmUJYmNwySUim-17" value="例如 数据是存放在 ACTOR 上，需要给对应的&amp;nbsp;NSDB_ACTOR 添加数据。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="30" width="196" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
