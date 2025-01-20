@@ -177,6 +177,30 @@
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-58" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=north;" vertex="1" parent="1">
           <mxGeometry x="1250" y="820" width="480" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-61" value="ACTOR 在DB和共享内存中的数据结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-900" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-62" target="C0QmIfeoY1ldJ2bSpZcB-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-62" value="NSDB_ACTOR&amp;nbsp;&lt;div&gt;DB中的数据结构&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="-870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-63" target="C0QmIfeoY1ldJ2bSpZcB-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-63" value="DB_ACTOR&lt;div&gt;DB在共享内存中的数据结构&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="-870" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-64" target="C0QmIfeoY1ldJ2bSpZcB-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-64" value="涉及ACTOR数据落地的步骤大致可以分为两步：&lt;div&gt;1.将ACTOR中的脏数据，同步给其他进程，并更新到共享内存中。&lt;/div&gt;&lt;div&gt;2.将共享内存中的DB数据，落地到真正的DB.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="-770" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-67" value="由于NSDB_ACTOR 和 DB_ACTOR 命名相似，所以，容易看偏了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="-630" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
