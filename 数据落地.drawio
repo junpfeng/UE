@@ -1,9 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="8cFtf-UiOnAKoCmu1fZL">
-    <mxGraphModel>
+    <mxGraphModel dx="617" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-1" value="&lt;div&gt;&amp;nbsp; // 检查并存储DB&lt;/div&gt;&lt;div&gt;&amp;nbsp; void CheckAndDoSaveDB();&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-2" value="&lt;div&gt;&amp;nbsp; // 玩家存储定时器&lt;/div&gt;&lt;div&gt;&amp;nbsp; static void OnSaveActorTimer(u64 timer_mid, void *cb_data, size_t cb_data_len);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-3" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; ns_set_timer_callback(TIMERTYPE_SAVE_ACTOR, ActorDbMgr::OnSaveActorTimer);&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-4" value="s32 ActorDbMgr::Init(bool is_resume)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-5" target="C0QmIfeoY1ldJ2bSpZcB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-5" value="actor_init.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-6" target="C0QmIfeoY1ldJ2bSpZcB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-6" value="int actor_g6shm_init(bool is_resume) {" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-8" target="C0QmIfeoY1ldJ2bSpZcB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-8" value="CHECK_PTR(G6ComponentMgr::Instance()-&amp;gt;Set&amp;lt;ActorDbMgr&amp;gt;(is_resume));" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-10" target="C0QmIfeoY1ldJ2bSpZcB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-14" value="子类重写" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C0QmIfeoY1ldJ2bSpZcB-13">
+          <mxGeometry x="-0.3407" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-10" value="auto ret = shm_ptr-&amp;gt;Init(is_resume);" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-12" target="C0QmIfeoY1ldJ2bSpZcB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-12" value="s32 ActorDbMgr::Init(bool is_resume)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-15" target="C0QmIfeoY1ldJ2bSpZcB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-15" value="&amp;nbsp;ns_set_timer_callback(TIMERTYPE_SAVE_ACTOR, ActorDbMgr::OnSaveActorTimer);&lt;div&gt;u64 mid = ns_add_forever_timer(1, 1, TIMERTYPE_SAVE_ACTOR, nullptr, 0);&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="510" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-17" target="C0QmIfeoY1ldJ2bSpZcB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-17" value="&amp;nbsp;ACTOR_DB_MGR-&amp;gt;DoSyncActorCache();" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="640" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-19" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ACTOR_DB_MGR-&amp;gt;DoSaveActors();&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-21" target="C0QmIfeoY1ldJ2bSpZcB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-21" value="细节：共享内存和同步每帧都会进行，但是存DB根据全局配置，gs_global_cfg.save_actor_db_interval_tick,默认是10帧存一次" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
