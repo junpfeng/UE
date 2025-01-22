@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="8cFtf-UiOnAKoCmu1fZL">
-    <mxGraphModel dx="4827" dy="2125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4027" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,7 +256,7 @@
           <mxGeometry x="120" y="50" width="1800" height="1330" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-105" value="ACTOR 在DB和共享内存中的数据结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="839" width="230" height="30" as="geometry" />
+          <mxGeometry x="-547.5" y="819" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-107" target="C0QmIfeoY1ldJ2bSpZcB-111">
           <mxGeometry relative="1" as="geometry" />
