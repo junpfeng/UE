@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="第 1 页" id="qgpCjo9VLXEYnF8sw36p">
-    <mxGraphModel>
+    <mxGraphModel dx="3293" dy="2690" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cAGlxDXmSVbrPudvJ77Y-3" target="cAGlxDXmSVbrPudvJ77Y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-9" value="深拷贝" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cAGlxDXmSVbrPudvJ77Y-7">
+          <mxGeometry x="-0.1429" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-3" value="a" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-44" y="-241" width="69" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-4" value="b" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="-241" width="68" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cAGlxDXmSVbrPudvJ77Y-5" target="cAGlxDXmSVbrPudvJ77Y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-10" value="浅拷贝" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cAGlxDXmSVbrPudvJ77Y-8">
+          <mxGeometry x="-0.1486" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-5" value="a" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-44" y="-172" width="69" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-6" value="b" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="-172" width="68" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cAGlxDXmSVbrPudvJ77Y-13" target="cAGlxDXmSVbrPudvJ77Y-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-12" value="移动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cAGlxDXmSVbrPudvJ77Y-11">
+          <mxGeometry x="-0.1486" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-13" value="a" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-44" y="-107" width="69" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-14" value="b" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="-107" width="68" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-15" value="a和b两块独立的内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-230" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-16" value="a和b指向同一块内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="177" y="-161.5" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cAGlxDXmSVbrPudvJ77Y-17" value="b执行a之前的内存，a销毁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="182" y="-96.5" width="211" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
