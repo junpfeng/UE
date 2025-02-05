@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="2603" dy="2586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="973" dy="4162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1045,14 +1045,74 @@
         <mxCell id="o4tlsY2EU9AUbKgZ5aPZ-439" value="子类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1380" y="-280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qjIrYipplH-ExxZGwOXp-1" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;配置区&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qjIrYipplH-ExxZGwOXp-1" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;配置区&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="178.5" y="2570" width="461" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qjIrYipplH-ExxZGwOXp-3" value="战斗的数据结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qjIrYipplH-ExxZGwOXp-3" value="战斗的数据结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5860" y="-1015" width="360" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="qjIrYipplH-ExxZGwOXp-4" value="COMBAT_INFO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjIrYipplH-ExxZGwOXp-4" value="COMBAT_INFO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5980" y="-960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-1" value="&lt;font style=&quot;font-size: 31px;&quot;&gt;从技能到战斗&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="2350" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-2" value="BATTLE_SS_COMBAT_REQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="2723" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-3" value="world_battle_request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="2555" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-4" value="&lt;div&gt;src/world/army/action:&lt;/div&gt;部队行动抽象ArmyAction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5510" y="2397" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-5" target="AY36N_PIfTDFEcdsKOCY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-5" value="子类例如空投行动&lt;div&gt;AirDropAction&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5515" y="2497" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-7" value="src/world/army/march/march.h&lt;div&gt;行军基类：&lt;/div&gt;&lt;div&gt;March&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5750" y="2400" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-8" target="AY36N_PIfTDFEcdsKOCY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-8" value="子类例如空投行军&lt;div&gt;AirDropMarch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5780" y="2500" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-10" value="src/world/army/march_launcher&lt;div&gt;行军发起基类：&lt;/div&gt;&lt;div&gt;MarchLauncher&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5950" y="2400" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-12" target="AY36N_PIfTDFEcdsKOCY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-12" value="子类例如发起空投&lt;div&gt;AirDropLauncher&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5980" y="2500" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-13" value="src/world/army/stay_act&lt;div&gt;停留动作抽象：&lt;/div&gt;&lt;div&gt;StayAct&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6150" y="2400" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-15" target="AY36N_PIfTDFEcdsKOCY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-15" value="子类例如防空部署&lt;div&gt;AirDefenceExpand&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6180" y="2500" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-16" value="&lt;div&gt;src/world/army:&lt;/div&gt;可行动抽象&lt;div&gt;Actionable&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5350" y="2397" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-18" target="AY36N_PIfTDFEcdsKOCY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-18" value="子类例如可行动的部队Army" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5355" y="2497" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-19" value="&lt;div&gt;部队管理&lt;/div&gt;ArmyMgr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5430" y="2600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-20" value="&lt;div&gt;行动管理&lt;/div&gt;ActionMgr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5980" y="2600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
