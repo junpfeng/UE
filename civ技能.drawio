@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="973" dy="4162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="955" dy="2062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1057,11 +1057,21 @@
         <mxCell id="AY36N_PIfTDFEcdsKOCY-1" value="&lt;font style=&quot;font-size: 31px;&quot;&gt;从技能到战斗&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2510" y="2350" width="250" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-2" target="AY36N_PIfTDFEcdsKOCY-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2930" y="2790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AY36N_PIfTDFEcdsKOCY-2" value="BATTLE_SS_COMBAT_REQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2970" y="2723" width="250" height="30" as="geometry" />
+          <mxGeometry x="2792.25" y="2686.5" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-42" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-3" target="AY36N_PIfTDFEcdsKOCY-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AY36N_PIfTDFEcdsKOCY-3" value="world_battle_request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2730" y="2555" width="130" height="25" as="geometry" />
+          <mxGeometry x="2565" y="2590" width="130" height="25" as="geometry" />
         </mxCell>
         <mxCell id="AY36N_PIfTDFEcdsKOCY-4" value="&lt;div&gt;src/world/army/action:&lt;/div&gt;部队行动抽象ArmyAction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5510" y="2397" width="130" height="60" as="geometry" />
@@ -1113,6 +1123,66 @@
         </mxCell>
         <mxCell id="AY36N_PIfTDFEcdsKOCY-20" value="&lt;div&gt;行动管理&lt;/div&gt;ActionMgr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5980" y="2600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-22" value="InitHeroSkill" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3043.75" y="3100" width="102" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-24" target="AY36N_PIfTDFEcdsKOCY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-24" value="Hero::InitData()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3042.25" y="3033" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-25" target="AY36N_PIfTDFEcdsKOCY-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-25" value="bool BattleArmyMgr::InitFightArmies" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2979" y="2976" width="232" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-26" target="AY36N_PIfTDFEcdsKOCY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-26" value="bool NormalCombat::InitFight" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2989.75" y="2923" width="210" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-27" target="AY36N_PIfTDFEcdsKOCY-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-27" value="s32 start_combat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3033.75" y="2870" width="122" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-28" target="AY36N_PIfTDFEcdsKOCY-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-28" value="battle_ss_combat_request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2955" y="2810" width="280" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-36" value="将技能保存下来，战斗时使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3160" y="3100" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-43" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-37" target="AY36N_PIfTDFEcdsKOCY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2640" y="2687" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-37" value="biz_battle_request2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="2630" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-38" value="ObjectDefenderComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5350" y="3230" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2630.191489361702" y="2590.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-39" value="HandleCombatList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2572.5" y="2525" width="115" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="AY36N_PIfTDFEcdsKOCY-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="AY36N_PIfTDFEcdsKOCY-3" target="AY36N_PIfTDFEcdsKOCY-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
