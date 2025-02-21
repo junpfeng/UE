@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="第 1 页" id="r0Z7M7erhmWLDyFD28IT">
-    <mxGraphModel>
+    <mxGraphModel dx="1433" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0lmuhA2kAvK867DE8umY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0lmuhA2kAvK867DE8umY-1" target="0lmuhA2kAvK867DE8umY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-1" value="scons res" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0lmuhA2kAvK867DE8umY-2" target="0lmuhA2kAvK867DE8umY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-2" value="sh buil.sh:gen_res" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="100" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0lmuhA2kAvK867DE8umY-4" target="0lmuhA2kAvK867DE8umY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;cd tools/ResTool/ &amp;amp;&amp;amp; sh download_res.sh -v ${res_version} -p $res_p4_root &amp;amp;&amp;amp; sh start_new.sh&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0lmuhA2kAvK867DE8umY-6" target="0lmuhA2kAvK867DE8umY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-6" value="拉取p4中的表格部分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="240" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0lmuhA2kAvK867DE8umY-8" target="0lmuhA2kAvK867DE8umY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;run_generate&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="290" width="115" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0lmuhA2kAvK867DE8umY-10" target="0lmuhA2kAvK867DE8umY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;gen_proto&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="340" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;copy_code&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;copy_proto&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;copy_behavior&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;copy_amplitude_upload_bin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;copy_midas_proxy_ssh&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="400" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-14" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;这部分逻辑都在：&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;start_new.sh&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="240" width="156" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-15" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Server/tools/ResTool/xls 是初次下载保存的地方。&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;（是全量更新还是增量更新？）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Server/src/resource 中是根据表格生成的配置 .h，.cpp。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Server/src/resource/res_proto 是根据表格生成的proto（配置的数据结构）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="525" width="520" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="0lmuhA2kAvK867DE8umY-17" value="CMakeLists" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
