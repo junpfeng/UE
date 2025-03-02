@@ -1,14 +1,46 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="1433" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="779" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UJwOGw4JKF4MHEVCzDIA-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UJwOGw4JKF4MHEVCzDIA-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UJwOGw4JKF4MHEVCzDIA-3" value="单级页表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="UJwOGw4JKF4MHEVCzDIA-3" value="单级页表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-1" value="热更的汇编，机器码指令级别的原理：&lt;div&gt;将原函数的执行指令，替换为跳转到新函数指令的地址&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="10" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q-pZWlg4WSGOJyvQfA7R-2" target="Q-pZWlg4WSGOJyvQfA7R-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-2" value="程序计数器到达原函数指令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="60" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q-pZWlg4WSGOJyvQfA7R-3" target="Q-pZWlg4WSGOJyvQfA7R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-7" value="热更的原理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q-pZWlg4WSGOJyvQfA7R-6">
+          <mxGeometry x="-0.2719" y="3" relative="1" as="geometry">
+            <mxPoint x="13" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-3" value="一个函数内部的指令，至少包括：&lt;div&gt;申请函数栈帧，&lt;/div&gt;&lt;div&gt;函数参数和返回值入栈，&lt;/div&gt;&lt;div&gt;实际函数的逻辑指令，&lt;/div&gt;&lt;div&gt;回收栈帧。&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-5" value="将这个函数内的指令集的起始位置替换为：&lt;div&gt;跳转到新函数地址&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="120" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-8" value="有一个风险，如果原函数内指令集占据的字节大小小于跳转新函数地址这个指令的大小，可能会导致覆盖后面其他指令。不过一般情况下，函数的指令集的大小是大于跳转指令的。所以一般不担心这个问题。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-9" value="原函数--&amp;gt; 热更为--&amp;gt;新函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="50" width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" width="540" height="305" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
