@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="1336" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2774" dy="1468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
           <mxGeometry x="790" y="105" width="173" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Q-pZWlg4WSGOJyvQfA7R-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="40" width="540" height="815" as="geometry" />
+          <mxGeometry x="470" y="20" width="650" height="770" as="geometry" />
         </mxCell>
         <mxCell id="Q-pZWlg4WSGOJyvQfA7R-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q-pZWlg4WSGOJyvQfA7R-11" target="Q-pZWlg4WSGOJyvQfA7R-12">
           <mxGeometry relative="1" as="geometry" />
@@ -71,6 +71,9 @@
         </mxCell>
         <mxCell id="Q-pZWlg4WSGOJyvQfA7R-21" value="关闭之前mprotect开放的权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="715" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-pZWlg4WSGOJyvQfA7R-23" value="注意，fix代码要放进 extern &quot;C&quot; {&lt;div&gt;__attribute__((visibility(&quot;default&quot;)))&lt;/div&gt;&lt;div&gt;xxx&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;因为，c++代码的符号发生改变，要想以函数名作为符号名，只能以C风格代码。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="630" width="320" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
