@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="26.0.5" pages="15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="3122" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4446" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,8 +233,18 @@
         <mxCell id="X7OF4kSchoy8XItyaT_Y-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-65" target="X7OF4kSchoy8XItyaT_Y-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="acaYQ1tCma_x3v5Xgvzq-1" value="异步注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-68">
+          <mxGeometry x="0.0127" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X7OF4kSchoy8XItyaT_Y-65" target="X7OF4kSchoy8XItyaT_Y-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acaYQ1tCma_x3v5Xgvzq-2" value="异步更新条件进度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X7OF4kSchoy8XItyaT_Y-70">
+          <mxGeometry x="-0.1789" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="X7OF4kSchoy8XItyaT_Y-65" value="ConditionRegisterRemoteReq" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1251" y="1245" width="176" height="60" as="geometry" />
@@ -535,7 +545,7 @@
         <mxCell id="2qtknaAsL8x96PviKZ6u-2" value="任务的接取" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="2080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jGse1JEu_eWPn1CX-bot-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hriY5-0mfKxtBmigg3l7-1" target="jGse1JEu_eWPn1CX-bot-1">
+        <mxCell id="jGse1JEu_eWPn1CX-bot-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hriY5-0mfKxtBmigg3l7-1" target="jGse1JEu_eWPn1CX-bot-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hriY5-0mfKxtBmigg3l7-1" value="任务的完成" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -571,13 +581,13 @@
         <mxCell id="hriY5-0mfKxtBmigg3l7-13" value="" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="2168" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jGse1JEu_eWPn1CX-bot-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jGse1JEu_eWPn1CX-bot-1" target="jGse1JEu_eWPn1CX-bot-3">
+        <mxCell id="jGse1JEu_eWPn1CX-bot-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jGse1JEu_eWPn1CX-bot-1" target="jGse1JEu_eWPn1CX-bot-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jGse1JEu_eWPn1CX-bot-1" value="章节子任务的完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="jGse1JEu_eWPn1CX-bot-1" value="章节子任务的完成" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-937.5" y="2240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jGse1JEu_eWPn1CX-bot-3" value="receive_chapter_task_reward_req" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="jGse1JEu_eWPn1CX-bot-3" value="receive_chapter_task_reward_req" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1028.12" y="2350" width="301.25" height="40" as="geometry" />
         </mxCell>
       </root>
