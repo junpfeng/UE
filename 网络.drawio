@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="1566" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2088" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -236,7 +236,7 @@
           <mxGeometry x="1350" y="585" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-1" value="CIV私服架构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="1430" width="80" height="30" as="geometry" />
+          <mxGeometry x="135" y="1200" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl0Qnuqx1QPe_ZK7dKHq-2" target="Tl0Qnuqx1QPe_ZK7dKHq-17">
           <mxGeometry relative="1" as="geometry" />
@@ -244,8 +244,8 @@
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-2" value="tconnd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="255" y="1290" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-3" value="公共集群服务区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1300" width="120" height="60" as="geometry" />
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1280" width="430" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl0Qnuqx1QPe_ZK7dKHq-4" target="Tl0Qnuqx1QPe_ZK7dKHq-5">
           <mxGeometry relative="1" as="geometry">
@@ -261,8 +261,8 @@
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-5" value="tbus2_agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="1550" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-7" value="私服" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-65" y="1600" width="120" height="60" as="geometry" />
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1522.5" width="430" height="235" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl0Qnuqx1QPe_ZK7dKHq-9" target="Tl0Qnuqx1QPe_ZK7dKHq-5">
           <mxGeometry relative="1" as="geometry" />
@@ -278,6 +278,11 @@
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl0Qnuqx1QPe_ZK7dKHq-13" target="Tl0Qnuqx1QPe_ZK7dKHq-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-26" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Tl0Qnuqx1QPe_ZK7dKHq-14">
+          <mxGeometry x="-0.0112" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-13" value="world" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="1630" width="110" height="20" as="geometry" />
@@ -304,6 +309,15 @@
             <mxPoint x="120" y="1420" as="sourcePoint" />
             <mxPoint x="170" y="1370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-25" value="跨服都是采用tbus2_agent进行连接的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1460" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-27" value="私服" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-28" value="公共服务集群" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1290" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
