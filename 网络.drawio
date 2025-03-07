@@ -248,7 +248,7 @@
           <mxGeometry x="265" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="1220" width="430" height="170" as="geometry" />
+          <mxGeometry x="-70" y="1220" width="500" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-4" value="tbus2_ns&lt;div&gt;对外端口9.135.57.165:8070&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="1330" width="120" height="60" as="geometry" />
@@ -311,7 +311,7 @@
           <mxGeometry x="520" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="1540" width="560" height="200" as="geometry" />
+          <mxGeometry x="-60" y="1540" width="490" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
