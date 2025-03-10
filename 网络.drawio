@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="2167" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1759" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -333,9 +333,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-50" value="双方通过NS注册后，直连" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Tl0Qnuqx1QPe_ZK7dKHq-49">
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-50" value="&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;双方通过NS注册后，直连，而且通常是客户端&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;发起tconnd连接之后，向私服发起的连接，&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;因此要求私服Mesh IP对于外网可见。&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Tl0Qnuqx1QPe_ZK7dKHq-49">
           <mxGeometry x="0.1246" y="2" relative="1" as="geometry">
-            <mxPoint x="-16" y="16" as="offset" />
+            <mxPoint x="-26" y="26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-51" value="所有Mesh网络内的节点都要先通过NS注册，然后可以获取其他节点URL，实现直连" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
