@@ -110,6 +110,9 @@
         <mxCell id="S5VCjM0rffx2GHFme63s-23" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;chat_svr处理：&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;MSGID_CHAT_SS_MSG_REQ&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-755" y="700" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="S5VCjM0rffx2GHFme63s-25" value="world额外填充数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1301" y="260" width="151" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
