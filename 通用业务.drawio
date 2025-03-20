@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="qeNGuSvpjeobcAF4kE78">
-    <mxGraphModel dx="3798" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3272" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,74 +283,101 @@
             <mxPoint x="-600" y="1685" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B_ZItwu6gVvBXF_GVGWg-67" value="赛季重置的时序在条件注册之前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="B_ZItwu6gVvBXF_GVGWg-67" value="&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;赛季重置的时序在条件注册之前&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-965" y="1791.5" width="185" height="29.5" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-68" value="Center服务器负责起服" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1650" y="1920" width="230" height="20" as="geometry" />
+          <mxGeometry x="-1630" y="2040" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-69" target="B_ZItwu6gVvBXF_GVGWg-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-69" value="main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1595" y="1960" width="125" height="20" as="geometry" />
+          <mxGeometry x="-1575" y="2080" width="125" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-70" target="B_ZItwu6gVvBXF_GVGWg-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-70" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ss_center_init&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1593.75" y="2010" width="122.5" height="20" as="geometry" />
+          <mxGeometry x="-1573.75" y="2130" width="122.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-72" target="B_ZItwu6gVvBXF_GVGWg-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-72" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;center_init&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1592.5" y="2060" width="120" height="20" as="geometry" />
+          <mxGeometry x="-1572.5" y="2180" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-74" target="B_ZItwu6gVvBXF_GVGWg-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-74" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;center_safe_start_module_init&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1642" y="2110" width="219" height="20" as="geometry" />
+          <mxGeometry x="-1622" y="2230" width="219" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-76" target="B_ZItwu6gVvBXF_GVGWg-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-76" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;center_safe_start_timer_init&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1628.75" y="2150" width="192.5" height="30" as="geometry" />
+          <mxGeometry x="-1608.75" y="2270" width="192.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-78" target="B_ZItwu6gVvBXF_GVGWg-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-78" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;center_safe_start_proc&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1598.75" y="2210" width="132.5" height="25" as="geometry" />
+          <mxGeometry x="-1578.75" y="2330" width="132.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-80" target="B_ZItwu6gVvBXF_GVGWg-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-80" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;SafeStartServer::Proc()&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1603.75" y="2260" width="142.5" height="30" as="geometry" />
+          <mxGeometry x="-1583.75" y="2380" width="142.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-82" target="B_ZItwu6gVvBXF_GVGWg-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-82" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;SendStepTrigger&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1592.5" y="2320" width="120" height="30" as="geometry" />
+          <mxGeometry x="-1572.5" y="2440" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-84" target="B_ZItwu6gVvBXF_GVGWg-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-84" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;MSGID_SAFE_START_SS_STEP_REQ&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1647.5" y="2380" width="230" height="30" as="geometry" />
+          <mxGeometry x="-1627.5" y="2500" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_ZItwu6gVvBXF_GVGWg-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-86" target="B_ZItwu6gVvBXF_GVGWg-92">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-86" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;safe_start_recv_ss_step_trigger&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1631.25" y="2450" width="197.5" height="30" as="geometry" />
+          <mxGeometry x="-1611.25" y="2570" width="197.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-88" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;enum E_SAFE_START_STEP&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;E_SAFE_START_STATIC_DATA_INIT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;E_SAFE_START_DB_LOAD&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;E_SAFE_START_SEASON_RESET&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;E_SAFE_START_SS_MSG_OPEN&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;E_SAFE_START_DATA_SYNC&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;E_SAFE_START_END&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&quot;biz/safe_start/biz_safe_start_reg.inc&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;定义了起服步骤枚举、以及每一步发送的信号&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1330" y="2080" width="280" height="205" as="geometry" />
         </mxCell>
         <mxCell id="B_ZItwu6gVvBXF_GVGWg-89" value="定义了步骤枚举、类似于状态转换" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1330.5" y="2040" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_ZItwu6gVvBXF_GVGWg-91" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;src/biz/safe_start/biz_safe_start_api.c&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;biz_safe_start_get_step_name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;biz_safe_start_get_next_step&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;biz_safe_start_is_max_step&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;巧妙的利用 宏定义和头文件实现&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&quot;biz/safe_start/biz_safe_start_reg.inc&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1330" y="2330" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="B_ZItwu6gVvBXF_GVGWg-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-92" target="B_ZItwu6gVvBXF_GVGWg-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_ZItwu6gVvBXF_GVGWg-92" value="其中起服的最后一个步骤：&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;notify_safe_start_end&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1588.75" y="2640" width="152.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="B_ZItwu6gVvBXF_GVGWg-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-94" target="B_ZItwu6gVvBXF_GVGWg-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_ZItwu6gVvBXF_GVGWg-94" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;actor_start_end&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1568.75" y="2700" width="112.5" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="B_ZItwu6gVvBXF_GVGWg-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B_ZItwu6gVvBXF_GVGWg-96" target="B_ZItwu6gVvBXF_GVGWg-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_ZItwu6gVvBXF_GVGWg-96" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;actor_server_on_start_end&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1608.75" y="2760" width="192.5" height="28.75" as="geometry" />
+        </mxCell>
+        <mxCell id="B_ZItwu6gVvBXF_GVGWg-98" value="起服阶段理论上应该是没有玩家的，但是依然会做一些如果有玩家的操作（以防万一？）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1603.75" y="2820" width="182.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
