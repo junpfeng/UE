@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="k40KUhnG5UWYb8Obpm_M">
-    <mxGraphModel dx="1879" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1704" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="50" y="180" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-2" value="配置部分" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="790" y="400" width="60" height="30" as="geometry" />
+          <mxGeometry x="720" y="670" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-3" value="代码架构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="910" y="400" width="60" height="30" as="geometry" />
+          <mxGeometry x="840" y="670" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="40" y="220" width="100" height="100" as="geometry" />
@@ -143,6 +143,23 @@
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-55" value="endpoint" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="643" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-60" value="ns" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-62" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-50" target="VnnVtrXKFZIncb8XVv-m-60">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1160" y="270" as="sourcePoint" />
+            <mxPoint x="1260" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-63" value="SockChannel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnnVtrXKFZIncb8XVv-m-62">
+          <mxGeometry x="-0.0289" y="-3" relative="1" as="geometry">
+            <mxPoint y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-64" value="agent到ns之间没有路由" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="80" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
