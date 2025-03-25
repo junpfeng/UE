@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="k40KUhnG5UWYb8Obpm_M">
-    <mxGraphModel dx="446" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1879" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,6 +60,62 @@
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-29" value="通过协议，快速了解代码架构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="204" y="310" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-30" value="router" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36.24275862068964" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-31" target="VnnVtrXKFZIncb8XVv-m-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-31" target="VnnVtrXKFZIncb8XVv-m-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-31" target="VnnVtrXKFZIncb8XVv-m-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-31" value="router" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="610" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-32" target="VnnVtrXKFZIncb8XVv-m-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-32" value="ROUTE_TYPE_RANDOM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-43.760000000000005" y="700" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-34" target="VnnVtrXKFZIncb8XVv-m-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-34" value="ROUTE_TYPE_MASTER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="453.76" y="700" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-36" target="VnnVtrXKFZIncb8XVv-m-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-36" value="ROUTE_TYPE_C_HASH" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283.76" y="700" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-40" target="VnnVtrXKFZIncb8XVv-m-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-40" value="ROUTE_TYPE_M_HASH" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="123.76" y="700" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-42" value="ModHashRouter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="123.75999999999999" y="810" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-44" value="ConsistHashRouter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283.76" y="810" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-46" value="MasterRouter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="453.76" y="810" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-48" value="RandomRouter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-43.760000000000005" y="810" width="145" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
