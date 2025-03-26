@@ -305,6 +305,9 @@
             <mxPoint x="-390" y="2020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-122" value="这里的实现方式，其实就是典型的epoll的方式，消费者监听epoll，生产者产生事件后，向epoll监听的fd中写入事件。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="2080" width="330" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
