@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="k40KUhnG5UWYb8Obpm_M">
-    <mxGraphModel dx="1295" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2511" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -261,22 +261,49 @@
           <mxGeometry x="-733" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-106" value="Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-708.75" y="1810" width="60" height="30" as="geometry" />
+          <mxGeometry x="-708.75" y="1850" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-107" target="VnnVtrXKFZIncb8XVv-m-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-107" value="AgentApp::Run" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-733" y="1850" width="120" height="60" as="geometry" />
+          <mxGeometry x="-733" y="1890" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-108" target="VnnVtrXKFZIncb8XVv-m-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-108" value="注册信号，用于打断循环" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-732.5" y="1940" width="120" height="50" as="geometry" />
+          <mxGeometry x="-732.5" y="1940" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-110" target="VnnVtrXKFZIncb8XVv-m-114">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VnnVtrXKFZIncb8XVv-m-110" value="注册信号，用于打断循环" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-732.5" y="2020" width="120" height="50" as="geometry" />
+          <mxGeometry x="-732.49" y="1990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-112" target="VnnVtrXKFZIncb8XVv-m-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-112" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;ret = dispatcher_.Dispatch(kPollMs);&lt;div&gt;调用epoll_wait 检测 fd 中是否有事件，如果有事件，调用对应的处理函数&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-784.36" y="2160" width="223.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-114" target="VnnVtrXKFZIncb8XVv-m-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-114" value="while(true)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-712.49" y="2050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-117" value="处理其他定时器事件，这里的定时器是循环判断当前时间差来做的" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-732.995" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-119" value="一旦有需要agent处理的事件产生，就调用Wakeup，向某个fd内放入一个事件。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-473" y="2155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnnVtrXKFZIncb8XVv-m-121" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="VnnVtrXKFZIncb8XVv-m-119" target="VnnVtrXKFZIncb8XVv-m-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-440" y="2070" as="sourcePoint" />
+            <mxPoint x="-390" y="2020" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
