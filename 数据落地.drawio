@@ -372,6 +372,9 @@
         <mxCell id="On-Nm9DXIimPxxSpQuM_-7" value="调用tcaplus操作接口：&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;tcap_get&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="63.75" y="2298" width="356.25" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="On-Nm9DXIimPxxSpQuM_-9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;src/dbschema/db_game/ns_gamedb_api.c&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2110" width="235" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
