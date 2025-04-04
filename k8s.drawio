@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.5">
   <diagram name="第 1 页" id="UUyEwVMy8UdLwM88y2wb">
-    <mxGraphModel>
+    <mxGraphModel dx="641" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4donVk05cmg-oovA0WT2-1" value="podA1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="305" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-2" value="podA1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="315" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-3" value="podA1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387" y="325" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-4" value="podA1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="397" y="335" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-5" value="一组pod" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-6" value="podA1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="107" y="305" width="63" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-7" value="podA1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="117" y="315" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-8" value="podA1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="325" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-9" value="podB1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137" y="335" width="66" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-10" value="一组pod" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="133" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="430" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-12" value="node" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="73" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-13" value="ServiceA&lt;div&gt;定义服务名到cluster_ip的映射&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-15" value="serviceB&lt;div&gt;定义服务名到cluster_ip的映射&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-16" value="kube-proxy，&lt;div&gt;运行在node上的守护进程，负责维护pod的网络转发，根据service的配置，直接操作内核的网络栈。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.08;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4donVk05cmg-oovA0WT2-4" target="4donVk05cmg-oovA0WT2-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <mxPoint x="320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.481;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4donVk05cmg-oovA0WT2-15" target="4donVk05cmg-oovA0WT2-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="480" as="sourcePoint" />
+            <mxPoint x="290" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.487;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4donVk05cmg-oovA0WT2-16" target="4donVk05cmg-oovA0WT2-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="500" as="sourcePoint" />
+            <mxPoint x="320" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
