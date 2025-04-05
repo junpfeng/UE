@@ -101,6 +101,12 @@
         <mxCell id="4donVk05cmg-oovA0WT2-33" value="kubelet：&lt;div&gt;Pod管理&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="230" width="390" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83" y="840" width="397" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4donVk05cmg-oovA0WT2-36" value="容器运行时" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="83" y="840" width="83" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
