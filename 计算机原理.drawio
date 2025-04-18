@@ -1,15 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="744" dy="1010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1289" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UJwOGw4JKF4MHEVCzDIA-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UJwOGw4JKF4MHEVCzDIA-3" value="单级页表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="30" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Q-pZWlg4WSGOJyvQfA7R-1" value="热更的汇编，机器码指令级别的原理：&lt;div&gt;将原函数的执行指令，替换为跳转到新函数指令的地址&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="65" width="210" height="30" as="geometry" />
         </mxCell>
@@ -74,9 +68,6 @@
         </mxCell>
         <mxCell id="Q-pZWlg4WSGOJyvQfA7R-23" value="注意，fix代码要放进 extern &quot;C&quot; {&lt;div&gt;__attribute__((visibility(&quot;default&quot;)))&lt;/div&gt;&lt;div&gt;xxx&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;因为，c++代码的符号发生改变，要想以函数名作为符号名，只能以C风格代码。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="630" width="320" height="95" as="geometry" />
-        </mxCell>
-        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-1" value="一级数组[1024]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="760" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uYWkz94LOZJ9LZB2Z5OH-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="980" width="770" height="30" as="geometry" />
@@ -466,6 +457,92 @@
           <mxGeometry x="-0.0942" y="5" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uYWkz94LOZJ9LZB2Z5OH-188" target="uYWkz94LOZJ9LZB2Z5OH-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-219" value="偏移x8表示每个页表项的首地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uYWkz94LOZJ9LZB2Z5OH-200">
+          <mxGeometry x="-0.0883" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-188" value="9位PML4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2140" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uYWkz94LOZJ9LZB2Z5OH-189" target="uYWkz94LOZJ9LZB2Z5OH-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-189" value="9位PDPT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-191" value="9位PT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2140" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uYWkz94LOZJ9LZB2Z5OH-192" target="uYWkz94LOZJ9LZB2Z5OH-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-192" value="12位偏移" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2140" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uYWkz94LOZJ9LZB2Z5OH-194" target="uYWkz94LOZJ9LZB2Z5OH-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-194" value="一级页表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uYWkz94LOZJ9LZB2Z5OH-195" target="uYWkz94LOZJ9LZB2Z5OH-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-195" value="二级页表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="2360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uYWkz94LOZJ9LZB2Z5OH-196" target="uYWkz94LOZJ9LZB2Z5OH-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-196" value="三级页表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="2360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-197" value="四级页表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="2360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-198" value="物理内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="2360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uYWkz94LOZJ9LZB2Z5OH-199" target="uYWkz94LOZJ9LZB2Z5OH-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-199" value="CR3寄存器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-212" value="共2^10个项" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1282" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uYWkz94LOZJ9LZB2Z5OH-190" target="uYWkz94LOZJ9LZB2Z5OH-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-190" value="9位PD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2140" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.458;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uYWkz94LOZJ9LZB2Z5OH-191" target="uYWkz94LOZJ9LZB2Z5OH-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-218" value="页表项都是64位，8个字节" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2440" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-220" value="一级页表最多有2^9个页表项" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-221" value="二级页表最多有2^18页表项" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-222" value="三级页表最多有2^27页表项" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="2430" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-223" value="四级页表最多有2^36页表项" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="2430" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYWkz94LOZJ9LZB2Z5OH-224" value="最终最多产生2^36个页表项，结合12位偏移地址，可以映射2^48的地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="877.5" y="2430" width="135" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
