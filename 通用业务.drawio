@@ -472,25 +472,25 @@
           <mxGeometry x="-1569" y="3360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mee3YIci8tBRzsPqEMWJ-2" value="阵容助手" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1557" y="3520" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1638.75" y="3520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mee3YIci8tBRzsPqEMWJ-3" value="key&lt;div&gt;int64&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1518.37" y="3582.5" width="61" height="40" as="geometry" />
+          <mxGeometry x="-1570.87" y="3612.5" width="61" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mee3YIci8tBRzsPqEMWJ-4" value="key:value&lt;div&gt;int64:int64&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1457.12" y="3582.5" width="80" height="40" as="geometry" />
+          <mxGeometry x="-1509.62" y="3612.5" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mee3YIci8tBRzsPqEMWJ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1522.75" y="3577.5" width="150" height="50" as="geometry" />
+          <mxGeometry x="-1575.25" y="3607.5" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mee3YIci8tBRzsPqEMWJ-6" value="key&lt;div&gt;int64&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1583.75" y="3580" width="61" height="45" as="geometry" />
+          <mxGeometry x="-1636.25" y="3610" width="61" height="45" as="geometry" />
         </mxCell>
         <mxCell id="mee3YIci8tBRzsPqEMWJ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1588.75" y="3570" width="220" height="65" as="geometry" />
+          <mxGeometry x="-1641.25" y="3600" width="220" height="65" as="geometry" />
         </mxCell>
         <mxCell id="mee3YIci8tBRzsPqEMWJ-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;DB_ACTOR_STATIS&lt;/span&gt;&lt;div&gt;是一个嵌套的键值数据结构&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1589" y="3660" width="149" height="40" as="geometry" />
+          <mxGeometry x="-1641.25" y="3560" width="149" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
