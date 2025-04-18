@@ -489,8 +489,8 @@
         <mxCell id="mee3YIci8tBRzsPqEMWJ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1641.25" y="3600" width="220" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="mee3YIci8tBRzsPqEMWJ-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;DB_ACTOR_STATIS&lt;/span&gt;&lt;div&gt;是一个嵌套的键值数据结构&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1641.25" y="3560" width="149" height="40" as="geometry" />
+        <mxCell id="mee3YIci8tBRzsPqEMWJ-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;DB_ACTOR_STATIS&lt;/span&gt;&lt;div&gt;是一个嵌套的键值数据结构，作为通用的键值对落地数据结构&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1641.25" y="3560" width="171.25" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
