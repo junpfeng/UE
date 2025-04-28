@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="qeNGuSvpjeobcAF4kE78">
-    <mxGraphModel dx="2383" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2488" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -471,26 +471,104 @@
         <mxCell id="zRoHCxFqhub0pgfLIG4p-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1569" y="3360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mee3YIci8tBRzsPqEMWJ-2" value="阵容助手" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mee3YIci8tBRzsPqEMWJ-2" value="阵容助手" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1638.75" y="3520" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mee3YIci8tBRzsPqEMWJ-3" value="key&lt;div&gt;int64&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mee3YIci8tBRzsPqEMWJ-3" value="key&lt;div&gt;int64&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1570.87" y="3612.5" width="61" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mee3YIci8tBRzsPqEMWJ-4" value="key:value&lt;div&gt;int64:int64&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mee3YIci8tBRzsPqEMWJ-4" value="key:value&lt;div&gt;int64:int64&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1509.62" y="3612.5" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mee3YIci8tBRzsPqEMWJ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="mee3YIci8tBRzsPqEMWJ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1575.25" y="3607.5" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mee3YIci8tBRzsPqEMWJ-6" value="key&lt;div&gt;int64&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mee3YIci8tBRzsPqEMWJ-6" value="key&lt;div&gt;int64&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1636.25" y="3610" width="61" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="mee3YIci8tBRzsPqEMWJ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="mee3YIci8tBRzsPqEMWJ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1641.25" y="3600" width="220" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="mee3YIci8tBRzsPqEMWJ-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;DB_ACTOR_STATIS&lt;/span&gt;&lt;div&gt;是一个嵌套的键值数据结构，作为通用的键值对落地数据结构&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mee3YIci8tBRzsPqEMWJ-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;DB_ACTOR_STATIS&lt;/span&gt;&lt;div&gt;是一个嵌套的键值数据结构，作为通用的键值对落地数据结构&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1641.25" y="3560" width="171.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-1" value="randomid&lt;div&gt;随机方案id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="3145.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-2" value="count1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="3090.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-3" value="rate1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-163" y="3090.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-4" value="sum_rate1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18.5" y="3090.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-5" value="对于每个randomid" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="3080.87" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-6" value="分布次数&lt;div&gt;即抽多少次进入下一个档次&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="3050.87" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-7" value="某个次数的权重" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-156" y="3050.87" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-8" value="累积权重，用于随机算法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="3050.87" width="143" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-9" value="count2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="3140.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-10" value="rate2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-163" y="3140.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-11" value="sum_rate2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18.5" y="3140.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-12" value="countn" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="3230.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-13" value="raten" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-163" y="3230.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-14" value="sum_raten" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18.5" y="3230.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="3220.87" as="sourcePoint" />
+            <mxPoint x="-180" y="3180.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-410" y="3330.87" as="sourcePoint" />
+            <mxPoint x="-410" y="3190.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-17" value="randomid&lt;div&gt;随机方案id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="3360.87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-18" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="3370.87" as="sourcePoint" />
+            <mxPoint x="10" y="3370.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-19" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="3110.87" width="50" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-20" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="3330.87" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-21" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-210.01" y="2800" width="50" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-22" value="draw_random_plan_map_" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-268.01" y="2960.87" width="166" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pg9ut7wCXdCDibrXwmmR-23" value="Z招募_通用配置随即方案表逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="2923" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
