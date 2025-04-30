@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="6L0QKgz08H0uk4aZn0Ru">
-    <mxGraphModel dx="738" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="814" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,6 +45,81 @@
         </mxCell>
         <mxCell id="KU0j-aZhRdwBa8eBkRVH-17" value="endpoint通信各层协议&lt;div&gt;进程间通信&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="420" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-18" value="randomid&lt;div&gt;随机方案id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="735" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-20" value="count1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-21" value="rate1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-22" value="sum_rate1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="551.5" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-23" value="对于每个randomid" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-24" value="分布次数&lt;div&gt;即抽多少次进入下一个档次&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-25" value="某个次数的权重" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="640" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-26" value="累积权重，用于随机算法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="640" width="143" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-27" value="count2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="730" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-28" value="rate2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="730" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-29" value="sum_rate2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="551.5" y="730" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-30" value="countn" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-31" value="raten" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-32" value="sum_raten" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="551.5" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="810" as="sourcePoint" />
+            <mxPoint x="390" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-36" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="920" as="sourcePoint" />
+            <mxPoint x="160" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-37" value="randomid&lt;div&gt;随机方案id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="950" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="960" as="sourcePoint" />
+            <mxPoint x="580" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-39" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="700" width="50" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-40" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="920" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-41" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="359.99" y="389.13" width="50" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="KU0j-aZhRdwBa8eBkRVH-42" value="draw_random_plan_map_" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="301.99" y="550" width="166" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
