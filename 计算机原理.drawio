@@ -612,7 +612,7 @@
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-17" value="留给callee返回值的栈空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="3399.67" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-18" value="保存了caller的栈帧基地址值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-18" value="保存了caller的栈帧基地址值，记为cb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="3459.67" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-19" value="callee栈帧中的元素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -670,13 +670,13 @@
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="3459" as="sourcePoint" />
+            <mxPoint x="60" y="3459" as="sourcePoint" />
             <mxPoint x="210" y="3459" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-34" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;callee栈帧的基地址&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-33">
-          <mxGeometry x="-0.2438" y="2" relative="1" as="geometry">
-            <mxPoint x="11" y="2" as="offset" />
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-39" value="rbp栈基址指针的指向" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-33">
+          <mxGeometry x="-0.2809" y="-2" relative="1" as="geometry">
+            <mxPoint x="16" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-35" value="说明1：&lt;div&gt;caller调用callee时传递的参数，属于caller的栈帧，使用caller中的局部变量X进行传参，则需要再次压入X到caller的栈帧中。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -684,6 +684,20 @@
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-36" value="caller栈帧中局部变量X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="3300" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="3640" as="sourcePoint" />
+            <mxPoint x="210" y="3640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-38" value="rsp栈顶指针的指向" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-37">
+          <mxGeometry x="-0.4164" relative="1" as="geometry">
+            <mxPoint x="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-40" value="说明2：&lt;div&gt;一旦callee执行结束之后，rsp则指向rbp指向的地址，rbp通过cb的值，快速指向caller的基地址，从而恢复caller栈帧&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3519.67" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
