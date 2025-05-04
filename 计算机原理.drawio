@@ -811,14 +811,11 @@
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-90" value="栈顶" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="3870" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-91" value="zhan&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-91" value="栈大小" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="3870" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-92" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-92" value="入口函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="3870" width="50" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-93" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="3870" width="50" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
