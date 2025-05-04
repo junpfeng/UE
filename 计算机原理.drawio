@@ -809,63 +809,63 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-90" value="栈顶" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="3870" width="50" height="60" as="geometry" />
+          <mxGeometry x="70" y="4039.67" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-91" value="栈大小" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="3870" width="50" height="60" as="geometry" />
+          <mxGeometry x="120" y="4039.67" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-92" value="入口函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="3870" width="50" height="60" as="geometry" />
+          <mxGeometry x="170" y="4039.67" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-94" value="第一个参数rdi存放到rax" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="3949.34" width="150" height="30.33" as="geometry" />
+          <mxGeometry x="70" y="4119.01" width="150" height="30.33" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-95" value="第三个参数rdx存放到栈空间的rbx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="3990" width="150" height="30.33" as="geometry" />
+          <mxGeometry x="70" y="4159.67" width="150" height="30.33" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-96" value="fc_mxcsr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4510" width="120" height="25.16" as="geometry" />
+          <mxGeometry x="505" y="4390" width="120" height="25.16" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-97" value="堆内存，由下向上，低地址向高地址增长" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="4720" width="120" height="60" as="geometry" />
+          <mxGeometry x="675" y="4600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-98" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1550" y="4720" as="sourcePoint" />
-            <mxPoint x="1550" y="4400" as="targetPoint" />
+            <mxPoint x="735" y="4600" as="sourcePoint" />
+            <mxPoint x="735" y="4280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-99" value="低地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="4695.16" width="60" height="30" as="geometry" />
+          <mxGeometry x="735" y="4575.16" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-100" value="高地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="4397.58" width="60" height="30" as="geometry" />
+          <mxGeometry x="735" y="4277.58" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-101" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4450" width="120" height="60" as="geometry" />
+          <mxGeometry x="505" y="4330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-102" value="rbx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4424.84" width="120" height="25.16" as="geometry" />
+          <mxGeometry x="505" y="4304.84" width="120" height="25.16" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-103" value="rbp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4400" width="120" height="25.16" as="geometry" />
+          <mxGeometry x="505" y="4280" width="120" height="25.16" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-104" value="rip" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4374.84" width="120" height="25.16" as="geometry" />
+          <mxGeometry x="505" y="4254.84" width="120" height="25.16" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-105" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="4380" width="50" height="150" as="geometry" />
+          <mxGeometry x="445" y="4260" width="50" height="150" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-106" value="48字节，固定大小" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="4437.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="385" y="4317.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-113" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="1160.5" y="4380" width="50" height="390" as="geometry" />
+          <mxGeometry x="345.5" y="4260" width="50" height="390" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-120" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1170" y="4375" as="sourcePoint" />
-            <mxPoint x="1320" y="4374.84" as="targetPoint" />
+            <mxPoint x="355" y="4255" as="sourcePoint" />
+            <mxPoint x="505" y="4254.84" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-121" value="协程栈顶" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-120">
@@ -874,19 +874,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-122" value="使用堆 模拟栈，创建协程栈" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="4310" width="160" height="30" as="geometry" />
+          <mxGeometry x="525" y="4190" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-123" value="协程内函数1栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4535.16" width="120" height="60" as="geometry" />
+          <mxGeometry x="505" y="4415.16" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-124" value="协程内函数2栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4595.16" width="120" height="60" as="geometry" />
+          <mxGeometry x="505" y="4475.16" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-125" value="空余的协程栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4655.16" width="120" height="114.84" as="geometry" />
+          <mxGeometry x="505" y="4535.16" width="120" height="114.84" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-126" value="在堆内预申请的协程栈，典型值是64k" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="4560" width="130" height="30" as="geometry" />
+          <mxGeometry x="195" y="4440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-127" value="几个注意点：&lt;div&gt;1、协程栈（包括固定的48字节上下文环境+协程函数栈帧）都是在堆内存上申请，然后模拟栈的形式。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="4280" width="275" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-128" value="第二个参数，栈大小，就是申请的整个协程栈的大小。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="4200" width="150" height="30.33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
