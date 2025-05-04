@@ -894,6 +894,20 @@
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-128" value="第二个参数，栈大小，就是申请的整个协程栈的大小。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="4200" width="150" height="30.33" as="geometry" />
         </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-129" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="4650" as="sourcePoint" />
+            <mxPoint x="505" y="4649.52" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485" y="4649.52" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-130" value="协程栈底" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-129">
+          <mxGeometry x="-0.0565" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
