@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="1390" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="577" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -868,13 +868,13 @@
             <mxPoint x="505" y="4254.84" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-121" value="协程栈顶" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-120">
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-121" value="协程栈底" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-120">
           <mxGeometry x="-0.1577" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-122" value="使用堆 模拟栈，创建协程栈" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="525" y="4190" width="160" height="30" as="geometry" />
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-122" value="make_fcontext使用堆 模拟栈，创建协程栈" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="4190" width="305" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-123" value="协程内函数1栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="505" y="4415.16" width="120" height="60" as="geometry" />
@@ -903,10 +903,154 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-130" value="协程栈底" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-129">
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-130" value="协程栈顶" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-129">
           <mxGeometry x="-0.0565" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-131" value="主协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="4915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-132" value="主协程A（由操作系统管理上下文）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="4815" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-133" value="自协程B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="4815" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-134" value="自协程C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="4800" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-135" value="rbp、rip、rsp等重要寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="4855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-136" value="rbp、rip、rsp等重要寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="4850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-137" value="协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="4915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-138" value="协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="4910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-139" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BW2tJ_l9eGJw9GUyWVq0-131" target="BW2tJ_l9eGJw9GUyWVq0-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="5025" as="sourcePoint" />
+            <mxPoint x="320" y="4975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-164" value="jump" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-139">
+          <mxGeometry x="-0.4877" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-140" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="4855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-141" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="535" y="4944.76" as="sourcePoint" />
+            <mxPoint x="680" y="4944.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-165" value="jump" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-141">
+          <mxGeometry x="-0.5435" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-142" value="主协程A跳转到协程B时，将协程A的rbp、rip、rsp等重要寄存器的值保存到协程B栈的上下文保存区域" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="4800" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-143" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="BW2tJ_l9eGJw9GUyWVq0-135">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="4945" as="sourcePoint" />
+            <mxPoint x="380" y="4895" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="4885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-144" value="A的寄存器值保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-143">
+          <mxGeometry x="0.299" y="-1" relative="1" as="geometry">
+            <mxPoint x="-24" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-145" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="595" y="4945" as="sourcePoint" />
+            <mxPoint x="680" y="4885" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="595" y="4885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-146" value="B的寄存器值保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-145">
+          <mxGeometry x="0.299" y="-1" relative="1" as="geometry">
+            <mxPoint x="-24" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-150" value="自协程B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="894" y="4810" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-151" value="自协程C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1159" y="4795" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-152" value="rbp、rip、rsp等重要寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="884" y="4850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-153" value="rbp、rip、rsp等重要寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="4845" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-154" value="协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="884" y="4910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-155" value="协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="4905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-158" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1004" y="4939.76" as="sourcePoint" />
+            <mxPoint x="1149" y="4939.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-172" value="yield" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-158">
+          <mxGeometry x="-0.6976" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-159" value="主协程A跳转到协程B时，将协程A的rbp、rip、rsp等重要寄存器的值保存到协程B栈的上下文保存区域" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="995" y="4660" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-166" value="主协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1414" y="4905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-167" value="主协程A（由操作系统管理上下文）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1424" y="4805" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-169" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1414" y="4845" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-173" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1269" y="4939.76" as="sourcePoint" />
+            <mxPoint x="1414" y="4939.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-174" value="yield" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BW2tJ_l9eGJw9GUyWVq0-173">
+          <mxGeometry x="-0.6976" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-175" value="协程跳转的逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="5050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BW2tJ_l9eGJw9GUyWVq0-176" target="BW2tJ_l9eGJw9GUyWVq0-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-176" value="在目标协程栈上，模拟构建函数栈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-177" value="插入目标协程函数的参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
