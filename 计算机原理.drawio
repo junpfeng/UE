@@ -1158,8 +1158,50 @@
         </mxCell>
         <mxCell id="hhpH-cxoT7kZLNTP9zpz-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1050" y="5660" as="sourcePoint" />
-            <mxPoint x="1100" y="5610" as="targetPoint" />
+            <mxPoint x="994" y="5719.29" as="sourcePoint" />
+            <mxPoint x="1134" y="5719.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-20" value="主协程向目标协程切" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-14">
+          <mxGeometry x="-0.1437" y="-3" relative="1" as="geometry">
+            <mxPoint x="10" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-15" value="保存目标协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="893" y="6140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hhpH-cxoT7kZLNTP9zpz-17" target="hhpH-cxoT7kZLNTP9zpz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-17" value="目标协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="893" y="6200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-18" value="目标协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="6200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-19" value="目标协程切换另一个目标协程时，读取保存的上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="6140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="995.5" y="5900" as="sourcePoint" />
+            <mxPoint x="1135.5" y="5900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-22" value="目标协程向主协程切" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-21">
+          <mxGeometry x="-0.1437" y="-3" relative="1" as="geometry">
+            <mxPoint x="10" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="995.5" y="6120" as="sourcePoint" />
+            <mxPoint x="1135.5" y="6120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-24" value="目标协程向目标协程切" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-23">
+          <mxGeometry x="-0.1437" y="-3" relative="1" as="geometry">
+            <mxPoint x="10" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
