@@ -1156,6 +1156,12 @@
         <mxCell id="hhpH-cxoT7kZLNTP9zpz-12" value="目标协程切换主协程时，读取保存的上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1125" y="5980" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="5660" as="sourcePoint" />
+            <mxPoint x="1100" y="5610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
