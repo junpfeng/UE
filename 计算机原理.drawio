@@ -1302,7 +1302,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-44" value="？是立即数，是预分配的栈帧的大小，对于简单函数，例如需要的栈空间不超过128字节，可能不分配栈帧，即rsp=rbp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-44" value="？是立即数，是预分配的栈帧的大小，&lt;font style=&quot;color: rgb(0, 127, 255);&quot;&gt;对于简单函数，例如需要的栈空间不超过128字节，可能不分配栈帧&lt;/font&gt;，即rsp=rbp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-145" y="3600" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hhpH-cxoT7kZLNTP9zpz-46" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
