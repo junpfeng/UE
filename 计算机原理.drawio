@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="2222" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2820" dy="1211" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1434,7 +1434,7 @@
         <mxCell id="b_yMXe-5z5JM6gOa_utq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-4" target="b_yMXe-5z5JM6gOa_utq-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-4" value="leaq -0x48(%rax), %rax&lt;div&gt;rax下移0x48后，再次存入rax，此时&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;rax指向了纤程上下文环境的首地址&lt;/font&gt;。&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-4" value="leaq -0x48(%rax), %rax&lt;div&gt;rax下移0x48后，再次存入rax，此时&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;&lt;u&gt;rax&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;指向了纤程上下文环境的首地址&lt;/font&gt;。&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-501" y="5630" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-6" target="b_yMXe-5z5JM6gOa_utq-8">
@@ -1467,7 +1467,7 @@
         <mxCell id="b_yMXe-5z5JM6gOa_utq-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-18" target="b_yMXe-5z5JM6gOa_utq-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-18" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq %rsp, %rax&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;movq %rdi, %rsp&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;// 切换rsp指针从caller到callee&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-18" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq %rsp, &lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;b&gt;&lt;u&gt;%rax&amp;nbsp; &amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;movq %rdi, %rsp&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;// 切换rsp指针从caller到callee&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-279.25" y="5710" width="176.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-20" target="b_yMXe-5z5JM6gOa_utq-22">
@@ -1501,7 +1501,7 @@
           <mxGeometry x="-35" y="6070" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-711" y="5480" width="1401" height="730" as="geometry" />
+          <mxGeometry x="-731" y="5480" width="1401" height="730" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-32" value="纤程创建上下文和调换逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-701" y="5490" width="170" height="30" as="geometry" />
@@ -1569,7 +1569,7 @@
         <mxCell id="b_yMXe-5z5JM6gOa_utq-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-50" target="b_yMXe-5z5JM6gOa_utq-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-50" value="&lt;div&gt;movq&amp;nbsp; %rsi, %rdx&lt;/div&gt;&lt;div&gt;movq&amp;nbsp; %rax, %rdi&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-50" value="&lt;div&gt;movq&amp;nbsp; &lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;b&gt;%rsi, %rdx&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;movq&amp;nbsp; &lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;b&gt;%rax, %rdi&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-266" y="5960" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-54" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-24" target="b_yMXe-5z5JM6gOa_utq-30">
