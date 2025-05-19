@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="2222" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1672" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1501,67 +1501,70 @@
           <mxGeometry x="-61" y="5900" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-711" y="5480" width="850" height="620" as="geometry" />
+          <mxGeometry x="-810" y="5480" width="99" height="620" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-32" value="纤程创建上下文和调换逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-701" y="5490" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-33" value="主纤程（正常函数栈）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="5480" width="165" height="50" as="geometry" />
+          <mxGeometry x="465" y="5480" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-34" value="主纤程函数栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="5530" width="165" height="60" as="geometry" />
+          <mxGeometry x="465" y="5530" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-35" value="主纤程上下文栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="5590" width="165" height="60" as="geometry" />
+          <mxGeometry x="465" y="5590" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="b_yMXe-5z5JM6gOa_utq-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="5590" as="sourcePoint" />
-            <mxPoint x="550" y="5670" as="targetPoint" />
+            <mxPoint x="340" y="5590" as="sourcePoint" />
+            <mxPoint x="480" y="5670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="5650" as="sourcePoint" />
-            <mxPoint x="535" y="5650" as="targetPoint" />
+            <mxPoint x="340" y="5650" as="sourcePoint" />
+            <mxPoint x="465" y="5650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-40" value="主协程（正常函数栈）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="5490" width="165" height="50" as="geometry" />
+          <mxGeometry x="1300" y="5479.13" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-41" value="主协程函数栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="5540" width="165" height="60" as="geometry" />
+          <mxGeometry x="1300" y="5529.13" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-42" value="主协程上下文栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="5600" width="165" height="60" as="geometry" />
+          <mxGeometry x="1300" y="5589.13" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="b_yMXe-5z5JM6gOa_utq-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1315" y="5600" as="sourcePoint" />
-            <mxPoint x="1455" y="5680" as="targetPoint" />
+            <mxPoint x="1175" y="5589.13" as="sourcePoint" />
+            <mxPoint x="1315" y="5669.13" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1315" y="5660" as="sourcePoint" />
-            <mxPoint x="1440" y="5660" as="targetPoint" />
+            <mxPoint x="1175" y="5649.13" as="sourcePoint" />
+            <mxPoint x="1300" y="5649.13" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-45" value="目标纤程栈上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="972" y="5480" width="158" height="80" as="geometry" />
+          <mxGeometry x="872" y="5480" width="158" height="80" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="b_yMXe-5z5JM6gOa_utq-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="5560" as="sourcePoint" />
-            <mxPoint x="937" y="5610" as="targetPoint" />
+            <mxPoint x="720" y="5560" as="sourcePoint" />
+            <mxPoint x="837" y="5610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-47" value="0x40(%rsp)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="972" y="5480" width="158" height="20" as="geometry" />
+          <mxGeometry x="872" y="5480" width="158" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-48" value="目标纤程函数栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="972" y="5560" width="158" height="60" as="geometry" />
+          <mxGeometry x="872" y="5560" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-49" value="纤程传递的参数，包括返回值：&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;struct transfer_t {&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fcontext_t&amp;nbsp; fctx;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void&amp;nbsp; &amp;nbsp; *&amp;nbsp; &amp;nbsp;data;&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;/div&gt;&lt;div&gt;结构体，本质是两个参数构成，汇编中，使用rdi和rsi来传递&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-61" y="5675" width="241" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
