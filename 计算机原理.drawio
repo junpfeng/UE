@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="2544" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1491" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -622,7 +622,7 @@
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-30" value="callee的函数栈帧" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="3560" width="40" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" parent="1" edge="1" target="BW2tJ_l9eGJw9GUyWVq0-15">
+        <mxCell id="BW2tJ_l9eGJw9GUyWVq0-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" parent="1" target="BW2tJ_l9eGJw9GUyWVq0-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="3300" as="sourcePoint" />
             <mxPoint x="210" y="3299.43" as="targetPoint" />
@@ -1117,229 +1117,229 @@
         <mxCell id="BW2tJ_l9eGJw9GUyWVq0-202" value="caller栈帧中的其他元素" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="3300" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-1" value="主协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-1" value="主协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="893" y="5735" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hhpH-cxoT7kZLNTP9zpz-2" target="hhpH-cxoT7kZLNTP9zpz-3">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hhpH-cxoT7kZLNTP9zpz-2" target="hhpH-cxoT7kZLNTP9zpz-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-2" value="主协程切换目标协程，保存主协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-2" value="主协程切换目标协程，保存主协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="893" y="5795" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-3" value="读取目标协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-3" value="读取目标协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="5735" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-4" value="目标协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-4" value="目标协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="5795" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-5" value="jump_fcontext" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-5" value="jump_fcontext" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="825" y="5700" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;make_fcontext&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;make_fcontext&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="5510" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-8" value="创建目标协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-8" value="创建目标协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="5530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-9" value="保存目标协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-9" value="保存目标协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="894" y="5920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hhpH-cxoT7kZLNTP9zpz-10" target="hhpH-cxoT7kZLNTP9zpz-11">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hhpH-cxoT7kZLNTP9zpz-10" target="hhpH-cxoT7kZLNTP9zpz-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-10" value="目标协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-10" value="目标协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="894" y="5980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-11" value="主协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-11" value="主协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="5920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-12" value="目标协程切换主协程时，读取保存的上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-12" value="目标协程切换主协程时，读取保存的上下文" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="5980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="994" y="5719.29" as="sourcePoint" />
             <mxPoint x="1134" y="5719.29" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-20" value="主协程向目标协程切" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-14">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-20" value="主协程向目标协程切" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-14" vertex="1" connectable="0">
           <mxGeometry x="-0.1437" y="-3" relative="1" as="geometry">
             <mxPoint x="10" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-15" value="保存目标协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-15" value="保存目标协程上下文" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="893" y="6140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hhpH-cxoT7kZLNTP9zpz-17" target="hhpH-cxoT7kZLNTP9zpz-18">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hhpH-cxoT7kZLNTP9zpz-17" target="hhpH-cxoT7kZLNTP9zpz-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-17" value="目标协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-17" value="目标协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="893" y="6200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-18" value="目标协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-18" value="目标协程函数栈帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="6200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-19" value="目标协程切换另一个目标协程时，读取保存的上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-19" value="目标协程切换另一个目标协程时，读取保存的上下文" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="6140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="995.5" y="5900" as="sourcePoint" />
             <mxPoint x="1135.5" y="5900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-22" value="目标协程向主协程切" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-21">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-22" value="目标协程向主协程切" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-21" vertex="1" connectable="0">
           <mxGeometry x="-0.1437" y="-3" relative="1" as="geometry">
             <mxPoint x="10" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="995.5" y="6120" as="sourcePoint" />
             <mxPoint x="1135.5" y="6120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-24" value="目标协程向目标协程切" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-23">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-24" value="目标协程向目标协程切" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-23" vertex="1" connectable="0">
           <mxGeometry x="-0.1437" y="-3" relative="1" as="geometry">
             <mxPoint x="10" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-25" value="caller栈帧中的其他元素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-25" value="caller栈帧中的其他元素" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="209" y="4139.67" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-26" value="&lt;div&gt;说明4：&lt;/div&gt;函数栈帧的rsp指针，是预分配到函数栈帧的栈顶（下方）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-26" value="&lt;div&gt;说明4：&lt;/div&gt;函数栈帧的rsp指针，是预分配到函数栈帧的栈顶（下方）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-50" y="3850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-27" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-27" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="144" y="4030" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-28" value="这段表示子函数调用结束后，栈帧pop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-28" value="这段表示子函数调用结束后，栈帧pop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="49" y="4050" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-29" value="主协程在rsp的下方创建当前主协程的上下文的栈空间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-29" value="主协程在rsp的下方创建当前主协程的上下文的栈空间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1305" y="5870" width="195" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-30" value="&lt;font style=&quot;color: rgb(126, 166, 224);&quot;&gt;其他空闲的预分配的函数栈帧&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-30" value="&lt;font style=&quot;color: rgb(126, 166, 224);&quot;&gt;其他空闲的预分配的函数栈帧&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="3340" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-31" value="%rax是待压榨的参数，callee的参数使用push命令压栈到rsp，从而导致rsp变动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-31" value="%rax是待压榨的参数，callee的参数使用push命令压栈到rsp，从而导致rsp变动" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="3410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-32" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-32" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="3460" as="sourcePoint" />
             <mxPoint x="210" y="3460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-33" value="rsp随参数压栈变动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-32">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-33" value="rsp随参数压栈变动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-32" vertex="1" connectable="0">
           <mxGeometry x="-0.2809" y="-2" relative="1" as="geometry">
             <mxPoint x="48" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-34" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-34" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="3520" as="sourcePoint" />
             <mxPoint x="210" y="3519.34" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-35" value="rsp随地址压栈变动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-34">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-35" value="rsp随地址压栈变动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-34" vertex="1" connectable="0">
           <mxGeometry x="-0.2809" y="-2" relative="1" as="geometry">
             <mxPoint x="54" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-36" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-36" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="3580" as="sourcePoint" />
             <mxPoint x="210" y="3579.34" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-45" value="rsp随callee函数序言 push rbp压栈变动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-36">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-45" value="rsp随callee函数序言 push rbp压栈变动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-36" vertex="1" connectable="0">
           <mxGeometry x="0.0843" y="-3" relative="1" as="geometry">
             <mxPoint x="-9" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-38" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-38" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="3400" as="sourcePoint" />
             <mxPoint x="70" y="3460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-63" value="push %rax" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-38">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-63" value="push %rax" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-38" vertex="1" connectable="0">
           <mxGeometry x="-0.1016" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-41" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-41" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70.2" y="3460" as="sourcePoint" />
             <mxPoint x="70.2" y="3520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-64" value="push %rip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-41">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-64" value="push %rip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-41" vertex="1" connectable="0">
           <mxGeometry x="-0.1016" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-42" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-42" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="69.7" y="3520" as="sourcePoint" />
             <mxPoint x="69.7" y="3580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-65" value="push %rbp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-42">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-65" value="push %rbp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-42" vertex="1" connectable="0">
           <mxGeometry x="-0.0778" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-43" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-43" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70.2" y="3580" as="sourcePoint" />
             <mxPoint x="70" y="3700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-67" value="sub ? $rsp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-43">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-67" value="sub ? $rsp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-43" vertex="1" connectable="0">
           <mxGeometry x="-0.1222" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-44" value="？是立即数，是预分配的栈帧的大小，&lt;font style=&quot;color: rgb(0, 127, 255);&quot;&gt;对于简单函数，例如需要的栈空间不超过128字节，可能不分配栈帧&lt;/font&gt;，即rsp=rbp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-44" value="？是立即数，是预分配的栈帧的大小，&lt;font style=&quot;color: rgb(0, 127, 255);&quot;&gt;对于简单函数，例如需要的栈空间不超过128字节，可能不分配栈帧&lt;/font&gt;，即rsp=rbp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-145" y="3600" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-46" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-46" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="506" y="3400.85" width="50" height="297.17" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-47" value="随函数调用结束之后，首先清除callee的栈帧（直接使用指令&amp;nbsp;mov %rbp, %rsp）&lt;div&gt;然后复原caller的rbp&lt;/div&gt;&lt;div&gt;（通过 pop $rbp)&lt;/div&gt;&lt;div&gt;此时rsp正好指向了callee调用结束后的返回地址，然后就可以继续指向后续的指令了&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-47" value="随函数调用结束之后，首先清除callee的栈帧（直接使用指令&amp;nbsp;mov %rbp, %rsp）&lt;div&gt;然后复原caller的rbp&lt;/div&gt;&lt;div&gt;（通过 pop $rbp)&lt;/div&gt;&lt;div&gt;此时rsp正好指向了callee调用结束后的返回地址，然后就可以继续指向后续的指令了&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="546" y="3560" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="BW2tJ_l9eGJw9GUyWVq0-19">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" parent="1" target="BW2tJ_l9eGJw9GUyWVq0-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="3580" as="sourcePoint" />
             <mxPoint x="590" y="3740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-51" value="callee的rbp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-49">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-51" value="callee的rbp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-49" vertex="1" connectable="0">
           <mxGeometry x="-0.2012" y="2" relative="1" as="geometry">
             <mxPoint x="-1" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-100" y="3800" width="920" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-53" value="暂时忽略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-53" value="暂时忽略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="602" y="3840" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-54" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-54" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="3690" as="sourcePoint" />
             <mxPoint x="150" y="3590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-62" value="mov %rbp, %rsp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-54">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-62" value="mov %rbp, %rsp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-54" vertex="1" connectable="0">
           <mxGeometry x="-0.2533" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-56" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-56" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="149.29" y="3574.51" as="sourcePoint" />
             <mxPoint x="149.29" y="3524.51" as="targetPoint" />
@@ -1348,12 +1348,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-68" value="pop %rbp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-56">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-68" value="pop %rbp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-56" vertex="1" connectable="0">
           <mxGeometry x="-0.1418" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-57" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-57" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="149.29" y="3509.34" as="sourcePoint" />
             <mxPoint x="149.29" y="3459.34" as="targetPoint" />
@@ -1362,62 +1362,95 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-69" value="pop %rip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-57">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-69" value="pop %rip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-57" vertex="1" connectable="0">
           <mxGeometry x="-0.1137" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-58" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-58" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="3310" as="sourcePoint" />
             <mxPoint x="430" y="3570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-59" value="mov %rsp, %rbp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-58">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-59" value="mov %rsp, %rbp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-58" vertex="1" connectable="0">
           <mxGeometry x="0.1304" y="2" relative="1" as="geometry">
             <mxPoint x="-7" y="-97" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-60" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-60" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="3570" as="sourcePoint" />
             <mxPoint x="480" y="3310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-61" value="pop $rbp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hhpH-cxoT7kZLNTP9zpz-60">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-61" value="pop $rbp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhpH-cxoT7kZLNTP9zpz-60" vertex="1" connectable="0">
           <mxGeometry x="-0.2238" relative="1" as="geometry">
             <mxPoint y="61" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-70" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.959;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BW2tJ_l9eGJw9GUyWVq0-16">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-70" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.959;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BW2tJ_l9eGJw9GUyWVq0-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="750" y="3450" as="sourcePoint" />
             <mxPoint x="510" y="3400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-71" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.959;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-71" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.959;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="3699.67" as="sourcePoint" />
             <mxPoint x="515" y="3699.67" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-73" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-73" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="3310" as="sourcePoint" />
             <mxPoint x="100" y="3370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-74" value="rsp的来回变化路线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-74" value="rsp的来回变化路线" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="3251" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-75" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-75" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="3194.5" as="sourcePoint" />
             <mxPoint x="440" y="3254.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhpH-cxoT7kZLNTP9zpz-76" value="rbp的来回变化路线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hhpH-cxoT7kZLNTP9zpz-76" value="rbp的来回变化路线" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="3135.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-1" target="b_yMXe-5z5JM6gOa_utq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-1" value="make_fcontext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="6260" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-2" target="b_yMXe-5z5JM6gOa_utq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-2" value="movq %rdi, %rax&lt;div&gt;通过参数1，指定堆栈地址&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="6300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-4" target="b_yMXe-5z5JM6gOa_utq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-4" value="leaq -0x48(%rax), %rax&lt;div&gt;rax下移0x48后，再次存入rax，此时&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;rax指向了纤程上下文环境的首地址&lt;/font&gt;。&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="6380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-6" target="b_yMXe-5z5JM6gOa_utq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-6" value="movq&amp;nbsp; %rdx, 0x30(%rax)&lt;div&gt;将参数三（纤程入口函数）存到rbx（参考上下文栈）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="6460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-8" target="b_yMXe-5z5JM6gOa_utq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-8" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;leaq&amp;nbsp; trampoline(%rip), %rcx&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq&amp;nbsp; %rcx, 0x40(%rax)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;leaq&amp;nbsp; finish(%rip), %rcx&lt;/span&gt;&lt;/div&gt;&lt;div&gt;movq&amp;nbsp; %rcx, 0x38(%rax)&lt;/div&gt;&lt;div&gt;将trampoline和finish函数地址分别存到rip和rbp&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-617.5" y="6550" width="175" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-10" value="&lt;div&gt;retq&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-617.5" y="6670" width="175" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
