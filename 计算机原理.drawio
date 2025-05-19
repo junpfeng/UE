@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="1990" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2840" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1479,11 +1479,11 @@
         <mxCell id="b_yMXe-5z5JM6gOa_utq-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-22" target="b_yMXe-5z5JM6gOa_utq-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-22" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x10(%rsp), %r12&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x18(%rsp), %r13&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x20(%rsp), %r14&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x28(%rsp), %r15&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x30(%rsp), %rbx&lt;/span&gt;&lt;/div&gt;&lt;div&gt;movq 0x38(%rsp), %rbp&lt;/div&gt;&lt;div&gt;// 恢复callee的上下文&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-266" y="5840" width="150" height="100" as="geometry" />
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-22" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x10(%rsp), %r12&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x18(%rsp), %r13&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x20(%rsp), %r14&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x28(%rsp), %r15&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x30(%rsp), %rbx&lt;/span&gt;&lt;/div&gt;&lt;div&gt;movq 0x38(%rsp), %rbp&lt;/div&gt;&lt;div&gt;// 恢复callee的上下文&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;leaq&amp;nbsp; 0x48(%rsp), %rsp&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-266" y="5840" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-24" value="&lt;div&gt;jmp *%r8&lt;/div&gt;&lt;div&gt;// 跳转目标函数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-266" y="6050" width="150" height="30" as="geometry" />
+          <mxGeometry x="-266" y="6061" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-26" value="trampoline 函数:&lt;div&gt;&lt;div&gt;push %rbp&lt;/div&gt;&lt;div&gt;jmp *%rbx&lt;/div&gt;&lt;/div&gt;&lt;div&gt;// 跳板函数，用于配合jmp *%rbx，手动压入和控制函数执行结束后的返回地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-681" y="5860" width="130" height="100" as="geometry" />
@@ -1501,7 +1501,7 @@
           <mxGeometry x="-35" y="6070" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="5480" width="1330" height="740" as="geometry" />
+          <mxGeometry x="-710" y="5480" width="1250" height="730" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-32" value="纤程创建上下文和调换逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-701" y="5490" width="170" height="30" as="geometry" />
@@ -1570,7 +1570,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-50" value="&lt;div&gt;movq&amp;nbsp; &lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;b&gt;%rsi, %rdx&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;movq&amp;nbsp; &lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;b&gt;%rax, %rdi&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-266" y="5960" width="150" height="50" as="geometry" />
+          <mxGeometry x="-266" y="5986" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-54" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-24" target="b_yMXe-5z5JM6gOa_utq-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1594,7 +1594,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-58" value="跳转到目标纤程函数时，使用参数传递源纤程上下文栈入口；&lt;div&gt;跳转返还源纤程函数时，使用返回值传递目标纤程上下文栈入口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="5840.87" width="300" height="90" as="geometry" />
+          <mxGeometry x="225" y="5840" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-59" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-55" target="b_yMXe-5z5JM6gOa_utq-58">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
