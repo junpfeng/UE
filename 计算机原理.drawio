@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="1672" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2295" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1476,14 +1476,14 @@
         <mxCell id="b_yMXe-5z5JM6gOa_utq-20" value="&amp;nbsp; &amp;nbsp; movq 0x40(%rsp), %r8&amp;nbsp;&amp;nbsp;&lt;div&gt;// 目标纤程的函数存入r8寄存器&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-279.25" y="5780" width="176.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-22" target="b_yMXe-5z5JM6gOa_utq-24">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-22" target="b_yMXe-5z5JM6gOa_utq-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-22" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x10(%rsp), %r12&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x18(%rsp), %r13&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x20(%rsp), %r14&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x28(%rsp), %r15&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;movq 0x30(%rsp), %rbx&lt;/span&gt;&lt;/div&gt;&lt;div&gt;movq 0x38(%rsp), %rbp&lt;/div&gt;&lt;div&gt;// 恢复callee的上下文&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-266" y="5840" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-24" value="&lt;div&gt;jmp *%r8&lt;/div&gt;&lt;div&gt;// 跳转目标函数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-266" y="5960" width="150" height="30" as="geometry" />
+          <mxGeometry x="-266" y="6050" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-26" value="trampoline 函数:&lt;div&gt;&lt;div&gt;push %rbp&lt;/div&gt;&lt;div&gt;jmp *%rbx&lt;/div&gt;&lt;/div&gt;&lt;div&gt;// 跳板函数，用于配合jmp *%rbx，手动压入和控制函数执行结束后的返回地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-681" y="5860" width="130" height="100" as="geometry" />
@@ -1498,7 +1498,7 @@
           <mxGeometry x="-681" y="5970" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-30" value="这里实际上调用了trampoline，然后借助trampoline手动压入纤程入口函数的返回地址，然后再jmp *%rbx，跳转到纤程入口函数。如果在纤程入口函数内没有跳转其他纤程、最后就会调用finish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-61" y="5900" width="150" height="120" as="geometry" />
+          <mxGeometry x="-35" y="6070" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-810" y="5480" width="99" height="620" as="geometry" />
@@ -1563,8 +1563,35 @@
         <mxCell id="b_yMXe-5z5JM6gOa_utq-48" value="目标纤程函数栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="872" y="5560" width="158" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-49" value="纤程传递的参数，包括返回值：&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;struct transfer_t {&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fcontext_t&amp;nbsp; fctx;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void&amp;nbsp; &amp;nbsp; *&amp;nbsp; &amp;nbsp;data;&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;/div&gt;&lt;div&gt;结构体，本质是两个参数构成，汇编中，使用rdi和rsi来传递&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-61" y="5675" width="241" height="110" as="geometry" />
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-49" value="纤程传递的参数，包括返回值：&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;struct transfer_t {&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fcontext_t&amp;nbsp; fctx;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void&amp;nbsp; &amp;nbsp; *&amp;nbsp; &amp;nbsp;data;&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;/div&gt;&lt;div&gt;结构体，本质是两个参数构成，汇编中，如果要传递参数，使用rdi和rsi来传递&lt;/div&gt;&lt;div&gt;如果要传递返回值，使用 rax和rdx来传递&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-32" y="5665" width="241" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-50" target="b_yMXe-5z5JM6gOa_utq-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-50" value="&lt;div&gt;movq&amp;nbsp; %rsi, %rdx&lt;/div&gt;&lt;div&gt;movq&amp;nbsp; %rax, %rdi&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-266" y="5960" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-54" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-24" target="b_yMXe-5z5JM6gOa_utq-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="6110" as="sourcePoint" />
+            <mxPoint y="6060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-55" value="rdi rsi 作为参数传递&lt;div&gt;rax rdx 作为返回值传递&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-32" y="5860" width="192" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-18" target="b_yMXe-5z5JM6gOa_utq-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="5880" as="sourcePoint" />
+            <mxPoint x="-20" y="5830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="5970" as="sourcePoint" />
+            <mxPoint x="-30" y="5920" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
