@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="1624" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2468" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1434,13 +1434,13 @@
         <mxCell id="b_yMXe-5z5JM6gOa_utq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-4" target="b_yMXe-5z5JM6gOa_utq-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-4" value="leaq -0x48(%rax), %rax&lt;div&gt;rax下移0x48后，再次存入rax，此时&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;&lt;u&gt;rax&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;指向了纤程上下文环境的首地址&lt;/font&gt;。&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-4" value="leaq -0x48(%rax), %rax&lt;div&gt;rax下移0x48后，再次存入rax，此时&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;&lt;u&gt;rax&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;指向了协程上下文环境的首地址&lt;/font&gt;。&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-501" y="5630" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-6" target="b_yMXe-5z5JM6gOa_utq-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-6" value="movq&amp;nbsp; %rdx, 0x30(%rax)&lt;div&gt;将参数三（纤程入口函数）存到rbx（参考上下文栈）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-6" value="movq&amp;nbsp; %rdx, 0x30(%rax)&lt;div&gt;将参数三（协程入口函数）存到rbx（参考上下文栈）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-501" y="5710" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-8" target="b_yMXe-5z5JM6gOa_utq-10">
@@ -1488,22 +1488,22 @@
         <mxCell id="b_yMXe-5z5JM6gOa_utq-26" value="trampoline 函数:&lt;div&gt;&lt;div&gt;push %rbp&lt;/div&gt;&lt;div&gt;jmp *%rbx&lt;/div&gt;&lt;/div&gt;&lt;div&gt;// 跳板函数，用于配合jmp *%rbx，手动压入和控制函数执行结束后的返回地址&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-681" y="5860" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-27" value="纤程上下文栈的rbx里面存放了入口函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-27" value="协程上下文栈的rbx里面存放了入口函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-681" y="5630" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-28" value="纤程上下文栈的rip里面存放的是纤程入口函数的跳板函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-28" value="协程上下文栈的rip里面存放的是协程入口函数的跳板函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-681" y="5790" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-29" value="finish 函数:&lt;div&gt;exit&lt;/div&gt;&lt;div&gt;// 纤程入口函数如果执行结束前，没有主动跳转，就会执行finish，退出整个进程。&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;这里的巧妙之处在于，finish函数的地址正好压在了trampoline函数执行的返回地址。&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-29" value="finish 函数:&lt;div&gt;exit&lt;/div&gt;&lt;div&gt;// 协程入口函数如果执行结束前，没有主动跳转，就会执行finish，退出整个进程。&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;这里的巧妙之处在于，finish函数的地址正好压在了trampoline函数执行的返回地址。&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-681" y="5970" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-30" value="这里实际上调用了trampoline，然后借助trampoline手动压入纤程入口函数的返回地址，然后再jmp *%rbx，跳转到纤程入口函数。如果在纤程入口函数内没有跳转其他纤程、最后就会调用finish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-30" value="这里实际上调用了trampoline，然后借助trampoline手动压入协程入口函数的返回地址，然后再jmp *%rbx，跳转到协程入口函数。如果在协程入口函数内没有跳转其他协程、最后就会调用finish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-35" y="6070" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="5480" width="1250" height="860" as="geometry" />
+          <mxGeometry x="-710" y="5480" width="1280" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-32" value="纤程创建上下文和调换逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-32" value="协程创建上下文和调换逻" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-701" y="5490" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-33" value="主纤程（正常函数栈）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1563,7 +1563,7 @@
         <mxCell id="b_yMXe-5z5JM6gOa_utq-48" value="目标纤程函数栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2477" y="5940.87" width="158" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-49" value="纤程传递的参数，包括返回值：&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;struct transfer_t {&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fcontext_t&amp;nbsp; fctx;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void&amp;nbsp; &amp;nbsp; *&amp;nbsp; &amp;nbsp;data;&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;/div&gt;&lt;div&gt;结构体，本质是两个参数构成，汇编中，如果要传递参数，使用rdi和rsi来传递&lt;/div&gt;&lt;div&gt;如果要传递返回值，使用 rax和rdx来传递&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-49" value="协程传递的参数，包括返回值：&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;struct transfer_t {&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fcontext_t&amp;nbsp; fctx;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void&amp;nbsp; &amp;nbsp; *&amp;nbsp; &amp;nbsp;data;&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;/div&gt;&lt;div&gt;结构体，本质是两个参数构成，汇编中，如果要传递参数，使用rdi和rsi来传递&lt;/div&gt;&lt;div&gt;如果要传递返回值，使用 rax和rdx来传递&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-32" y="5665" width="241" height="115" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-50" target="b_yMXe-5z5JM6gOa_utq-24">
@@ -1593,7 +1593,7 @@
             <mxPoint x="-30" y="5920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-58" value="跳转到目标纤程函数时，使用参数传递源纤程上下文栈入口；&lt;div&gt;跳转返还源纤程函数时，使用返回值传递目标纤程上下文栈入口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-58" value="跳转到目标协程函数时，使用参数传递源协程上下文栈入口；&lt;div&gt;跳转返还源协程函数时，使用返回值传递目标协程上下文栈入口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="5840" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-59" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="b_yMXe-5z5JM6gOa_utq-55" target="b_yMXe-5z5JM6gOa_utq-58">
@@ -1619,6 +1619,12 @@
             <mxPoint x="-190" y="6200" as="sourcePoint" />
             <mxPoint x="-140" y="6150" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="6520" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-67" value="调用make_fcontext后的堆栈" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="6415" width="161" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
