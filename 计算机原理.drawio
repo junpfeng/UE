@@ -1876,7 +1876,7 @@
         <mxCell id="b_yMXe-5z5JM6gOa_utq-155" value="rsp的值：上下文栈的0x40；由于push %rbp，保存了0x38上的内容,finish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="6720" width="139.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="b_yMXe-5z5JM6gOa_utq-156" value="rbp的值：rsp的值：上下文的0x38:finish" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b_yMXe-5z5JM6gOa_utq-156" value="rbp的值：rsp的值：上下文栈的0x38" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1320.5" y="6740" width="139.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b_yMXe-5z5JM6gOa_utq-157" value="函数序言才会修改rsp和rbp:&lt;div&gt;push %rbp&lt;/div&gt;&lt;div&gt;movq %rsp, %rbp&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
