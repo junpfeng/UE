@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="qeNGuSvpjeobcAF4kE78">
-    <mxGraphModel dx="4483" dy="2856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3362" dy="1911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -731,6 +731,74 @@
         </mxCell>
         <mxCell id="TcBlifue2LTk8PYSL5NY-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1451" y="611" width="649" height="559" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-4" target="TcBlifue2LTk8PYSL5NY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-4" value="MSGID_MILITIA_RECRUIT_REQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2206.12" y="770.5" width="184.49" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-5" value="主城手动征兵" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2167.5" y="731.87" width="107.25" height="38.63" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-6" target="TcBlifue2LTk8PYSL5NY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-6" target="TcBlifue2LTk8PYSL5NY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-6" value="OnMilitiaRecruit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2177.25" y="853.12" width="126.74" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-8" target="TcBlifue2LTk8PYSL5NY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-8" value="OnRecruitStart" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2354.61" y="960.5" width="126.74" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-10" target="TcBlifue2LTk8PYSL5NY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-10" value="初始化总的征兵消耗：InitRecruitResourceRequest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2374.62" y="1034.87" width="166.75" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-12" target="TcBlifue2LTk8PYSL5NY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-12" value="apply_resource_del_request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2374.62" y="1111.37" width="166.75" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-14" target="TcBlifue2LTk8PYSL5NY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-14" value="RecruitStart" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2374.62" y="1184" width="166.75" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-16" target="TcBlifue2LTk8PYSL5NY-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-16" value="CalcAndUpdateRecruit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2374.62" y="1260.5" width="166.75" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-18" target="TcBlifue2LTk8PYSL5NY-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2450" y="1363" />
+              <mxPoint x="-2450" y="1284" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-18" value="定时器异步RegisterRecruitTimer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2374.62" y="1340" width="166.75" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-20" value="send_msg_to_client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2177.25" y="1034.87" width="126.74" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-22" target="TcBlifue2LTk8PYSL5NY-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-22" value="SerializationToProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2177.24" y="941.37" width="126.74" height="46.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
