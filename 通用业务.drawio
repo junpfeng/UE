@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="qeNGuSvpjeobcAF4kE78">
-    <mxGraphModel dx="5019" dy="2506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4103" dy="2023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -909,6 +909,45 @@
         </mxCell>
         <mxCell id="TcBlifue2LTk8PYSL5NY-71" value="这里自动征兵的定时器，不是由玩家个人管理，而是由ArmyMgr统一管理全服的自动征兵定时器&lt;div&gt;#define TheArmyMgr WORLD_SERVER-&amp;gt;GetArmyMgr()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1297.74" y="1210.13" width="270" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-72" value="邮件赛季清理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2187.86" y="1850" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-73" target="TcBlifue2LTk8PYSL5NY-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-76" value="拉取附件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TcBlifue2LTk8PYSL5NY-75">
+          <mxGeometry x="-0.0823" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-73" target="TcBlifue2LTk8PYSL5NY-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-84" value="判断是否需要赛季清理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TcBlifue2LTk8PYSL5NY-83">
+          <mxGeometry x="0.3321" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-73" value="actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2250" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-74" value="mail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="1990" width="107" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-77" target="TcBlifue2LTk8PYSL5NY-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-87" value="清理需要删除的附件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TcBlifue2LTk8PYSL5NY-86">
+          <mxGeometry x="-0.0155" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-77" value="actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2250" y="2110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-85" value="mail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1954.01" y="2110" width="107" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
