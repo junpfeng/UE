@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="qeNGuSvpjeobcAF4kE78">
-    <mxGraphModel dx="3594" dy="1911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3806" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -910,44 +910,91 @@
         <mxCell id="TcBlifue2LTk8PYSL5NY-71" value="这里自动征兵的定时器，不是由玩家个人管理，而是由ArmyMgr统一管理全服的自动征兵定时器&lt;div&gt;#define TheArmyMgr WORLD_SERVER-&amp;gt;GetArmyMgr()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1297.74" y="1210.13" width="270" height="189" as="geometry" />
         </mxCell>
-        <mxCell id="TcBlifue2LTk8PYSL5NY-72" value="邮件赛季清理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-2187.86" y="1850" width="225" height="30" as="geometry" />
+        <mxCell id="TcBlifue2LTk8PYSL5NY-72" value="新赛季开始时，执行旧赛季邮件的清理工作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2365.12" y="2050" width="255" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TcBlifue2LTk8PYSL5NY-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-73" target="TcBlifue2LTk8PYSL5NY-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TcBlifue2LTk8PYSL5NY-76" value="拉取附件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TcBlifue2LTk8PYSL5NY-75">
+        <mxCell id="TcBlifue2LTk8PYSL5NY-76" value="拉取旧赛季邮件的附件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TcBlifue2LTk8PYSL5NY-75">
           <mxGeometry x="-0.0823" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TcBlifue2LTk8PYSL5NY-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-73" target="TcBlifue2LTk8PYSL5NY-77">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TcBlifue2LTk8PYSL5NY-84" value="判断是否需要赛季清理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TcBlifue2LTk8PYSL5NY-83">
-          <mxGeometry x="0.3321" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="TcBlifue2LTk8PYSL5NY-73" value="actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2250" y="1990" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2435.5" y="2110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-74" target="TcBlifue2LTk8PYSL5NY-85">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TcBlifue2LTk8PYSL5NY-74" value="mail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1950" y="1990" width="107" height="60" as="geometry" />
+          <mxGeometry x="-2135.5" y="2110" width="107" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TcBlifue2LTk8PYSL5NY-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-77" target="TcBlifue2LTk8PYSL5NY-85">
+        <mxCell id="TcBlifue2LTk8PYSL5NY-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-77" target="TcBlifue2LTk8PYSL5NY-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TcBlifue2LTk8PYSL5NY-87" value="清理需要删除的附件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TcBlifue2LTk8PYSL5NY-86">
-          <mxGeometry x="-0.0155" y="-3" relative="1" as="geometry">
+        <mxCell id="TcBlifue2LTk8PYSL5NY-77" value="actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2435.5" y="2220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-85" target="TcBlifue2LTk8PYSL5NY-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-90" value="返回拉取的结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TcBlifue2LTk8PYSL5NY-89">
+          <mxGeometry x="0.242" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-85" value="mail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2135.5" y="2220" width="107" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-91" target="TcBlifue2LTk8PYSL5NY-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-95" value="异步发送邮件请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TcBlifue2LTk8PYSL5NY-94">
+          <mxGeometry x="-0.0513" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TcBlifue2LTk8PYSL5NY-77" value="actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2250" y="2110" width="120" height="60" as="geometry" />
+        <mxCell id="TcBlifue2LTk8PYSL5NY-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-91" target="TcBlifue2LTk8PYSL5NY-96">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TcBlifue2LTk8PYSL5NY-85" value="mail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1954.01" y="2110" width="107" height="60" as="geometry" />
+        <mxCell id="TcBlifue2LTk8PYSL5NY-91" value="判断奖励是否赛季清理，不清理的发往新赛季" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2435.5" y="2330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-93" value="mail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2142" y="2330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-96" target="TcBlifue2LTk8PYSL5NY-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-102" value="异步发送邮件请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TcBlifue2LTk8PYSL5NY-101">
+          <mxGeometry x="-0.1581" y="3" relative="1" as="geometry">
+            <mxPoint x="7" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-96" value="清理上个赛季的旧邮件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2435.5" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-98" value="actor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2408.75" y="2080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-99" value="mail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2117.5" y="2080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-100" value="mail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2142" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TcBlifue2LTk8PYSL5NY-103" target="TcBlifue2LTk8PYSL5NY-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-103" value="mail_module:&lt;div&gt;fn_on_season_data_reset&lt;br&gt;&lt;div&gt;OnSeasonSettle&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2312" y="1930" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-105" value="routine-&amp;gt;Start()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2288" y="2020" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-107" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2457" y="1890" width="467" height="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
