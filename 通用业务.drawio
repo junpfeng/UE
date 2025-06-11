@@ -994,7 +994,10 @@
           <mxGeometry x="-2288" y="2020" width="112" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TcBlifue2LTk8PYSL5NY-107" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2457" y="1890" width="467" height="630" as="geometry" />
+          <mxGeometry x="-2450" y="1910" width="440" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="TcBlifue2LTk8PYSL5NY-108" value="玩家单独管理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="1980" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
