@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.5" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="3743" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3351" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -674,19 +674,19 @@
             <mxPoint y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4SsSsS4Eq77Io_FzAa82-26" value="事件管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-26" value="事件系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1630" y="3680" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-27" target="4SsSsS4Eq77Io_FzAa82-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4SsSsS4Eq77Io_FzAa82-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-27" value="事件源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1280" y="3680" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-28" target="4SsSsS4Eq77Io_FzAa82-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4SsSsS4Eq77Io_FzAa82-28" value="事件源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-28" value="条件系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1960" y="3680" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-31" target="4SsSsS4Eq77Io_FzAa82-35">
@@ -740,7 +740,7 @@
         <mxCell id="4SsSsS4Eq77Io_FzAa82-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-50" target="4SsSsS4Eq77Io_FzAa82-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4SsSsS4Eq77Io_FzAa82-50" value="核心是一个信号槽管理器；&lt;div&gt;本质是一个全局的函数指针数组管理器。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-50" value="核心是一个信号槽管理器；&lt;div&gt;本质是一个全局的函数指针数组管理器；&lt;/div&gt;&lt;div&gt;通过一个类模板封装&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2200" y="4676" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-52" target="4SsSsS4Eq77Io_FzAa82-50">
@@ -751,6 +751,27 @@
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-54" value="订阅方&lt;div&gt;即函数指针数组的注册方&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1900" y="4676" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-56" value="其他系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2310" y="3680" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2010" y="3810" as="sourcePoint" />
+            <mxPoint x="-1960" y="3760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-58" value="条件达成被动触发" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2100" y="3730" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-59" value="条件达成主动查询" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2100" y="3760" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-60" value="问题是，被动触发是通过任务系统注册来实现的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2074" y="3507" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-60" target="4SsSsS4Eq77Io_FzAa82-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
