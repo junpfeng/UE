@@ -696,13 +696,37 @@
           <mxGeometry x="-2440" y="4310" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-35" value="connect_xxx&lt;div&gt;负载执行connect&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2180" y="4260" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2180" y="4240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-36" value="notify&lt;div&gt;负载执行 operator()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2180" y="4390" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2180" y="4420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-31" target="4SsSsS4Eq77Io_FzAa82-36">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-36" target="4SsSsS4Eq77Io_FzAa82-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2140" y="4390" as="sourcePoint" />
+            <mxPoint x="-2090" y="4340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-40" value="同一个进程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2120" y="4350" width="77" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-41" value="connect_xxx&lt;div&gt;负载执行connect&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1920" y="4240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-42" value="notify&lt;div&gt;负载执行 operator()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1920" y="4440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-42" target="4SsSsS4Eq77Io_FzAa82-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1900" y="4430" as="sourcePoint" />
+            <mxPoint x="-1850" y="4380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-46" value="跨进程通过协议TRIGGER_EVENT_SYNC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1860" y="4350" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
