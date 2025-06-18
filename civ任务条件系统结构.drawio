@@ -729,10 +729,28 @@
           <mxGeometry x="-1860" y="4350" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2470" y="4180" width="800" height="350" as="geometry" />
+          <mxGeometry x="-2470" y="4180" width="800" height="600" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-48" value="事件系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2450" y="4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-49" value="思考：事件系统的底层原理？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2170" y="4580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-50" target="4SsSsS4Eq77Io_FzAa82-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-50" value="核心是一个信号槽管理器；&lt;div&gt;本质是一个全局的函数指针数组管理器。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2200" y="4676" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-52" target="4SsSsS4Eq77Io_FzAa82-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-52" value="发布方&lt;div&gt;即函数指针数组的执行方&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="4676" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-54" value="订阅方&lt;div&gt;即函数指针数组的注册方&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="4676" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
