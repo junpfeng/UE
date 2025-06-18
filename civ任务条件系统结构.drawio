@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.5" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="3351" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3743" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -717,7 +717,7 @@
           <mxGeometry x="-1920" y="4240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-42" value="notify&lt;div&gt;负载执行 operator()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1920" y="4440" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1920" y="4420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-42" target="4SsSsS4Eq77Io_FzAa82-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -727,6 +727,12 @@
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-46" value="跨进程通过协议TRIGGER_EVENT_SYNC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1860" y="4350" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2470" y="4180" width="800" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-48" value="事件系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2450" y="4190" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
