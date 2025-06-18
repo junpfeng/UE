@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.5" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="3578" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3351" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,6 +673,36 @@
           <mxGeometry x="-0.2005" y="2" relative="1" as="geometry">
             <mxPoint y="2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-26" value="事件管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1630" y="3680" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-27" target="4SsSsS4Eq77Io_FzAa82-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="3680" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-28" target="4SsSsS4Eq77Io_FzAa82-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-28" value="事件源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1960" y="3680" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-31" target="4SsSsS4Eq77Io_FzAa82-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-31" value="signal_slot_mgr信号管理类内有&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;很多函数对象，其一：ARCH_DESTROY_SIG&lt;/span&gt;&lt;/div&gt;&lt;div&gt;主要有两个工作：&lt;/div&gt;&lt;div&gt;1.connect，将所有的函数存起来&lt;/div&gt;&lt;div&gt;2. 重载operator()，执行所有函数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2440" y="4310" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-35" value="connect_xxx&lt;div&gt;负载执行connect&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="4260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-36" value="notify&lt;div&gt;负载执行 operator()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="4390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-31" target="4SsSsS4Eq77Io_FzAa82-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
