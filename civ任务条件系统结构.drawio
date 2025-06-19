@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="3591" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3255" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -788,8 +788,8 @@
         <mxCell id="0AaE8_BUMgvEa9G03W4f-3" value="条件调度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-817.5" y="4205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0AaE8_BUMgvEa9G03W4f-5" value="任务回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="4205" width="120" height="60" as="geometry" />
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-5" value="任务完成：&lt;div&gt;执行预注册回调&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="4205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0AaE8_BUMgvEa9G03W4f-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-7" target="0AaE8_BUMgvEa9G03W4f-17">
           <mxGeometry relative="1" as="geometry" />
@@ -820,6 +820,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0AaE8_BUMgvEa9G03W4f-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-17" target="0AaE8_BUMgvEa9G03W4f-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-17" target="0AaE8_BUMgvEa9G03W4f-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0AaE8_BUMgvEa9G03W4f-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -866,6 +869,15 @@
             <mxPoint x="-630" y="4705.57" as="sourcePoint" />
             <mxPoint x="-570" y="4705.57" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-36" value="auto cond_mgr = ConditionModule()-&amp;gt;GetCondMgrByType(cond_param.type());&lt;div&gt;根据配置，创建对应的条件实例&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="4130" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-37" target="0AaE8_BUMgvEa9G03W4f-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-37" value="任务注册：&lt;div&gt;创建一个条件实例&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="4130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
