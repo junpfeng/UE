@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="6hiVTVrZt6viN59wgq37">
-    <mxGraphModel>
+    <mxGraphModel dx="693" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mDo8tufiwEILMH_RNeTL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-2" target="mDo8tufiwEILMH_RNeTL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-2" value="src/biz/safe_start/safe_start_client.c：&lt;div&gt;#include &quot;biz/safe_start/biz_safe_start_reg.inc&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-3" value="&lt;div&gt;通过事件驱动起服流程：&lt;/div&gt;静态数据初始化，safe_start_static_data_init&lt;div&gt;DB加载，safe_start_db_load&lt;/div&gt;&lt;div&gt;赛季重置，safe_start_season_reset&lt;/div&gt;&lt;div&gt;SS协议开关，safe_start_ss_msg_open&lt;/div&gt;&lt;div&gt;数据同步，safe_start_data_sync&lt;/div&gt;&lt;div&gt;启动完成通知，safe_start_end&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="340" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-6" value="ProcStepTrigger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-7" target="mDo8tufiwEILMH_RNeTL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-7" value="定时器，&lt;div&gt;依次触发事件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
