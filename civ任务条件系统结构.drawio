@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.5" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="3351" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3578" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -746,10 +746,10 @@
         <mxCell id="4SsSsS4Eq77Io_FzAa82-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4SsSsS4Eq77Io_FzAa82-52" target="4SsSsS4Eq77Io_FzAa82-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4SsSsS4Eq77Io_FzAa82-52" value="发布方&lt;div&gt;即函数指针数组的执行方&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-52" value="发布方&lt;div&gt;即函数指针数组的执行方&lt;/div&gt;&lt;div&gt;即 notify_xxx&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2410" y="4676" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4SsSsS4Eq77Io_FzAa82-54" value="订阅方&lt;div&gt;即函数指针数组的注册方&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4SsSsS4Eq77Io_FzAa82-54" value="订阅方&lt;div&gt;即函数指针数组的注册方，&lt;/div&gt;&lt;div&gt;即connect_xxx&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1900" y="4676" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4SsSsS4Eq77Io_FzAa82-56" value="其他系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
