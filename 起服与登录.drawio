@@ -81,7 +81,7 @@
         <mxCell id="mDo8tufiwEILMH_RNeTL-21" value="这部分加载和玩家无关但是和起服相关的DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1390" y="340" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="mDo8tufiwEILMH_RNeTL-22" value="&lt;div&gt;centor 驱动：&lt;/div&gt;actor_start_data_sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mDo8tufiwEILMH_RNeTL-22" value="&lt;div&gt;centor 驱动：&lt;/div&gt;例如：actor_start_data_sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="590" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-25" value="异步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
