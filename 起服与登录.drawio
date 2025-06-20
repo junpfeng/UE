@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="6hiVTVrZt6viN59wgq37">
-    <mxGraphModel dx="693" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1064" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,6 +24,71 @@
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-7" value="定时器，&lt;div&gt;依次触发事件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-9" target="mDo8tufiwEILMH_RNeTL-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-9" target="mDo8tufiwEILMH_RNeTL-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-9" value="其他进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-10" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-5" target="mDo8tufiwEILMH_RNeTL-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="640" y="410" as="sourcePoint" />
+            <mxPoint x="740" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-11" value="MSGID_SAFE_START_SS_STEP_RSP" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="320" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-12" value="MSGID_SAFE_START_SS_STEP_REQ" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-13" value="&lt;div&gt;安全启动的逻辑顺序：&lt;/div&gt;actor_safe_start_trigger_init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-14" value="actor为例：&lt;div&gt;&amp;nbsp;SafeStartClient::Tick()&lt;/div&gt;&lt;div&gt;定时循环向centor发起启动顺序的触发请求，&lt;/div&gt;&lt;div&gt;例如world不存在导致centor进程无法继续，Tick 就会持续发起请求,一直等待world&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="640" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-15" target="mDo8tufiwEILMH_RNeTL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-15" value="进程初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-16" target="mDo8tufiwEILMH_RNeTL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-16" value="各个模块初始化注册需要导入的db列表：&lt;div&gt;reg_serial_db_load&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="335" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-18" target="mDo8tufiwEILMH_RNeTL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-18" value="centor起服驱动db加载：&lt;div&gt;例如：actor_start_db_load&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="460" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-21" value="这部分加载和玩家无关但是和起服相关的DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="340" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-22" value="&lt;div&gt;centor 驱动：&lt;/div&gt;actor_start_data_sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="590" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-25" value="异步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-26" value="异步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="540" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
