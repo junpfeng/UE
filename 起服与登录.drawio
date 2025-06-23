@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="6hiVTVrZt6viN59wgq37">
-    <mxGraphModel dx="1064" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="608" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
           <mxGeometry x="230" y="470" width="340" height="110" as="geometry" />
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-14" value="actor为例：&lt;div&gt;&amp;nbsp;SafeStartClient::Tick()&lt;/div&gt;&lt;div&gt;定时循环向centor发起启动顺序的触发请求，&lt;/div&gt;&lt;div&gt;例如world不存在导致centor进程无法继续，Tick 就会持续发起请求,一直等待world&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="640" width="340" height="110" as="geometry" />
+          <mxGeometry x="970" y="740" width="360" height="130" as="geometry" />
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-15" target="mDo8tufiwEILMH_RNeTL-16">
           <mxGeometry relative="1" as="geometry" />
