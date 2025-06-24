@@ -303,6 +303,9 @@
             <mxPoint x="860" y="3750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-103" value="相同的事件，如何叠加，&lt;div&gt;事件触发后，如何消除&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="3880" width="370" height="260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
