@@ -894,8 +894,14 @@
         <mxCell id="0AaE8_BUMgvEa9G03W4f-42" value="目前来看，只有调用过SetNeedSave2DB的条件项才会落地" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="3065" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-44" target="0AaE8_BUMgvEa9G03W4f-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0AaE8_BUMgvEa9G03W4f-44" value="只有至少触发过一次的条件项才会调用&amp;nbsp;&lt;div&gt;SetNeedSave2DB&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="3260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-46" value="没有被触发过至少一次的条件项，不会落地" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="3380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
