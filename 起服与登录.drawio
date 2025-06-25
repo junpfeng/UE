@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="6hiVTVrZt6viN59wgq37">
-    <mxGraphModel dx="2363" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1937" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,28 +190,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-67" value="hybrid_actor_recv_enter_game_noti" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="2290" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="2240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-69" target="mDo8tufiwEILMH_RNeTL-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-69" value="hybrid_modules_on_actor_enter_game" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="2430" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="2330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-71" target="mDo8tufiwEILMH_RNeTL-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-71" value="module-&amp;gt;on_actor_enter_game" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="2570" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="2420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mDo8tufiwEILMH_RNeTL-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-73" target="mDo8tufiwEILMH_RNeTL-75">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mDo8tufiwEILMH_RNeTL-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-73" target="mDo8tufiwEILMH_RNeTL-79">
+        <mxCell id="mDo8tufiwEILMH_RNeTL-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-73" target="mDo8tufiwEILMH_RNeTL-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-73" value="event_mgr_trigger_actor_login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="2710" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="2520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-75" target="mDo8tufiwEILMH_RNeTL-77">
           <mxGeometry relative="1" as="geometry" />
@@ -305,6 +302,21 @@
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-103" value="相同的事件，如何叠加，&lt;div&gt;事件触发后，如何消除&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1150" y="3880" width="370" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-104" target="mDo8tufiwEILMH_RNeTL-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-104" value="event_mgr_trigger_actor" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-106" target="mDo8tufiwEILMH_RNeTL-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-106" target="mDo8tufiwEILMH_RNeTL-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-106" value="event_entry_trigger_event" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
