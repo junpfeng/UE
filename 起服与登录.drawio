@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="6hiVTVrZt6viN59wgq37">
-    <mxGraphModel dx="1937" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1891" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,6 +273,11 @@
             <mxPoint x="1010" y="3660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-110" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mDo8tufiwEILMH_RNeTL-97">
+          <mxGeometry x="-0.2507" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-98" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1060" y="3670" as="sourcePoint" />
@@ -317,6 +322,78 @@
         </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-106" value="event_entry_trigger_event" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="2710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-111" value="离线事件添加，查询已有的离线事件队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="3640" width="255" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-112" target="mDo8tufiwEILMH_RNeTL-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-112" value="离线事件消息请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-113" target="mDo8tufiwEILMH_RNeTL-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-113" value="event_mgr_add_event" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-115" target="mDo8tufiwEILMH_RNeTL-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-115" value="先判断该玩家的离线事件是否已经成功加载到缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-119" value="把新事件请求也加载到事件缓存队列&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="3010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-123" target="mDo8tufiwEILMH_RNeTL-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-123" value="正在加载" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-125" target="mDo8tufiwEILMH_RNeTL-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-125" value="还没加载，则发起加载请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-127" target="mDo8tufiwEILMH_RNeTL-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-127" value="加载完成的回调" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="2800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-131" target="mDo8tufiwEILMH_RNeTL-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-131" value="遍历事件请求消息队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="2900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-135" target="mDo8tufiwEILMH_RNeTL-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-135" value="已经加载离线事件到缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-139" target="mDo8tufiwEILMH_RNeTL-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-139" value="先把新请求加入请求队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-115" target="mDo8tufiwEILMH_RNeTL-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-142" target="mDo8tufiwEILMH_RNeTL-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-142" target="mDo8tufiwEILMH_RNeTL-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-142" value="判断当前加载DB的现状" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="2530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
