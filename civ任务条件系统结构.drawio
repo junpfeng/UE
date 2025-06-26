@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="3463" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7328" dy="3220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -956,6 +956,129 @@
         </mxCell>
         <mxCell id="0AaE8_BUMgvEa9G03W4f-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="544" y="2863" width="576" height="787" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-67" value="事件落地模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1949.9999999999998" y="5050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-68" value="事件接收模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1949.9999999999998" y="4940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-69" value="事件查询和分发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1789.9999999999998" y="4940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-70" value="事件结构：&lt;div&gt;过期时间&lt;/div&gt;&lt;div&gt;优先级&lt;/div&gt;&lt;div&gt;事件业务数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1949.9999999999998" y="4830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-71" target="0AaE8_BUMgvEa9G03W4f-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-71" value="AddConditionData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2630" y="5450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-72" target="0AaE8_BUMgvEa9G03W4f-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-72" value="GetCondList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2500" y="5560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-74" target="0AaE8_BUMgvEa9G03W4f-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-74" value="GetCondParamList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2500" y="5650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-76" target="0AaE8_BUMgvEa9G03W4f-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-76" target="0AaE8_BUMgvEa9G03W4f-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-76" value="GetConditionParamList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2500" y="5735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-78" target="0AaE8_BUMgvEa9G03W4f-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-78" value="GetConditionParamListFromCache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2348.0099999999998" y="5840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-81" value="DoGetConditionParamListFromConfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2640" y="5840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-83" target="0AaE8_BUMgvEa9G03W4f-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-83" value="UpdateConditionParamToCache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2660" y="6860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-114" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-85" target="0AaE8_BUMgvEa9G03W4f-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-85" value="&lt;div&gt;填充&lt;/div&gt;cfg_cache_map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2660" y="6970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-97" value="直接从cfg_cache_map中获取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2348.0099999999998" y="5980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-101" target="0AaE8_BUMgvEa9G03W4f-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-101" value="GetOneKeyCondParamList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3668" y="6300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-103" target="0AaE8_BUMgvEa9G03W4f-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-103" value="ADD_ONEKEY_COND_PARAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3668" y="6400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-104" value="ADD_COND_PARAM&lt;div&gt;将配置中的条件参数保存下来&lt;/div&gt;&lt;div&gt;cond_param_list.push_back(cond)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3668" y="6490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-105" value="&lt;div&gt;bool WanderingAllianceUpgradeCondSrc::GetOneKeyCondParamList(s32 cfg_id, ConditionParamList&amp;amp; param_list) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; ADD_ONEKEY_COND_PARAM(res_wandering_army_alliance_find_by_pk(cfg_id), LevelUpTask, &quot;res wandering alliance upgrade&quot;);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;将资源中字段名为 LevelUpTask的字段存到param_list中，实际上，LevelUpTask就是条件参数字段&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3450" y="6260" width="800" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-107" target="0AaE8_BUMgvEa9G03W4f-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-107" value="DoGetConditionParamListFromConfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3668" y="6210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-109" target="0AaE8_BUMgvEa9G03W4f-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-109" value="GetConditionParamList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3668" y="6120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-110" target="0AaE8_BUMgvEa9G03W4f-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-110" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3760" y="6080" width="1160" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-81" target="0AaE8_BUMgvEa9G03W4f-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-113" value="每个新的配置都要使用OneKeyCondSrcDef 新增一个子类，&lt;div&gt;子类内会重写获取条件参数的方法&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3430" y="6135" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-115" target="0AaE8_BUMgvEa9G03W4f-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-115" value="AddConditionRegisterTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2370" y="5450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-118" value="直接创建条件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2600" y="5410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-119" value="通过异步循环创建条件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2320" y="5410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-120" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3841" y="5300" width="1951" height="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-121" value="创建条件时，参数的生成逻辑；条件创建分成两种，一种是直接同步创建，这种方式一般是初始化时，保证强一致性时使用；另一种是异步循环创建；详解右边两种逻辑的开头；创建条件的初始化阶段会读取配置。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3550" y="5420" width="660" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
