@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="6689" dy="2576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4806" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1075,10 +1075,116 @@
           <mxGeometry x="-2320" y="5410" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0AaE8_BUMgvEa9G03W4f-120" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-3841" y="5300" width="1951" height="1840" as="geometry" />
+          <mxGeometry x="-4070" y="5300" width="229" height="1840" as="geometry" />
         </mxCell>
         <mxCell id="0AaE8_BUMgvEa9G03W4f-121" value="创建条件时，参数的生成逻辑；条件创建分成两种，一种是直接同步创建，这种方式一般是初始化时，保证强一致性时使用；另一种是异步循环创建；详解右边两种逻辑的开头；创建条件的初始化阶段会读取配置。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3550" y="5420" width="660" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-123" value="将条件的回调类型和配置id做了强绑定关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1729.62" y="5330" width="349.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-124" target="0AaE8_BUMgvEa9G03W4f-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-124" value="cond_id =&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1579.62" y="5395" width="79.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-125" target="0AaE8_BUMgvEa9G03W4f-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-125" target="0AaE8_BUMgvEa9G03W4f-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-125" value="回调类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1734" y="5470" width="79.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-126" target="0AaE8_BUMgvEa9G03W4f-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1390" y="5425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-126" target="0AaE8_BUMgvEa9G03W4f-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-126" value="配置ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1430" y="5470" width="79.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1300" y="5590.000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1222" y="5560" />
+              <mxPoint x="-1300" y="5560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-130" value="写死条件参数字段名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1262.12" y="5470" width="79.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-131" target="0AaE8_BUMgvEa9G03W4f-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-131" target="0AaE8_BUMgvEa9G03W4f-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-131" value="条件参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="5590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-135" target="0AaE8_BUMgvEa9G03W4f-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-135" value="条件实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1599.81" y="5590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-137" target="0AaE8_BUMgvEa9G03W4f-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-137" value="使用参数进行条件初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1599.81" y="5690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-141" target="0AaE8_BUMgvEa9G03W4f-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-141" value="模块内使用配置id+回调id，创建条件实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="5330" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-142" target="0AaE8_BUMgvEa9G03W4f-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-142" value="条件实例，根据回调id找到对应的配置解析类，再根据配置id读取条件参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="5430" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-144" value="根据条件参数初始化条件实例，&lt;div&gt;条件实例&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="5530" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-146" target="0AaE8_BUMgvEa9G03W4f-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-146" value="条件参数解析类 cond_src.h/.c" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="5335" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-149" value="注册条件参数解析类BaseCondSrc，&lt;div&gt;每个条件参数解析类包含一个回调id做唯一标识&lt;/div&gt;&lt;div&gt;GetModuleType&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="5430" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-151" target="0AaE8_BUMgvEa9G03W4f-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-151" value="条件参数解析类的声明，&lt;div&gt;使用自定义的类名 + 回调id，通过宏来简化声明&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="5283" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AaE8_BUMgvEa9G03W4f-152" target="0AaE8_BUMgvEa9G03W4f-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-152" value="条件参数管理模块初始化时，注册所有的条件参数解析类&lt;div&gt;&amp;nbsp;CondSrcModuleMgr::Init&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="5370" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-154" value="注册后，可以通过回调id取出对应的条件参数解析类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="5450" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0AaE8_BUMgvEa9G03W4f-157" value="条件是否满足的判断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1599.81" y="5830" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
