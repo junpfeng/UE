@@ -455,8 +455,14 @@
         <mxCell id="mDo8tufiwEILMH_RNeTL-163" value="AddDbActor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-690" y="970" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="mDo8tufiwEILMH_RNeTL-165" target="mDo8tufiwEILMH_RNeTL-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mDo8tufiwEILMH_RNeTL-165" value="反正起服的时候，会把DB里面所有的ACTOR都拉到DB缓存，此时ACTOR还是序列化形式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-715" y="1060" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDo8tufiwEILMH_RNeTL-167" value="当拉取不在线的玩家时，会从DB缓存中拉取序列化的ACTOR数据，然后用于初始化ACTOR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="1200" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
