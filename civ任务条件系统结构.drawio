@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="5821" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5555" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1301,7 +1301,7 @@
           <mxGeometry x="-1059.06" y="6150" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1010" y="6630" width="600" height="270" as="geometry" />
+          <mxGeometry x="-1010" y="6630" width="810" height="270" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-38" value="&lt;div&gt;条件调度器&lt;/div&gt;ConditionListMgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1010" y="6760" width="120" height="140" as="geometry" />
@@ -1320,6 +1320,9 @@
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-43" value="&lt;div&gt;条件检查器&lt;/div&gt;ConditionCheckMgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-530" y="6760" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFDC7KhvurabyQS_utf-44" value="&lt;div&gt;条件实例管理&lt;/div&gt;&lt;div&gt;g6shm::shm_unordered_map&amp;lt;s32, ConditionMgrPtr&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="6760" width="210" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
