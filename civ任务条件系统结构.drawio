@@ -1301,7 +1301,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;条件驱动模型&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1321.06" y="6150" width="140" height="55" as="geometry" />
+          <mxGeometry x="-722.5" y="6025" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1062.5" y="7060" width="810" height="270" as="geometry" />
@@ -1353,6 +1353,15 @@
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-56" value="需要分布式的条件操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-410" y="6560" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFDC7KhvurabyQS_utf-57" value="&lt;div&gt;提取异步双缓冲队列&lt;/div&gt;DoCondTickFunction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-327.5" y="6385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFDC7KhvurabyQS_utf-58" value="单缓冲队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="6780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFDC7KhvurabyQS_utf-59" value="不同的条件业务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="6160" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
