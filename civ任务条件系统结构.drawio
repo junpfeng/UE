@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="5357" dy="1301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5355" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1339,7 +1339,7 @@
         <mxCell id="wwFDC7KhvurabyQS_utf-48" value="ConditionMsg：：DoConditionMsgTickProcess&lt;div&gt;分布式异步分帧循环处理任务队列&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-388.75" y="6660" width="242.5" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="wwFDC7KhvurabyQS_utf-52" value="COND_MODULE_MGR&lt;div&gt;配置管理，建立了两层映射&lt;/div&gt;&lt;div&gt;第一层：条件业务类型-&amp;gt;条件业务配置对象&lt;/div&gt;&lt;div&gt;条件业务配置对象中第二层映射：&lt;/div&gt;&lt;div&gt;条件ID-&amp;gt;条件配置&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;这样之后就支持通过条件业务类型 + 条件ID获取对应的条件配置。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wwFDC7KhvurabyQS_utf-52" value="COND_MODULE_MGR&lt;div&gt;配置管理，建立了两层映射&lt;/div&gt;&lt;div&gt;第一层：条件业务类型-&amp;gt;条件业务配置对象&lt;/div&gt;&lt;div&gt;条件业务配置对象中第二层映射：&lt;/div&gt;&lt;div&gt;条件ID-&amp;gt;条件配置&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;这样之后就支持通过条件业务类型 + 条件ID获取对应的条件配置。&lt;/div&gt;&lt;div&gt;条件配置中包含了条件实例类型+条件实例参数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-760" y="6165" width="242.5" height="180" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-54" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -1362,6 +1362,9 @@
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-59" value="不同的条件业务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-50" y="6160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwFDC7KhvurabyQS_utf-60" value="条件业务类型CondModuleType + cfg_id 的位域组合&amp;nbsp;&lt;div&gt;= 条件（唯一）ID cond_id&lt;/div&gt;&lt;div&gt;cfg_id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="6610" width="310" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
