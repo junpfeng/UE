@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7" pages="15">
   <diagram name="第 1 页" id="0qMLAzxB9j7ZInEhVMJu">
-    <mxGraphModel dx="5308" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7133" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1210,8 +1210,8 @@
             <mxPoint x="-1740" y="6490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wwFDC7KhvurabyQS_utf-10" value="异步处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1639.62" y="6190" width="60" height="30" as="geometry" />
+        <mxCell id="wwFDC7KhvurabyQS_utf-10" value="异步双缓冲处理示例" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1670" y="6190" width="129.62" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wwFDC7KhvurabyQS_utf-11" target="wwFDC7KhvurabyQS_utf-12">
           <mxGeometry relative="1" as="geometry" />
@@ -1304,37 +1304,34 @@
           <mxGeometry x="-703.75" y="6090" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1975.99" y="7250" width="810" height="270" as="geometry" />
+          <mxGeometry x="-1300" y="7014" width="810" height="270" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-38" value="&lt;div&gt;条件调度器&lt;/div&gt;ConditionListMgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1975.99" y="7380" width="120" height="140" as="geometry" />
+          <mxGeometry x="-1300" y="7144" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-39" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ConditionComponent&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1960.99" y="7260" width="150" height="30" as="geometry" />
+          <mxGeometry x="-1285" y="7024" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-40" value="&lt;div&gt;分布式协调器&lt;/div&gt;ConditionMsg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1855.99" y="7380" width="120" height="140" as="geometry" />
+          <mxGeometry x="-1180" y="7144" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-41" value="&lt;div&gt;数据持久化&lt;/div&gt;ConditionDBMgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1735.99" y="7380" width="120" height="140" as="geometry" />
+          <mxGeometry x="-1060" y="7144" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-42" value="&lt;div&gt;配置管理器&lt;/div&gt;CondSrcModuleMgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1615.99" y="7380" width="120" height="140" as="geometry" />
+          <mxGeometry x="-940" y="7144" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-43" value="&lt;div&gt;条件检查器&lt;/div&gt;ConditionCheckMgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1495.99" y="7380" width="120" height="140" as="geometry" />
+          <mxGeometry x="-820" y="7144" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-44" value="&lt;div&gt;条件实例管理&lt;/div&gt;&lt;div&gt;g6shm::shm_unordered_map&amp;lt;s32, ConditionMgrPtr&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1375.99" y="7380" width="210" height="140" as="geometry" />
+          <mxGeometry x="-700" y="7144" width="210" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-45" value="分帧处理分布式消息队列&lt;div&gt;OnConditionMsgTickProcess&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1645.99" y="7690" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-46" value="分布式消息队列：&lt;div&gt;req_cond_list&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1620.99" y="7800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wwFDC7KhvurabyQS_utf-47" value="BaseConditionMgr管理任务实例BaseCond列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="568" y="6500" width="192" height="240" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-48" value="ConditionMsg：：DoConditionMsgTickProcess&lt;div&gt;分布式异步分帧循环处理任务队列&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-350" y="6660" width="242.5" height="180" as="geometry" />
@@ -1371,21 +1368,6 @@
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-64" value="&lt;div&gt;分组条件列表&lt;/div&gt;ConditionContainer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1105" y="6405" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wwFDC7KhvurabyQS_utf-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="7100" width="300" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="wwFDC7KhvurabyQS_utf-67" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="7210" width="300" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="wwFDC7KhvurabyQS_utf-68" value="&lt;div&gt;配置管理器&lt;/div&gt;CondSrcModuleMgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-697" y="7100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wwFDC7KhvurabyQS_utf-69" value="条件参数缓存&lt;div&gt;cfg_cache_map&lt;/div&gt;&lt;div&gt;cond_id索引条件参数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="7270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wwFDC7KhvurabyQS_utf-70" value="条件业务参数缓存&lt;div&gt;cond_src_vec&lt;/div&gt;&lt;div&gt;按条件业务类型分类存放&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="7210" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wwFDC7KhvurabyQS_utf-71" value="条件业务类型+配置ID=cond_id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="109" y="6330" width="170" height="25" as="geometry" />
