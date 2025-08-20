@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="4000" dy="1351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4427" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -441,6 +441,12 @@
         </mxCell>
         <mxCell id="o_uqSXzjHK8yh5ZdAY-n-44" value="任何能解析和处理IP地址的设备，都可以配置IP地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-270" y="2960" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-45" value="默认网关，本质是局域网的概念，是指局域网内设备的默认下一条的IP地址，只是一般正好落在路由器的一个端口IP上。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-338.5" y="2800" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.62;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-45" target="o_uqSXzjHK8yh5ZdAY-n-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
