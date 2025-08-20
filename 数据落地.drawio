@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第 1 页" id="8cFtf-UiOnAKoCmu1fZL">
-    <mxGraphModel dx="2529" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1906" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,7 +87,7 @@
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-26" value="SyncActor2Cache" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="1830" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-28" target="ASX-Vnm_SlDaAzlPHUoA-6">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-28" target="ASX-Vnm_SlDaAzlPHUoA-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-28" value="pack_actor_cache_cb_，&lt;div&gt;提前注册为&lt;div&gt;actor_pack_cache_func&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -159,7 +159,7 @@
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-56" value="&lt;div&gt;class DB_ACTOR {&lt;/div&gt;&lt;div&gt;&amp;nbsp;public:&lt;/div&gt;&lt;div&gt;&amp;nbsp; g6shm::shm_string field_data[E_DB_ACTOR_DB_FIELD_MAX];&amp;nbsp; // 列数据&lt;/div&gt;&lt;div&gt;&amp;nbsp; s32 zone_id{0};&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 区号&lt;/div&gt;&lt;div&gt;&amp;nbsp; u64 uid{0};&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// uid&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;div&gt;其中 field_data 中存放了DB在RT共享内存的序列化数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="2605" y="2224" width="420" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-57" target="ASX-Vnm_SlDaAzlPHUoA-16">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-57" target="ASX-Vnm_SlDaAzlPHUoA-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-57" value="&lt;div&gt;更新共享内存中的DB缓存&lt;/div&gt;&amp;nbsp;ACTOR_DB_MGR-&amp;gt;UpdateCache(uid, nsdb_actor, field_ids);" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -222,7 +222,7 @@
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-88" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="35" y="265" width="370" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-89" value="自定义的主动存DB接口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-89" value="这个是在停服时，主动调用的落地流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="10" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-92" value="创建数据落地定时器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -366,73 +366,73 @@
         <mxCell id="On-Nm9DXIimPxxSpQuM_-9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;src/dbschema/db_game/ns_gamedb_api.c&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="2110" width="235" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-1" target="ASX-Vnm_SlDaAzlPHUoA-3">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-1" target="ASX-Vnm_SlDaAzlPHUoA-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-1" value="以actor的巨作为例&lt;div&gt;get_actor_juzuo_mgr&lt;/div&gt;&lt;div&gt;ACTOR_PART_SAVE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-1" value="以actor的巨作为例&lt;div&gt;get_actor_juzuo_mgr&lt;/div&gt;&lt;div&gt;ACTOR_PART_SAVE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1900" y="859" width="160" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-2" value="数据域标记为脏" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-2" value="数据域标记为脏" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2110" y="923" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-3" value="将脏field_id存入&lt;div&gt;sync_cache_field_ids&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-3" value="将脏field_id存入&lt;div&gt;sync_cache_field_ids&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1900" y="956.5" width="160" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-5" target="C0QmIfeoY1ldJ2bSpZcB-104">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-5" target="C0QmIfeoY1ldJ2bSpZcB-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1850" y="816.5" width="420" height="277" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-6" target="ASX-Vnm_SlDaAzlPHUoA-8">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-6" target="ASX-Vnm_SlDaAzlPHUoA-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-6" value="get_actor_common(*actor).sync_cache_field_ids，&lt;div&gt;获取之前添加的藏标记集合&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-6" value="get_actor_common(*actor).sync_cache_field_ids，&lt;div&gt;获取之前添加的藏标记集合&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1320" y="1991.25" width="281.25" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-8" target="ASX-Vnm_SlDaAzlPHUoA-13">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-8" target="ASX-Vnm_SlDaAzlPHUoA-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1185.78" y="2110" width="549.69" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-9" value="将藏标记对应的数据打包" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-9" value="将藏标记对应的数据打包" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1340" y="2281.5" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-13" target="C0QmIfeoY1ldJ2bSpZcB-57">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-13" target="C0QmIfeoY1ldJ2bSpZcB-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-13" value="&lt;div&gt;再次存入落地藏标记&lt;/div&gt;get_dirty_db_fields_cb_" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-13" value="&lt;div&gt;再次存入落地藏标记&lt;/div&gt;get_dirty_db_fields_cb_" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1350" y="2384" width="220" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-16" value="save_db_field_ids" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-16" value="save_db_field_ids" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1285.62" y="2600" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-19" value="整个数据落地的逻辑分为三层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-19" value="整个数据落地的逻辑分为三层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1331" y="832.5" width="204" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-20" target="ASX-Vnm_SlDaAzlPHUoA-21">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-20" target="ASX-Vnm_SlDaAzlPHUoA-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-20" value="内存层，&lt;div&gt;一旦被使用就添加一个cache脏标记&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-20" value="内存层，&lt;div&gt;一旦被使用就添加一个cache脏标记&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1338" y="867.5" width="192" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-21" target="ASX-Vnm_SlDaAzlPHUoA-23">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-21" target="ASX-Vnm_SlDaAzlPHUoA-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-21" value="cache层&lt;div&gt;是DB结构的内存缓存，完成后再添加一个DB脏标记&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-21" value="cache层&lt;div&gt;是DB结构的内存缓存，完成后再添加一个DB脏标记&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1338" y="952.5" width="192" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-23" value="DB层&lt;div&gt;数据落地，脏标记清除&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-23" value="DB层&lt;div&gt;数据落地，脏标记清除&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1338" y="1032.5" width="192" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-25" target="ASX-Vnm_SlDaAzlPHUoA-5">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ASX-Vnm_SlDaAzlPHUoA-25" target="ASX-Vnm_SlDaAzlPHUoA-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1310" y="790" width="320" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-27" value="三层之间都是异步结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ASX-Vnm_SlDaAzlPHUoA-27" value="三层之间都是异步结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1331" y="1093" width="219" height="30" as="geometry" />
         </mxCell>
       </root>
