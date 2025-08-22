@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="4427" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2874" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,111 +341,111 @@
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-51" value="所有Mesh网络内的节点都要先通过NS注册，然后可以获取其他节点URL，实现直连" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="1230" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-3" target="o_uqSXzjHK8yh5ZdAY-n-28">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-3" target="o_uqSXzjHK8yh5ZdAY-n-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-3" value="网络接口卡&lt;div&gt;（链路层）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-3" value="网络接口卡&lt;div&gt;（链路层）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-855" y="2520" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-4" target="o_uqSXzjHK8yh5ZdAY-n-8">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-4" target="o_uqSXzjHK8yh5ZdAY-n-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-4" value="内核IP协议驱动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-4" value="内核IP协议驱动" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-560" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-8" target="o_uqSXzjHK8yh5ZdAY-n-10">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-8" target="o_uqSXzjHK8yh5ZdAY-n-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-8" value="内核TCP协议驱动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-8" value="内核TCP协议驱动" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-400" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-10" value="用户应用层协议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-10" value="用户应用层协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-250" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-12" target="o_uqSXzjHK8yh5ZdAY-n-4">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-12" target="o_uqSXzjHK8yh5ZdAY-n-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-12" value="以太网链路层驱动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-12" value="以太网链路层驱动" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-720" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-775" y="2175" width="700" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-16">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-680" y="2660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-16" value="网络接口卡&lt;div&gt;（链路层）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-16" value="网络接口卡&lt;div&gt;（链路层）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-855" y="2620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-17" target="o_uqSXzjHK8yh5ZdAY-n-28">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-17" target="o_uqSXzjHK8yh5ZdAY-n-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-17" value="网络接口卡&lt;div&gt;（链路层）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-17" value="网络接口卡&lt;div&gt;（链路层）&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-855" y="2720" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-18" target="o_uqSXzjHK8yh5ZdAY-n-36">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-18" target="o_uqSXzjHK8yh5ZdAY-n-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-18" value="交换机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-18" value="交换机" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-600" y="2630" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-23" target="o_uqSXzjHK8yh5ZdAY-n-18">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-23" target="o_uqSXzjHK8yh5ZdAY-n-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-23" value="交换机的核心作用是通过目标MAC地址自动转发给目标端口（端口连接了一个设备），一切具有这种功能的，都是广义的交换机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-23" value="交换机的核心作用是通过目标MAC地址自动转发给目标端口（端口连接了一个设备），一切具有这种功能的，都是广义的交换机" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-650" y="2800" width="240" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-24" value="默认网关（IP地址）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-24" value="默认网关（IP地址）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-300" y="2630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-25" value="PC1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-25" value="PC1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1020" y="2515" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-26" value="PC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-26" value="PC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1020" y="2615" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-27" value="PC3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-27" value="PC3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1020" y="2720" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-28" value="交换机网卡" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-28" value="交换机网卡" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-680" y="2620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-29" value="一般是指具有网卡功能的模块（软件或者硬件）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-29" value="一般是指具有网卡功能的模块（软件或者硬件）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-700" y="2420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-29" target="o_uqSXzjHK8yh5ZdAY-n-28">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-29" target="o_uqSXzjHK8yh5ZdAY-n-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-670" y="2600" as="sourcePoint" />
             <mxPoint x="-620" y="2550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-35" value="网络接口卡（网卡）是工作在链路层的设备，具有解析以太网帧格式的功能，任何工作在链路层及其以上的网络设备都需要具备网卡的功能" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-35" value="网络接口卡（网卡）是工作在链路层的设备，具有解析以太网帧格式的功能，任何工作在链路层及其以上的网络设备都需要具备网卡的功能" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-940" y="2960" width="450" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-36" value="路由器网卡" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-36" value="路由器网卡" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-380" y="2620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-40" value="现代家用路由器同时兼具“交换机”和“路由器”和“调制解调器”被称为【猫】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="2410" width="203" height="70" as="geometry" />
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-40" value="现代家用路由器同时兼具“交换机”和“路由器”和“调制解调器”被称为【猫】" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-413" y="2414" width="203" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-41" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-41" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-338.5" y="2295" width="50" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-42" value="路由" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-42" value="路由" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-180" y="2600" width="70" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-43" value="和其他路由器或者网络连接的IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-43" value="和其他路由器或者网络连接的IP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="2630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-44" value="任何能解析和处理IP地址的设备，都可以配置IP地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-44" value="任何能解析和处理IP地址的设备，都可以配置IP地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-270" y="2960" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-45" value="默认网关，本质是局域网的概念，是指局域网内设备的默认下一条的IP地址，只是一般正好落在路由器的一个端口IP上。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-45" value="默认网关，本质是局域网的概念，是指局域网内设备的默认下一条的IP地址，只是一般正好落在路由器的一个端口IP上。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-338.5" y="2800" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.62;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-45" target="o_uqSXzjHK8yh5ZdAY-n-24">
+        <mxCell id="o_uqSXzjHK8yh5ZdAY-n-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.62;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-45" target="o_uqSXzjHK8yh5ZdAY-n-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
