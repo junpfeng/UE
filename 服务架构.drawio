@@ -397,6 +397,15 @@
             <mxPoint x="2930" y="1220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-91" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3150" y="494.13" as="sourcePoint" />
+            <mxPoint x="3150" y="754.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-92" value="玩家上线，&lt;div&gt;玩家协议，&lt;/div&gt;&lt;div&gt;定时器，&lt;/div&gt;&lt;div&gt;驱动&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3160" y="540" width="70" height="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
