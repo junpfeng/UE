@@ -491,8 +491,8 @@
         </mxCell>
         <mxCell id="FEyGFNajx4Ck5ub31aqV-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="364.13" y="3610" as="sourcePoint" />
-            <mxPoint x="364.13" y="3660" as="targetPoint" />
+            <mxPoint x="95" y="3610" as="sourcePoint" />
+            <mxPoint x="95" y="3660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FEyGFNajx4Ck5ub31aqV-22" value="主服务器是指对数据拥有读写权限的唯一服务器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -500,6 +500,18 @@
         </mxCell>
         <mxCell id="FEyGFNajx4Ck5ub31aqV-23" value="从服务器，是指对数据拥有读权限的服务器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="522.5" y="3030" width="152.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEyGFNajx4Ck5ub31aqV-26" value="定时器驱动增量同步" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="44" y="2870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FEyGFNajx4Ck5ub31aqV-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FEyGFNajx4Ck5ub31aqV-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="83" y="3030" as="sourcePoint" />
+            <mxPoint x="104" y="3020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEyGFNajx4Ck5ub31aqV-28" value="协议驱动全量更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="113.5" y="3620" width="116.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
