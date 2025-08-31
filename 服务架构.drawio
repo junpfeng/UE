@@ -289,41 +289,113 @@
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-52" value="单体的架构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1870" y="230" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-53" target="3fNOpoJ3Ih4Q9q4e5zWk-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-53" target="3fNOpoJ3Ih4Q9q4e5zWk-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-53" target="3fNOpoJ3Ih4Q9q4e5zWk-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-53" target="3fNOpoJ3Ih4Q9q4e5zWk-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-53" target="3fNOpoJ3Ih4Q9q4e5zWk-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-53" target="3fNOpoJ3Ih4Q9q4e5zWk-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-53" target="3fNOpoJ3Ih4Q9q4e5zWk-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-53" target="3fNOpoJ3Ih4Q9q4e5zWk-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-53" value="ACTOR进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2320" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="2290" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-54" value="登录模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="2470" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-55" value="DB缓存管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="365" width="120" height="60" as="geometry" />
+          <mxGeometry x="2470" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-56" target="3fNOpoJ3Ih4Q9q4e5zWk-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-56" target="3fNOpoJ3Ih4Q9q4e5zWk-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-56" target="3fNOpoJ3Ih4Q9q4e5zWk-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-56" target="3fNOpoJ3Ih4Q9q4e5zWk-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-56" target="3fNOpoJ3Ih4Q9q4e5zWk-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fNOpoJ3Ih4Q9q4e5zWk-56" target="3fNOpoJ3Ih4Q9q4e5zWk-82">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-56" value="ACTOR玩家模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="2630" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-57" value="其他模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="950" width="120" height="60" as="geometry" />
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-57" value="联盟模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-58" value="技能模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="165" width="120" height="60" as="geometry" />
+          <mxGeometry x="2910" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-59" value="英雄模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2680" y="165" width="120" height="60" as="geometry" />
+          <mxGeometry x="2910" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-60" value="兵种皮肤模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2680" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="2910" y="645" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-61" value="条件模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="625" width="120" height="60" as="geometry" />
+          <mxGeometry x="2470" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-62" value="属性模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="730" width="120" height="60" as="geometry" />
+          <mxGeometry x="2470" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-63" value="活动模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="839.13" width="120" height="60" as="geometry" />
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-63" value="活动内容模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="825" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-64" value="巨作模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2680" y="365" width="120" height="60" as="geometry" />
+          <mxGeometry x="2910" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-65" value="其他模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-66" value="活动日历模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-81" value="如果一个模块实例，只能管理单独一个玩家的数据，那就是属于玩家模块。&lt;div&gt;而如果一个模块，可以管理所有玩家的数据，那就是属于进程的&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="370" width="340" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-82" value="任务模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-87" value="通过IG6Component组件管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-88" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2529.58" y="1320" as="sourcePoint" />
+            <mxPoint x="2529.58" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-89" value="通过gs_actor_submods管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2850" y="1330" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-90" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2930" y="1320" as="sourcePoint" />
+            <mxPoint x="2930" y="1220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
