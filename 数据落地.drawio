@@ -523,6 +523,21 @@
         <mxCell id="FEyGFNajx4Ck5ub31aqV-28" value="协议驱动全量更新，或者玩家登录时全量更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="113.5" y="3620" width="256.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="FEyGFNajx4Ck5ub31aqV-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3320" y="1200" as="sourcePoint" />
+            <mxPoint x="3320" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEyGFNajx4Ck5ub31aqV-32" value="一旦使用到 actor_get就会给ACTOR设置脏标记" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="1370" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEyGFNajx4Ck5ub31aqV-33" value="然后再修改具体子模块时，给具体的子模块设置脏标记" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="1510" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FEyGFNajx4Ck5ub31aqV-34" value="子模块要提供增量打包的函数" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="1670" width="290" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
