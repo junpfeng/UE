@@ -510,8 +510,8 @@
             <mxPoint x="104" y="3020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FEyGFNajx4Ck5ub31aqV-28" value="协议驱动全量更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="113.5" y="3620" width="116.5" height="30" as="geometry" />
+        <mxCell id="FEyGFNajx4Ck5ub31aqV-28" value="协议驱动全量更新，或者玩家登录时全量更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="113.5" y="3620" width="256.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
