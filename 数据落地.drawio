@@ -105,6 +105,16 @@
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-32" value="actor_cache_db_pack_inc_sync_pkg" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1365" y="2129" width="210" height="32.5" as="geometry" />
         </mxCell>
+        <mxCell id="FEyGFNajx4Ck5ub31aqV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-34" target="FEyGFNajx4Ck5ub31aqV-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="2310" />
+              <mxPoint x="540" y="2310" />
+              <mxPoint x="540" y="2810" />
+              <mxPoint x="104" y="2810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-34" value="&lt;div&gt;自定义增量打包函数&lt;/div&gt;inc_sync_pack_func" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1410" y="2201.5" width="120" height="50" as="geometry" />
         </mxCell>
@@ -229,7 +239,7 @@
           <mxGeometry x="2120" y="1240" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-93" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="1730" width="760" height="930" as="geometry" />
+          <mxGeometry x="1170" y="1730" width="720" height="930" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2340" y="1999" width="710" height="495" as="geometry" />
@@ -244,7 +254,7 @@
           <mxGeometry x="2270" y="1730" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-104" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="1200" width="2040" height="1540" as="geometry" />
+          <mxGeometry x="1130" y="1200" width="1950" height="1540" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-105" value="ACTOR 在DB和共享内存中的数据结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="97.5" y="786.5" width="230" height="30" as="geometry" />
@@ -394,7 +404,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ASX-Vnm_SlDaAzlPHUoA-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1185.78" y="2110" width="549.69" height="240" as="geometry" />
+          <mxGeometry x="1185.78" y="2110" width="564.22" height="240" as="geometry" />
         </mxCell>
         <mxCell id="ASX-Vnm_SlDaAzlPHUoA-9" value="将藏标记对应的数据打包" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1340" y="2281.5" width="160" height="30" as="geometry" />
