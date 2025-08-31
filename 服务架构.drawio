@@ -373,8 +373,8 @@
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-66" value="活动日历模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2470" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-81" value="如果一个模块实例，只能管理单独一个玩家的数据，那就是属于玩家模块。&lt;div&gt;而如果一个模块，可以管理所有玩家的数据，那就是属于进程的&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2481" y="370" width="340" height="81" as="geometry" />
+        <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-81" value="如果一个模块实例，只能管理单独一个玩家的数据，那就是属于玩家模块。&lt;div&gt;而如果一个模块，可以管理所有玩家的数据，那就是属于进程的&lt;/div&gt;&lt;div&gt;分辨模块归属，可以从模块的生命周期去分析，如果A归属于B，那么A的生命周期必然小于等于B的生命周期&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="254.5" width="380" height="155.5" as="geometry" />
         </mxCell>
         <mxCell id="3fNOpoJ3Ih4Q9q4e5zWk-82" value="任务模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2910" y="915" width="120" height="60" as="geometry" />
