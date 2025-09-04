@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="2753" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3188" dy="1346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -447,6 +447,9 @@
         </mxCell>
         <mxCell id="o_uqSXzjHK8yh5ZdAY-n-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.62;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-45" target="o_uqSXzjHK8yh5ZdAY-n-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q91fNOTxhyZgAkPPZD7Q-1" value="TCP 的可靠性（序列号、确认应答、超时重传、乱序重组、流量控制、拥塞控制）全部在 传输层 由 TCP 协议自身实现，对应用层透明。&lt;div&gt;而所谓的三次握手，就是相当于TCP连接初始化，初始序号、窗口大小、MSS、SACK 能力等全部对齐。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="110" width="300" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
