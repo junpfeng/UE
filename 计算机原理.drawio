@@ -2054,7 +2054,7 @@
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-3" target="zK3CRuYMIVzGQY_z4fyR-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zK3CRuYMIVzGQY_z4fyR-3" value="每个内存池内，建立所谓的内存段来管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-3" value="每个内存池内，管理最多2^27个内存段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2530" y="390" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-5" target="zK3CRuYMIVzGQY_z4fyR-7">
@@ -2075,7 +2075,7 @@
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-12" target="zK3CRuYMIVzGQY_z4fyR-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zK3CRuYMIVzGQY_z4fyR-12" value="每个内存池内，建立所谓的内存段来管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-12" value="每个内存池内，管理最多2^27个内存段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2770" y="390" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-14" target="zK3CRuYMIVzGQY_z4fyR-15">
@@ -2096,7 +2096,7 @@
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-19" target="zK3CRuYMIVzGQY_z4fyR-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zK3CRuYMIVzGQY_z4fyR-19" value="每个内存池内，建立所谓的内存段来管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-19" value="每个内存池内，管理最多2^27个内存段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3090" y="390" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-21" target="zK3CRuYMIVzGQY_z4fyR-22">
@@ -2125,6 +2125,18 @@
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-30" value="ShmPoolG6Component单例对象，将所有的内存池实例保存起来；&lt;div&gt;按照两种方式，保存，一种是建立类型hash_code与内存池指针的map，另一种则是依次将内存池指针对象存入vector&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2880" y="220" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-31" value="TYPE_IDX（16位）&lt;div&gt;内存类型索引&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-32" value="SEQ（32位）&lt;div&gt;内存块的版本号，每次申请则+1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-33" value="IDX（32位）&lt;div&gt;前27位表达段ID&lt;/div&gt;&lt;div&gt;后5位表达块ID&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-34" value="TYPE_IDX -- SEQ -- INDX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2215" y="260" width="290" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
