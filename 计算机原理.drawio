@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="1572" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2612" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2126,7 +2126,7 @@
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-30" value="ShmPoolG6Component单例对象，将所有的内存池实例保存起来；&lt;div&gt;按照两种方式，保存，一种是建立类型hash_code与内存池指针的map，另一种则是依次将内存池指针对象存入vector&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2880" y="220" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zK3CRuYMIVzGQY_z4fyR-31" value="TYPE_IDX（16位）&lt;div&gt;内存类型索引&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-31" value="TYPE_IDX（16位）&lt;div&gt;内存类型索引，一一对应了vector中的索引&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2300" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-32" value="SEQ（32位）&lt;div&gt;内存块的版本号，每次申请则+1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
