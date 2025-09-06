@@ -2255,6 +2255,9 @@
             <mxPoint x="3600" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-68" value="统一管理入口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3388.5" y="85" width="74" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
