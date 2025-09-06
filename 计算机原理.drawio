@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="2931" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2054,13 +2054,13 @@
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-3" target="zK3CRuYMIVzGQY_z4fyR-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zK3CRuYMIVzGQY_z4fyR-3" value="每个内存池内，管理最多2^27个内存段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-3" value="每个内存池内，管理最多2^27个内存段Seg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2530" y="390" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-5" target="zK3CRuYMIVzGQY_z4fyR-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zK3CRuYMIVzGQY_z4fyR-5" value="每个内存段内管理最多32个内存块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-5" value="每个内存段内管理最多32个内存块ShmChunk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2530" y="480" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-7" value="每个内存块内构建一个对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2137,6 +2137,62 @@
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-34" value="TYPE_IDX -- SEQ -- INDX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2215" y="260" width="290" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-35" target="zK3CRuYMIVzGQY_z4fyR-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-35" value="alloced_segs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-36" value="free_segs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-37" value="chunk1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="880" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-39" value="chunk2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-40" value="chunk3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="940" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-41" value="chunk32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="1000" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zK3CRuYMIVzGQY_z4fyR-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2895" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-44" value="chunk1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="880" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-45" value="chunk2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-46" value="chunk3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="940" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-47" value="chunk32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="1000" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-48" value="alloced_segs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-49" value="一组alloced_segs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-50" value="free_segs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2850" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-51" value="一组 free_segs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2860" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-52" value="每个seg里面保存32个内存块chunk" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="715" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-53" value="&lt;div&gt;初始化时，内存池会将从共享内存中申请内存段指针分别保存到alloced_segs和free_segs中。&lt;/div&gt;&lt;div&gt;当业务从内存池中申请内存块时，优先从free_sges中查看空闲的内存块chunk，当一个内存段中所有的内存块都被申请后，就会将这个内存段从free_segs中剔除。&lt;/div&gt;&lt;div&gt;当业务是否之前申请的内存块时，会先判断释放之前，内存卡是否是满的，如果是满的，就会在释放内存块后，将所属的内存段指针保存到free_segs。&lt;/div&gt;存。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="1060" width="510" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
