@@ -2197,8 +2197,16 @@
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-58" target="zK3CRuYMIVzGQY_z4fyR-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-55" target="zK3CRuYMIVzGQY_z4fyR-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3425" y="210" />
+              <mxPoint x="3630" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-55" value="G6ComponentMgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3231.5" y="310" width="235" height="40" as="geometry" />
+          <mxGeometry x="3308" y="115" width="235" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-59" target="zK3CRuYMIVzGQY_z4fyR-58">
           <mxGeometry relative="1" as="geometry">
@@ -2213,6 +2221,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3232" y="330" as="sourcePoint" />
             <mxPoint x="2950" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3425" y="210" />
+              <mxPoint x="3240" y="210" />
+              <mxPoint x="3240" y="330" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-59" value="使用SHM_DECL将G6ComponentMgr挂载到对应的共享内存上" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -2223,6 +2236,24 @@
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-62" value="这里resume中，连接共享内存，以及恢复所有指向共享内存指针的操作是由g6shm组件提供的功能，对外没有暴露实现" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2810" y="145" width="335" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-63" value="g6shm容器+智能指针" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3570" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-65" value="项目中提供了两种共享内存的接口，&lt;div&gt;一种是g6shm提供的容器和智能指针，也是项目中使用最多的；&lt;/div&gt;&lt;div&gt;还有一种是ShmPoolG6Component组件，用于一些需要使用共享内存的自定义数据结构&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3050" y="435" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-66" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3030" y="470" as="sourcePoint" />
+            <mxPoint x="2920" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-67" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3530" y="460" as="sourcePoint" />
+            <mxPoint x="3600" y="470" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
