@@ -2258,11 +2258,11 @@
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-68" value="统一管理入口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3388.5" y="85" width="74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zK3CRuYMIVzGQY_z4fyR-69" value="基于固定共享内存虚拟地址的容器分配器与容器resume恢复机制" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4530.5" y="85" width="393.25" height="30" as="geometry" />
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-69" value="基于固定共享内存虚拟地址的容器分配器与容器resume恢复机制；&lt;div&gt;不需要修正指向共享内存的指针&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4143.75" y="230" width="393.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-74" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="4536.75" y="315" width="223.5" height="120" as="geometry" />
+          <mxGeometry x="4090" y="340" width="223.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-75" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zK3CRuYMIVzGQY_z4fyR-74">
           <mxGeometry width="223.5" height="40" as="geometry" />
@@ -2304,10 +2304,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-84" value="共享内存对象表，一般位于共享内存的固定偏移，用于resume后查找" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4537" y="280" width="223" height="35" as="geometry" />
+          <mxGeometry x="4090.25" y="305" width="223" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="zK3CRuYMIVzGQY_z4fyR-85" value="使用自定义分配器来管理共享内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4921" y="295" width="299" height="160" as="geometry" />
+        <mxCell id="zK3CRuYMIVzGQY_z4fyR-85" value="使用自定义分配器来管理共享内存，申请、释放、回收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4474.25" y="320" width="299" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zK3CRuYMIVzGQY_z4fyR-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zK3CRuYMIVzGQY_z4fyR-78" target="zK3CRuYMIVzGQY_z4fyR-85">
           <mxGeometry relative="1" as="geometry" />
