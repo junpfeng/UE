@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
   <diagram name="第 1 页" id="BBjcjCPQKE8Rdczkw8qz">
-    <mxGraphModel dx="1836" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="997" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -539,7 +539,7 @@
         <mxCell id="cRelgxMLtNpD21Bushdw-66" value="经过若干帧后" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1220" y="3227" width="77" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cRelgxMLtNpD21Bushdw-67" value="这个就是所谓的异步逻辑的同步写法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cRelgxMLtNpD21Bushdw-67" value="这个就是所谓的异步执行的同步写法，将逻辑上同步的代码写在一起，通过协程切换。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1654" y="3452" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cRelgxMLtNpD21Bushdw-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cRelgxMLtNpD21Bushdw-68" target="cRelgxMLtNpD21Bushdw-54">
@@ -650,6 +650,188 @@
         </mxCell>
         <mxCell id="cRelgxMLtNpD21Bushdw-98" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1470" y="3472" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1610" y="3060" as="sourcePoint" />
+            <mxPoint x="1490" y="3000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-100" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1610" y="3070" as="sourcePoint" />
+            <mxPoint x="1485" y="3160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-101" value="异步或者同步是指执行流的步骤；异步是指逻辑上前后相关，本应该顺序执行的步骤，却被划分到了两个地方执行。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1621" y="3040" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-102" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;空白协程栈，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;预留给协程入口函数栈帧使用&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2628.85" y="3058" width="150" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-103" value="0x48个字节，用于保存协程上下文寄存器，初始创建时，只使用部分，例如保存协程入口函数地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2628.85" y="2995" width="150" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-104" value="用户使用make_fcontext创建的协程栈，&lt;div&gt;&lt;b&gt;参数&lt;/b&gt;包括协程栈首地址、协程栈大小&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;和协程入口函数地址&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="2948" width="302.85" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-121" value="保存当前函数栈帧的寄存器上下文，这里只使用0x40个字节，加上上面隐式压入的%rip占8个字节，总共正好是0x48个字节，传给rdi寄存器，作为协程入口函数的第一个参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2456.15" y="3369" width="181.5" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-122" value="rsp栈指针，跳转到协程栈地址A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2456.15" y="3471" width="181.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-123" value="读取协程栈A保存的寄存器上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2456.15" y="3531" width="181.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-124" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2444" y="3218" width="346" height="443" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-125" value="jump_fcontext(A, vp)&lt;div&gt;A是想要跳转的协程栈地址&lt;/div&gt;&lt;div&gt;vp用法很巧妙，jump_fcontext内部没用到，实际上caller函数栈帧内直接通过rsi寄存器透传给协程入口函数作为第二个参数&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2457.65" y="3231" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-127" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2550" y="3058" as="sourcePoint" />
+            <mxPoint x="2630" y="3058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-128" value="&lt;b&gt;返回值&lt;/b&gt;，A，目标协程栈入口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cRelgxMLtNpD21Bushdw-127">
+          <mxGeometry x="-0.2194" y="1" relative="1" as="geometry">
+            <mxPoint x="-109" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-129" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="2940" width="410" height="241" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-132" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.597;exitY=-0.038;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cRelgxMLtNpD21Bushdw-125">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2480" y="3231" as="sourcePoint" />
+            <mxPoint x="2480" y="3071" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2410" y="3311" />
+              <mxPoint x="2360" y="3261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-133" value="跳转协程入口函数，位于0x40(%rsp)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2456.15" y="3591" width="181.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-134" value="业务逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="3326" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-135" value="&lt;div&gt;Func(transfer_t)&lt;/div&gt;协程入口函数，是一个简单结构体，两个成员，被编译器简化为使用寄存器rdi和rsi传参" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3020" y="3259" width="260" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-136" value="jump_fcontext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="3386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-138" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cRelgxMLtNpD21Bushdw-121" target="cRelgxMLtNpD21Bushdw-135">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2727.65" y="3338" as="sourcePoint" />
+            <mxPoint x="2777.65" y="3288" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2777.65" y="3338" />
+              <mxPoint x="2727.65" y="3288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-140" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.415;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cRelgxMLtNpD21Bushdw-125" target="cRelgxMLtNpD21Bushdw-135">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2737.65" y="3311" as="sourcePoint" />
+            <mxPoint x="2787.65" y="3261" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2697.65" y="3291" />
+              <mxPoint x="2777.65" y="3291" />
+              <mxPoint x="2737.65" y="3261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-141" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3020.5" y="3246" width="249" height="243" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-142" value="调用jump_fcontext隐式包含&lt;div&gt;push %rip，将下一条指令压栈，而这个压栈的位置正好是下面保存当前函数栈帧上下文的起始地址+0x40&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2456" y="3298" width="184" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-143" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="2405.03" y="3307" width="20" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-144" value="这两个正好构成了0x48个字节，每个jump_fcontext的caller都会巧妙的将下一条指令存入，这样就可以支持来回切换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="3356" width="144" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-145" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3039.5" y="3428" as="sourcePoint" />
+            <mxPoint x="3089.5" y="3378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-146" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2320" y="3120" as="sourcePoint" />
+            <mxPoint x="2320" y="3210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-147" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2851.9999999999995" y="3400" as="sourcePoint" />
+            <mxPoint x="2938" y="3400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-148" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2933" y="3435" as="sourcePoint" />
+            <mxPoint x="2851.0000000000005" y="3435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-149" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="2907" width="1060" height="763" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-150" value="其他上下文，包括目标协程入口函数地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="3830" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-151" value="当前函数栈帧的下一个指令地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="3800" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-152" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2270" y="3950" as="sourcePoint" />
+            <mxPoint x="2350" y="3950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-153" value="rsp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cRelgxMLtNpD21Bushdw-152">
+          <mxGeometry x="-0.2982" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-154" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2270" y="3830" as="sourcePoint" />
+            <mxPoint x="2350" y="3830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-155" value="rsp+0x40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cRelgxMLtNpD21Bushdw-154">
+          <mxGeometry x="-0.2982" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-157" value="通过调用jump_fcontext，自动压栈" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2609.5" y="3740" width="190" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-158" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="cRelgxMLtNpD21Bushdw-151" target="cRelgxMLtNpD21Bushdw-157">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2520" y="3790" as="sourcePoint" />
+            <mxPoint x="2570" y="3740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2570" y="3790" />
+              <mxPoint x="2520" y="3740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-159" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="3700" width="580" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cRelgxMLtNpD21Bushdw-160" value="&lt;b&gt;核心难点&lt;/b&gt;，协程来回切换的指令地址是怎么设置的&lt;div&gt;答，除了首次进入目标协程入口函数地址是通过make_fcontext设置的，其他都是在调用jump_fcontext时，隐式压入下一个指令寄存器值设置的&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="3700" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
