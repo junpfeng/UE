@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="2349" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5014" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2568,6 +2568,9 @@
         </mxCell>
         <mxCell id="8TYWEe1sn_t5iYS_LWLp-6" value="将fd挂到就绪链表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1090" y="5660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8TYWEe1sn_t5iYS_LWLp-8" value="跳转到目标协程函数时，使用参数传递源协程上下文栈入口；&lt;div&gt;跳转返还源协程函数时，使用返回值传递目标协程上下文栈入口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="4739.599999999999" width="300" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
