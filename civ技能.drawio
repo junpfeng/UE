@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="6zWAo-UzQmHNDU4MTRq7">
-    <mxGraphModel dx="5355" dy="3771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5742" dy="3964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1190,89 +1190,95 @@
         <mxCell id="AY36N_PIfTDFEcdsKOCY-45" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;大地图 上的各种对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4950" y="2080" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-2" value="Hero" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-2" value="Hero" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4520" y="-765" width="218" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-3" value="基础信息：&lt;div&gt;hero_info_：英雄基础信息（如等级）&lt;/div&gt;&lt;div&gt;hero_base_：HERO_BASE表指针&lt;/div&gt;&lt;div&gt;unit_base_：UNIT_BASE表指针&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-3" value="基础信息：&lt;div&gt;hero_info_：英雄基础信息（如等级）&lt;/div&gt;&lt;div&gt;hero_base_：HERO_BASE表指针&lt;/div&gt;&lt;div&gt;unit_base_：UNIT_BASE表指针&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4520" y="-735" width="218" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-4" value="战斗相关属性：&lt;div&gt;base_attr_[]：原始属性&lt;/div&gt;&lt;div&gt;curr_attr_[]：计算前属性&lt;/div&gt;&lt;div&gt;real_attr_[]：计算后属性&lt;/div&gt;&lt;div&gt;soldiers_：当前兵力&lt;/div&gt;&lt;div&gt;wounded_soldiers_：伤兵&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-4" value="战斗相关属性：&lt;div&gt;base_attr_[]：原始属性&lt;/div&gt;&lt;div&gt;curr_attr_[]：计算前属性&lt;/div&gt;&lt;div&gt;real_attr_[]：计算后属性&lt;/div&gt;&lt;div&gt;soldiers_：当前兵力&lt;/div&gt;&lt;div&gt;wounded_soldiers_：伤兵&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4520" y="-655" width="218" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-5" value="状态管理：&lt;div&gt;hero_state_[]:被控制状态&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-5" value="状态管理：&lt;div&gt;hero_state_[]:被控制状态&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4520" y="-545" width="218" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-6" value="技能管理：&lt;div&gt;skill_list_：所有技能&lt;/div&gt;&lt;div&gt;skill_class_list_：分类存放技能&lt;/div&gt;&lt;div&gt;normal_attack_skill_：普攻技能&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-6" value="技能管理：&lt;div&gt;skill_list_：所有技能&lt;/div&gt;&lt;div&gt;skill_class_list_：分类存放技能&lt;/div&gt;&lt;div&gt;normal_attack_skill_：普攻技能&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4520" y="-495" width="218" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-7" value="Buff管理：&lt;div&gt;all_buff_：所有buff（包括失效）&lt;/div&gt;&lt;div&gt;buff_type_map_：按buff类型分类存放&lt;/div&gt;&lt;div&gt;buff_attr_map：属性相关Buff存放&lt;/div&gt;&lt;div&gt;damage_modify_buff_list_[]:伤害类buff&lt;/div&gt;&lt;div&gt;disregard_attr_buff_map_[]:无视类buff&lt;/div&gt;&lt;div&gt;value_modify_map_[]：生效的属性buff&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-7" value="Buff管理：&lt;div&gt;all_buff_：所有buff（包括失效）&lt;/div&gt;&lt;div&gt;buff_type_map_：按buff类型分类存放&lt;/div&gt;&lt;div&gt;buff_attr_map：属性相关Buff存放&lt;/div&gt;&lt;div&gt;damage_modify_buff_list_[]:伤害类buff&lt;/div&gt;&lt;div&gt;disregard_attr_buff_map_[]:无视类buff&lt;/div&gt;&lt;div&gt;value_modify_map_[]：生效的属性buff&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4520" y="-425" width="218" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-8" value="触发管理：&lt;div&gt;trigger_class_map_：按触发类型分类&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-8" value="触发管理：&lt;div&gt;trigger_class_map_：按触发类型分类&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4520" y="-305" width="218" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-9" value="统计信息：&lt;div&gt;cased_target_damagr_[]:伤害统计&lt;/div&gt;&lt;div&gt;statistics_[]:评价相关统计&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-9" value="统计信息：&lt;div&gt;cased_target_damagr_[]:伤害统计&lt;/div&gt;&lt;div&gt;statistics_[]:评价相关统计&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4520" y="-255" width="218" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-10" value="Skill" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-10" value="Skill" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4800" y="-765" width="218" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-11" value="基础信息：&lt;div&gt;skill_info_:技能基础信息（如等级）&lt;/div&gt;&lt;div&gt;skill_base_:SKILL_BASE表指针&lt;/div&gt;&lt;div&gt;owner_:技能的所有者&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-11" value="基础信息：&lt;div&gt;skill_info_:技能基础信息（如等级）&lt;/div&gt;&lt;div&gt;skill_base_:SKILL_BASE表指针&lt;/div&gt;&lt;div&gt;owner_:技能的所有者&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4800" y="-736" width="218" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-12" value="技能属性：&lt;div&gt;odds_：原始发动率&lt;/div&gt;&lt;div&gt;change_odds_:实际发动率&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-12" value="技能属性：&lt;div&gt;odds_：原始发动率&lt;/div&gt;&lt;div&gt;change_odds_:实际发动率&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4800" y="-660" width="218" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-14" value="buff管理：&lt;div&gt;skill_buff_list_:组成技能的Buff列表&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-14" value="buff管理：&lt;div&gt;skill_buff_list_:组成技能的Buff列表&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4800" y="-600" width="218" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-17" value="统计信息：&lt;div&gt;伤害统计&lt;/div&gt;&lt;div&gt;恢复统计&lt;/div&gt;&lt;div&gt;次数统计&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-17" value="统计信息：&lt;div&gt;伤害统计&lt;/div&gt;&lt;div&gt;恢复统计&lt;/div&gt;&lt;div&gt;次数统计&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4800" y="-540" width="218" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-18" value="Buff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-18" value="Buff" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5070" y="-765" width="218" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-19" value="基础信息：&lt;div&gt;tid_：配置id&lt;/div&gt;&lt;div&gt;unique_id_：uid，实例的唯一标识&lt;/div&gt;&lt;div&gt;caster_:释放者&lt;/div&gt;&lt;div&gt;target_:被施加者&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-19" value="基础信息：&lt;div&gt;tid_：配置id&lt;/div&gt;&lt;div&gt;unique_id_：uid，实例的唯一标识&lt;/div&gt;&lt;div&gt;caster_:释放者&lt;/div&gt;&lt;div&gt;target_:被施加者&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5070" y="-735" width="218" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-20" value="配置信息：&lt;div&gt;buff_config_:战法buff表指针&lt;/div&gt;&lt;div&gt;buff_define_:战法buff效果表指针&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-20" value="配置信息：&lt;div&gt;buff_config_:战法buff表指针&lt;/div&gt;&lt;div&gt;buff_define_:战法buff效果表指针&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5070" y="-640" width="218" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-21" value="生命周期管理：&lt;br&gt;&lt;div&gt;state_:buff状态（添加、激活、移除等）&lt;/div&gt;&lt;div&gt;duration_round_:持续回合数&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-21" value="生命周期管理：&lt;br&gt;&lt;div&gt;state_:buff状态（添加、激活、移除等）&lt;/div&gt;&lt;div&gt;duration_round_:持续回合数&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5070" y="-590" width="218" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-22" value="触发管理&lt;br&gt;&lt;div&gt;is_trigger_on_add_：是否添加即触发&lt;/div&gt;&lt;div&gt;is_trigger_on_time_:其他触发时点&lt;/div&gt;&lt;div&gt;trigger_odds_:触发概率&lt;/div&gt;&lt;div&gt;trigger_targets_:目标列表&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-22" value="触发管理&lt;br&gt;&lt;div&gt;is_trigger_on_add_：是否添加即触发&lt;/div&gt;&lt;div&gt;is_trigger_on_time_:其他触发时点&lt;/div&gt;&lt;div&gt;trigger_odds_:触发概率&lt;/div&gt;&lt;div&gt;trigger_targets_:目标列表&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5070" y="-520" width="218" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-23" value="叠层管理：&lt;div&gt;stack_type_：堆叠类型&lt;/div&gt;&lt;div&gt;cur_layyer_:层数&lt;/div&gt;&lt;div&gt;stack_start_layer_:开始层数&lt;/div&gt;&lt;div&gt;stack_end_layer_:结束层数&lt;/div&gt;&lt;div&gt;stack_layer_type_:叠加方式&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-23" value="叠层管理：&lt;div&gt;stack_type_：堆叠类型&lt;/div&gt;&lt;div&gt;cur_layyer_:层数&lt;/div&gt;&lt;div&gt;stack_start_layer_:开始层数&lt;/div&gt;&lt;div&gt;stack_end_layer_:结束层数&lt;/div&gt;&lt;div&gt;stack_layer_type_:叠加方式&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5070" y="-425" width="218" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-24" value="数值：&lt;div&gt;value_:基础数值&lt;/div&gt;&lt;div&gt;modify_value_ratio:修改比例&lt;/div&gt;&lt;div&gt;per_layer_value:每层数值&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-24" value="数值：&lt;div&gt;value_:基础数值&lt;/div&gt;&lt;div&gt;modify_value_ratio:修改比例&lt;/div&gt;&lt;div&gt;per_layer_value:每层数值&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5070" y="-321" width="218" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-26" value="152037271" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-26" value="152037271" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1515" y="3023" width="120" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-27" value="吕布：狂戟无双" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-27" value="吕布：狂戟无双" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1515" y="2973" width="105" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-28" value="152037272" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-28" value="152037272" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1515" y="3090" width="120" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-29" value="152037273" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-29" value="152037273" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1515" y="3157" width="120" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-30" value="152037201" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-30" value="152037201" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1515" y="3220" width="120" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-31" value="152037101" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-31" value="152037101" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1515" y="3343" width="120" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-32" value="152037131" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-32" value="152037131" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1515" y="3280" width="120" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="ugxoCptRlzuWm8BzmwQN-33" value="152037331" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ugxoCptRlzuWm8BzmwQN-33" value="152037331" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1515" y="3406" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c-XR2MtN-F8wvfoqSJ-M-1" value="国策、天星：&lt;div&gt;效果是点燃一片区域（坐标）所以经过这些区域的部队将会收到伤害&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="3520" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c-XR2MtN-F8wvfoqSJ-M-2" value="大地图技能：闪电&lt;br&gt;全地图随机释放闪电，被闪电击中的部队收到伤害" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3940" y="3513" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
