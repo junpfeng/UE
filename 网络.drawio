@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="2825" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3996" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -483,6 +483,111 @@
         </mxCell>
         <mxCell id="HayRyLH1Y7qyleInHtEZ-10" value="所有的服务实例，都有一套配合tbuspp_agent的接口，用于收发消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-360" y="1452.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-12" target="HayRyLH1Y7qyleInHtEZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-12" value="tconnd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1320" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-14" target="HayRyLH1Y7qyleInHtEZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-14" value="tbuspp_agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1320" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-15" value="目标实例tbuspp_agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1320" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-17" target="HayRyLH1Y7qyleInHtEZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-17" value="服务实例1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1420" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-19" target="HayRyLH1Y7qyleInHtEZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-19" value="tbuspp_agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1420" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-20" value="ns" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1420" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-22" target="HayRyLH1Y7qyleInHtEZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-22" value="服务实例1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="1510" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-24" target="HayRyLH1Y7qyleInHtEZ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-24" value="共享内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1510" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-25" target="HayRyLH1Y7qyleInHtEZ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-25" value="tbuspp_agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1510" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-27" target="HayRyLH1Y7qyleInHtEZ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-27" value="服务实例1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="1590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-29" target="HayRyLH1Y7qyleInHtEZ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-29" value="tbuspp_agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="824" y="1590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-30" target="HayRyLH1Y7qyleInHtEZ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-30" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="947" y="1590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-31" target="HayRyLH1Y7qyleInHtEZ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-31" value="tbuspp_agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-32" value="服务实例2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-35" value="服务实例2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1510" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-37" target="HayRyLH1Y7qyleInHtEZ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-37" value="共享内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1510" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-40" value="tconnd查看服务实例路由" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1190" width="148" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-41" value="tconnd发送消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="681" y="1290" width="148" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-42" value="服务实例请求路由" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1390" width="148" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-43" value="服务实例本机跨进程通信" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="707" y="1480" width="148" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-44" value="服务实例跨机器通信" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1560" width="148" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-45" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="695" y="1190" width="615" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-46" value="每台机器都需要配一个tbuspp_agent进程，同机器内跨进程通信都使用共享内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="1670" width="545" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
