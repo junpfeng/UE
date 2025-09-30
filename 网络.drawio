@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="5335" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2825" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -253,7 +253,7 @@
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-4" value="tbus2_ns&lt;div&gt;对外端口9.135.57.165:8070&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-5" value="tbus2_agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-5" value="tbuspp_agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="1550" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Tl0Qnuqx1QPe_ZK7dKHq-9" target="Tl0Qnuqx1QPe_ZK7dKHq-5" edge="1">
@@ -283,8 +283,8 @@
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Tl0Qnuqx1QPe_ZK7dKHq-17" target="Tl0Qnuqx1QPe_ZK7dKHq-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-17" value="tbus2_agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="1347.5" width="70" height="25" as="geometry" />
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-17" value="tbuspp_agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="285" y="1347.5" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="Tl0Qnuqx1QPe_ZK7dKHq-4" target="Tl0Qnuqx1QPe_ZK7dKHq-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -298,7 +298,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-25" value="跨服都是采用tbus2_agent进行连接的" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-25" value="跨服都是采用tbuspp_agent进行连接的" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="1440" width="215" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-27" value="私服" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -318,11 +318,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-40" value="似乎与其他服务器的tbus2_agent相连，但是暂时不知道是干啥的" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-40" value="其他服务的tbuspp_agent" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-75" y="1520" width="735" height="200" as="geometry" />
+          <mxGeometry x="-75" y="1530" width="735" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-49" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Tl0Qnuqx1QPe_ZK7dKHq-5" target="Tl0Qnuqx1QPe_ZK7dKHq-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -333,12 +333,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-50" value="&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;双方通过NS注册后，直连，而且通常是客户端&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;发起tconnd连接之后，向私服发起的连接，&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;因此要求私服Mesh IP对于外网可见。&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Tl0Qnuqx1QPe_ZK7dKHq-49" vertex="1" connectable="0">
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-50" value="&lt;font color=&quot;#ff6666&quot;&gt;ns注册了所有服务实例，tbus_agent进行通信时，&lt;br&gt;先查看本地是否有路由缓存，无则前往ns查看是否&lt;br&gt;有路由缓存。&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Tl0Qnuqx1QPe_ZK7dKHq-49" vertex="1" connectable="0">
           <mxGeometry x="0.1246" y="2" relative="1" as="geometry">
             <mxPoint x="-26" y="26" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-51" value="所有Mesh网络内的节点都要先通过NS注册，然后可以获取其他节点URL，实现直连" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Tl0Qnuqx1QPe_ZK7dKHq-51" value="所有Mesh网络内的节点都要先通过NS注册，然后可以获取其他节点URL，实现路由" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="1230" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o_uqSXzjHK8yh5ZdAY-n-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-3" target="o_uqSXzjHK8yh5ZdAY-n-28" edge="1">
@@ -448,8 +448,41 @@
         <mxCell id="o_uqSXzjHK8yh5ZdAY-n-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.62;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="o_uqSXzjHK8yh5ZdAY-n-45" target="o_uqSXzjHK8yh5ZdAY-n-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q91fNOTxhyZgAkPPZD7Q-1" value="TCP 的可靠性（序列号、确认应答、超时重传、乱序重组、流量控制、拥塞控制）全部在 传输层 由 TCP 协议自身实现，对应用层透明。&lt;div&gt;而所谓的三次握手，就是相当于TCP连接初始化，初始序号、窗口大小、MSS、SACK 能力等全部对齐。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Q91fNOTxhyZgAkPPZD7Q-1" value="TCP 的可靠性（序列号、确认应答、超时重传、乱序重组、流量控制、拥塞控制）全部在 传输层 由 TCP 协议自身实现，对应用层透明。&lt;div&gt;而所谓的三次握手，就是相当于TCP连接初始化，初始序号、窗口大小、MSS、SACK 能力等全部对齐。&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-370" y="110" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1240" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.984;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 4 1 4;" edge="1" parent="1" target="HayRyLH1Y7qyleInHtEZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="1150" as="sourcePoint" />
+            <mxPoint x="630" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-3" value="tconnd也有自己的tbus2_agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1125" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-4" target="HayRyLH1Y7qyleInHtEZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-4" value="tconnd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1220" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-5" target="HayRyLH1Y7qyleInHtEZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-5" value="tbuspp_agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1220" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-7" value="ns" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1220" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1245" width="50" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-10" value="所有的服务实例，都有一套配合tbuspp_agent的接口，用于收发消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1452.5" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
