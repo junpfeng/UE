@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="3996" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3031" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -588,6 +588,126 @@
         </mxCell>
         <mxCell id="HayRyLH1Y7qyleInHtEZ-46" value="每台机器都需要配一个tbuspp_agent进程，同机器内跨进程通信都使用共享内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="695" y="1670" width="545" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-50" value="业务逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2570" width="79" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-51" value="网络线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1228" y="2570" width="71" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-52" value="tbuspp组件&lt;div&gt;tbuspp_client&lt;/div&gt;&lt;div&gt;tbuspp_endpoint&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="2570" width="91" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-53" value="输出队列 --&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="2570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-54" value="输出队列 --&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="2570" width="79" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-55" value="&amp;lt;-- 输入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="2620" width="79" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-56" value="&amp;lt;-- 输出队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="2620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-57" value="tbuspp_agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="2530" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2530" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-59" value="game_svr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="2530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-60" value="&lt;div&gt;进程A&lt;/div&gt;tbuspp_endpoint&lt;br&gt;&lt;div&gt;输出队列&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="2820" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-62" value="&lt;div&gt;进程A&lt;/div&gt;tbuspp_endpoint&lt;br&gt;输入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="2820" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-63" value="&lt;div&gt;进程B&lt;/div&gt;tbuspp_endpoint&lt;br&gt;输出队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="2913" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-64" value="&lt;div&gt;进程C&lt;/div&gt;tbuspp_endpoint&lt;br&gt;输出队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="3005" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-65" value="&lt;div&gt;进程B&lt;/div&gt;tbuspp_endpoint&lt;br&gt;输入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="2912.5" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-66" value="&lt;div&gt;进程C&lt;/div&gt;tbuspp_endpoint&lt;br&gt;输入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="3000" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-67" value="A-&amp;gt;B的tx_queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2825" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-68" value="A-&amp;gt;C的tx_queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2865" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-69" value="B-&amp;gt;A的tx_queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2905" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-70" value="B-&amp;gt;C的tx_queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2945" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-71" value="C-&amp;gt;A的tx_queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2985" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-72" value="C-&amp;gt;B的tx_queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="3025" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-73" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1235" y="2790" as="sourcePoint" />
+            <mxPoint x="1475" y="2790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1335" y="2790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-74" value="无锁单向环形缓冲区" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="2760" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-75" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2740" width="570" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-76" value="tbuspp_agent本机转发消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2745" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-77" value="tx_queue 用于性能隔离，可以解决不同进程输出和输入队列的消息速度不匹配的问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="3080" width="269" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-78" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="2740" width="190" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-79" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1670" y="2940" as="sourcePoint" />
+            <mxPoint x="1840" y="2940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-81" value="TCP连接" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="2905" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-82" value="&lt;div&gt;进程X&lt;/div&gt;tbuspp_endpoint&lt;br&gt;输入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="2820" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-83" value="&lt;div&gt;进程Y&lt;/div&gt;tbuspp_endpoint&lt;br&gt;输入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="2912.5" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-84" value="&lt;div&gt;进程Z&lt;/div&gt;tbuspp_endpoint&lt;br&gt;输入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="3000" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-85" value="远程发送的消息不需要再使用tx_queue了，因为发送端，已经是从tx_queue来了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="3000" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-86" value="远程的tbuspp_agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="2745" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-87" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1037" y="2480" width="1053" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-88" value="tbuspp_agent 通信机制" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="2515" width="160" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
