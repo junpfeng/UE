@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="3031" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3667" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -708,6 +708,178 @@
         </mxCell>
         <mxCell id="HayRyLH1Y7qyleInHtEZ-88" value="tbuspp_agent 通信机制" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1880" y="2515" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-89" value="目标节点&lt;br&gt;唯一标识&lt;div&gt;K&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1347" y="3354" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-90" value="虚拟节点1&lt;br&gt;唯一标识&lt;br&gt;K1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="3240" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-94" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1270" y="3378.71" as="sourcePoint" />
+            <mxPoint x="-1190" y="3378.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-95" value="扩展映射" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="3330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-96" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="3480" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-97" value="虚拟节点4&lt;br&gt;唯一标识&lt;br&gt;K4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="3420" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-98" value="虚拟节点3&lt;br&gt;唯一标识&lt;br&gt;K3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="3360" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-99" value="虚拟节点2&lt;br&gt;唯一标识&lt;br&gt;K2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="3300" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-100" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1090" y="3379.71" as="sourcePoint" />
+            <mxPoint x="-1010" y="3379.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-101" value="标识取hash" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="3330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-102" value="hash(K1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="3240" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-103" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="3480" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-104" value="hash(K4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="3420" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-105" value="hash(K3)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="3360" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-106" value="hash(K2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="3300" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-107" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-777" y="3360" width="317" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-108" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-777" y="3360" width="47" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-109" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="3360" width="47" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-110" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-683" y="3360" width="47" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-111" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-636" y="3360" width="47" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-112" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-589" y="3360" width="47" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-113" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-542" y="3360" width="47" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-114" value="有序数组，按照插入的hash值排序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-777" y="3396" width="187" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-115" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-905" y="3378.71" as="sourcePoint" />
+            <mxPoint x="-790" y="3380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-116" value="hash值插入有序数组" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="3330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-117" value="每个数组元素包含了hash值，目标节点信息等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-719.5" y="3210" width="109.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-118" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-117" target="HayRyLH1Y7qyleInHtEZ-110">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-510" y="3290" as="sourcePoint" />
+            <mxPoint x="-460" y="3240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-650" y="3310" />
+              <mxPoint x="-650" y="3320" />
+              <mxPoint x="-659" y="3330" />
+              <mxPoint x="-690" y="3330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-119" value="源节点&lt;br&gt;唯一标识&lt;br&gt;S" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1347" y="3640" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-120" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1267" y="3664.71" as="sourcePoint" />
+            <mxPoint x="-1187" y="3664.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-121" value="标识取hash" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1262" y="3620" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-122" value="hash(S)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1167" y="3640" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-123" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1080" y="3680" as="sourcePoint" />
+            <mxPoint x="-640" y="3430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-790" y="3650" />
+              <mxPoint x="-710" y="3630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-124" value="二分查找hash(S)在有序数组中右边的最靠近的成员，即目标节点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-797.5" y="3570" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-127" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="3200" width="940" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-128" value="一致性hash原理：和hash表没关系，是利用的hash函数+有序数组" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="3200" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-130" target="HayRyLH1Y7qyleInHtEZ-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-130" target="HayRyLH1Y7qyleInHtEZ-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-130" value="动态扩缩容" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="3790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-132" target="HayRyLH1Y7qyleInHtEZ-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-132" value="动态扩容" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="3750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-134" target="HayRyLH1Y7qyleInHtEZ-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-134" value="动态缩容" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="3830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-136" target="HayRyLH1Y7qyleInHtEZ-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-136" value="将新虚拟节点N hash值 插入有序数组" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="3750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-138" value="将插入位置右边成员对应的目标节点已经连接的状态都转移到成员N的目标节点中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="3750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HayRyLH1Y7qyleInHtEZ-140" target="HayRyLH1Y7qyleInHtEZ-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-140" value="删除之前插入有序数组中的虚拟节点的hash值" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="3830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-142" value="将待删除的虚拟节点已经连接的状态都转移到左边的成员对应的目标节点中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="3830" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
