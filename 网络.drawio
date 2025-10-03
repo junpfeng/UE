@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="3667" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3137" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -601,10 +601,10 @@
         <mxCell id="HayRyLH1Y7qyleInHtEZ-53" value="输出队列 --&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1390" y="2570" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HayRyLH1Y7qyleInHtEZ-54" value="输出队列 --&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-54" value="&lt;div&gt;发送消息&lt;/div&gt;输出队列 --&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1149" y="2570" width="79" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HayRyLH1Y7qyleInHtEZ-55" value="&amp;lt;-- 输入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HayRyLH1Y7qyleInHtEZ-55" value="&lt;div&gt;接收消息&lt;/div&gt;&amp;lt;-- 输入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1149" y="2620" width="79" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HayRyLH1Y7qyleInHtEZ-56" value="&amp;lt;-- 输出队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -704,7 +704,7 @@
           <mxGeometry x="1880" y="2745" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HayRyLH1Y7qyleInHtEZ-87" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1037" y="2480" width="1053" height="690" as="geometry" />
+          <mxGeometry x="1030" y="2480" width="1060" height="690" as="geometry" />
         </mxCell>
         <mxCell id="HayRyLH1Y7qyleInHtEZ-88" value="tbuspp_agent 通信机制" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1880" y="2515" width="160" height="95" as="geometry" />
