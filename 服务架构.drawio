@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="6L0QKgz08H0uk4aZn0Ru">
-    <mxGraphModel dx="2022" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1427" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -803,10 +803,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-1" value="AI Agent对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="3180" width="120" height="60" as="geometry" />
+          <mxGeometry x="76" y="2910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-2" value="Ai行为树对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="3180" width="120" height="60" as="geometry" />
+          <mxGeometry x="336" y="2910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-3" target="mBUC216ZbLOM9nHP4JTD-1">
           <mxGeometry relative="1" as="geometry" />
@@ -815,25 +815,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-3" value="黑板对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="3320" width="120" height="60" as="geometry" />
+          <mxGeometry x="206" y="3050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="770" y="3240" as="sourcePoint" />
-            <mxPoint x="900" y="3240" as="targetPoint" />
+            <mxPoint x="536" y="2970" as="sourcePoint" />
+            <mxPoint x="666" y="2970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-8" value="类比" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="3195" width="60" height="30" as="geometry" />
+          <mxGeometry x="566" y="2925" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-10" target="mBUC216ZbLOM9nHP4JTD-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-10" value="Actor对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="981" y="3180" width="120" height="60" as="geometry" />
+          <mxGeometry x="747" y="2910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-11" value="模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="3180" width="120" height="60" as="geometry" />
+          <mxGeometry x="1007" y="2910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-14" target="mBUC216ZbLOM9nHP4JTD-10">
           <mxGeometry relative="1" as="geometry" />
@@ -842,16 +842,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-14" value="component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1111" y="3320" width="120" height="60" as="geometry" />
+          <mxGeometry x="877" y="3050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-15" value="AI行为树对象，本身不保存任务状态，不同的AI行为树对象可以接收不同的AI Agent对象，表现不同的行为，这种关系就好比是不同的Actor调用了不同模块的方法，产生了不同的行为" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="319" y="3388" width="991" height="30" as="geometry" />
+          <mxGeometry x="85" y="3118" width="991" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-16" value="黑板对象，作为公共数据，就好比是component，生命周期约等同于进程，全局可见，不同的AI Agent和Ai行为树对象共享。不过只需要保持AI线程只有一个，可以不用加锁。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="319" y="3424" width="991" height="30" as="geometry" />
+          <mxGeometry x="85" y="3154" width="991" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-17" value="AI Agent对象，就类比Actor对象，有很多，各自存储各自的私有数据，借助AI行为树来表达行为。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="317" y="3458" width="991" height="30" as="geometry" />
+          <mxGeometry x="83" y="3188" width="991" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
