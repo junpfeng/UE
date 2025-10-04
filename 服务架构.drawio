@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="6L0QKgz08H0uk4aZn0Ru">
-    <mxGraphModel dx="1213" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1277" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -868,26 +868,26 @@
         <mxCell id="mBUC216ZbLOM9nHP4JTD-22" value="客户端进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="985.5" y="2940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mBUC216ZbLOM9nHP4JTD-23" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="3010" as="sourcePoint" />
-            <mxPoint x="1040" y="3090" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-24" value="玩家行为协议驱动" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="3030" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-25" value="逻辑主线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="301.99" y="2940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mBUC216ZbLOM9nHP4JTD-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="359.99" y="3012" as="sourcePoint" />
-            <mxPoint x="359.99" y="3092" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-27" value="主线程逻辑驱动（基于自定义协议的环形缓冲区）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="269.99" y="3030" width="260.01" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-28" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="3090" as="sourcePoint" />
+            <mxPoint x="360" y="3010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-29" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1039.67" y="3090" as="sourcePoint" />
+            <mxPoint x="1039.67" y="3010" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
