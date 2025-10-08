@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="2394" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5100" dy="2280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2715,7 +2715,7 @@
         <mxCell id="ryhl2hA9LFLkC91kcuWm-98" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;为什么要是有红黑树来管理非固定大小的大内存块？&lt;/font&gt;&lt;div&gt;如果使用链表，释放时很快（O(1)），但是申请时很慢，需要遍历链表寻找大小合适的内存块。&lt;br&gt;而红黑树能够均衡做到olog(n)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5350" y="1712" width="280" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="ryhl2hA9LFLkC91kcuWm-99" value="内存管理这块、要么使用数组+链表，要么使用红黑树。数组+链表，适合大小固定，数量固定的情况，红黑树适合大小和数量不定。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ryhl2hA9LFLkC91kcuWm-99" value="内存管理这块、要么使用&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;数组+链表&lt;/font&gt;，要么使用&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;红黑树&lt;/font&gt;。数组+链表，适合大小固定，数量固定的情况，红黑树适合大小和数量不定。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4710" y="1680" width="290" height="148" as="geometry" />
         </mxCell>
       </root>
