@@ -2712,6 +2712,12 @@
         <mxCell id="ryhl2hA9LFLkC91kcuWm-97" value="红黑树的每个节点包含两部分，一部分是节点结构，即左右和父节点指针。另一部分是业务数据，也就是所谓的键值对" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4773" y="2110" width="227" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ryhl2hA9LFLkC91kcuWm-98" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;为什么要是有红黑树来管理非固定大小的大内存块？&lt;/font&gt;&lt;div&gt;如果使用链表，释放时很快（O(1)），但是申请时很慢，需要遍历链表寻找大小合适的内存块。&lt;br&gt;而红黑树能够均衡做到olog(n)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5350" y="1712" width="280" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="ryhl2hA9LFLkC91kcuWm-99" value="内存管理这块、要么使用数组+链表，要么使用红黑树。数组+链表，适合大小固定，数量固定的情况，红黑树适合大小和数量不定。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4710" y="1680" width="290" height="148" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
