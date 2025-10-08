@@ -907,12 +907,6 @@
         <mxCell id="mBUC216ZbLOM9nHP4JTD-39" value="agent自定义节点文件&lt;br&gt;BarbarianArmyAgent.cpp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="3690" width="153.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mBUC216ZbLOM9nHP4JTD-41" value="多线程、多进程、分布式&amp;nbsp;&lt;br&gt;异步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="281.75" y="3570" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="mBUC216ZbLOM9nHP4JTD-44" value="处理步骤1逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="3630" width="150" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-46" target="mBUC216ZbLOM9nHP4JTD-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1091,7 +1085,7 @@
           <mxGeometry x="640" y="4530" width="234" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-109" value="主线程接收消息的回调&lt;br&gt;ai_worker_auto_gen.inl&lt;br&gt;&lt;div&gt;src/world/ai/ai_worker.cpp&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="4670" width="144" height="60" as="geometry" />
+          <mxGeometry x="456" y="4530" width="144" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-110" value="msg_head" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1135" y="4335" width="120" height="60" as="geometry" />
@@ -1196,19 +1190,85 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-142" value="（主线程）收到（Ai线程）消息后" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="5080" width="140" height="60" as="geometry" />
+          <mxGeometry x="1207.5" y="5140" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-143" value="立刻响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1381" y="4980" width="120" height="60" as="geometry" />
+          <mxGeometry x="1408.5" y="5040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-145" value="使用routine，异步响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1499" y="5080" width="120" height="60" as="geometry" />
+          <mxGeometry x="1526.5" y="5140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-147" value="不需要响应，是sync消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1381" y="5180" width="120" height="60" as="geometry" />
+          <mxGeometry x="1408.5" y="5240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-149" value="响应策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1341" y="5080" width="60" height="30" as="geometry" />
+          <mxGeometry x="1368.5" y="5140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-152" target="mBUC216ZbLOM9nHP4JTD-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-152" value="AI线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="4880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-153" target="mBUC216ZbLOM9nHP4JTD-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-153" value="取出环形队列的消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="4980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-155" target="mBUC216ZbLOM9nHP4JTD-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-155" value="响应回调&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="559.5" y="5070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-157" target="mBUC216ZbLOM9nHP4JTD-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-157" value="触发所有&lt;br&gt;agent-&amp;gt;btexec()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="5160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-159" value="行为树节点内向环形队列塞消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="559.5" y="5261" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-162" target="mBUC216ZbLOM9nHP4JTD-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-162" value="主线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810.5" y="4879.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-164" target="mBUC216ZbLOM9nHP4JTD-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-164" value="取出环形队列的消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810.5" y="4979.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-166" target="mBUC216ZbLOM9nHP4JTD-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-166" target="mBUC216ZbLOM9nHP4JTD-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-166" target="mBUC216ZbLOM9nHP4JTD-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-166" value="响应回调&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="5069.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-168" value="同步响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="5170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-170" value="不响应sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="5261" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mBUC216ZbLOM9nHP4JTD-172" target="mBUC216ZbLOM9nHP4JTD-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-172" value="加入优先级任务队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="989" y="5150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-174" value="异步响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="989" y="5261" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
