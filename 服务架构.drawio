@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="6L0QKgz08H0uk4aZn0Ru">
-    <mxGraphModel dx="2043" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2938" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1269,6 +1269,33 @@
         </mxCell>
         <mxCell id="mBUC216ZbLOM9nHP4JTD-174" value="异步响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="989" y="5261" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-176" value="AI行为树：agent+黑板（数据）+行为树（业务）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="633.25" y="5750" width="296.75" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-177" value="主线程业务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1289" y="5600" width="281" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-178" value="主线程AI数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1289" y="5870" width="281" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-179" value="防重入：共享持久化数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="783" y="6130" width="137" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-180" value="继承Agent，自定义叶子节点行为，&lt;br&gt;通过返回值FAILURE、SUCCESS、RUNNING&lt;br&gt;控制行为树状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="783" y="6230" width="267" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-181" value="主线程AI和bt_id绑定（配置文件ID，标识某一种AI)&lt;br&gt;AI还有一个army_id，作为guid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="6110" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-182" value="使用可视化工具编辑行为树，生成xml行为树结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="783" y="6340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-183" value="agent的生命周期管理：&lt;br&gt;数据结构是全局std::map管理所有的agent；key是agent_guid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="783" y="6430" width="217" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBUC216ZbLOM9nHP4JTD-184" value="只会在AI测数据落地，宕机或者起服时，重建AI行为树" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="6230" width="319" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
