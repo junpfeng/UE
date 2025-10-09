@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="8cFtf-UiOnAKoCmu1fZL">
-    <mxGraphModel dx="1343" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1851" dy="1809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,7 +151,7 @@
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-48" value="get_dirty_db_fields_cb_" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2455" y="2154" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C0QmIfeoY1ldJ2bSpZcB-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-50" target="C0QmIfeoY1ldJ2bSpZcB-52" edge="1">
+        <mxCell id="rK9JHwCIXlIBIgPX1yeu-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-50" target="rK9JHwCIXlIBIgPX1yeu-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-50" value="GetDbActorByUid&lt;div&gt;这一步会获取待存DB的RT共享内存数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -161,13 +161,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-52" value="&lt;div&gt;复制需要落地的数据&lt;/div&gt;memcpy(data, db_actor-&amp;gt;field_data[field_id].c_str(), *data_len);" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2350" y="2335.25" width="360" height="48.75" as="geometry" />
+          <mxGeometry x="2350" y="2470" width="360" height="48.75" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-54" value="&lt;div&gt;更新落地&lt;/div&gt;tcap_update" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2470" y="2414" width="120" height="60" as="geometry" />
+          <mxGeometry x="2470" y="2570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-56" value="&lt;div&gt;class DB_ACTOR {&lt;/div&gt;&lt;div&gt;&amp;nbsp;public:&lt;/div&gt;&lt;div&gt;&amp;nbsp; g6shm::shm_string field_data[E_DB_ACTOR_DB_FIELD_MAX];&amp;nbsp; // 列数据&lt;/div&gt;&lt;div&gt;&amp;nbsp; s32 zone_id{0};&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 区号&lt;/div&gt;&lt;div&gt;&amp;nbsp; u64 uid{0};&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// uid&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;div&gt;其中 field_data 中存放了DB在RT共享内存的序列化数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="2605" y="2224" width="420" height="110" as="geometry" />
+          <mxGeometry x="2605" y="2192" width="420" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ASX-Vnm_SlDaAzlPHUoA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C0QmIfeoY1ldJ2bSpZcB-57" target="ASX-Vnm_SlDaAzlPHUoA-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -242,7 +242,7 @@
           <mxGeometry x="1170" y="1730" width="720" height="930" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2340" y="1999" width="710" height="495" as="geometry" />
+          <mxGeometry x="2340" y="1999" width="710" height="161" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-99" value="数据定时落地" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1455" y="1260" width="410" height="30" as="geometry" />
@@ -254,7 +254,7 @@
           <mxGeometry x="2270" y="1730" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-104" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="1200" width="1950" height="1540" as="geometry" />
+          <mxGeometry x="1130" y="1200" width="2030" height="1540" as="geometry" />
         </mxCell>
         <mxCell id="C0QmIfeoY1ldJ2bSpZcB-105" value="ACTOR 在DB和共享内存中的数据结构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="97.5" y="786.5" width="230" height="30" as="geometry" />
@@ -538,8 +538,17 @@
         <mxCell id="FEyGFNajx4Ck5ub31aqV-34" value="子模块要提供增量打包的函数" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3350" y="1670" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="m5-Gn20_UOMmzdAd96X2-1" value="每帧会对标记位脏的玩家的数据进行增量同步，但是每帧只会处理10个脏玩家。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="m5-Gn20_UOMmzdAd96X2-1" value="每帧会对标记位脏的玩家的数据进行增量同步，但是每帧只会处理10个脏玩家。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2320" y="1830" width="260" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="rK9JHwCIXlIBIgPX1yeu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rK9JHwCIXlIBIgPX1yeu-1" target="C0QmIfeoY1ldJ2bSpZcB-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rK9JHwCIXlIBIgPX1yeu-1" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;if (field-&amp;gt;is_cache &amp;amp;&amp;amp; field-&amp;gt;cache_type != E_DB_CACHE_TYPE_WRITEABLE)&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;如果是cache，需要是可写cache，才能落DB；&lt;br&gt;其他直接落地&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="2350" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rK9JHwCIXlIBIgPX1yeu-4" value="field对应ID、类型和属性定义在&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;src/actor/common/actor_db_module.c和&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;src/common_logic/actor_db/actor_db_def.h&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="2345" width="340" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
