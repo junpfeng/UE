@@ -1597,8 +1597,8 @@
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-890" y="2690" width="280" height="207" as="geometry" />
         </mxCell>
-        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-10" value="AddConditionList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="2920" width="120" height="60" as="geometry" />
+        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-10" value="AddConditionRegisterTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="2920" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-13" value="条件创建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="2920" width="120" height="60" as="geometry" />
@@ -1630,7 +1630,7 @@
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-370" y="2950" as="sourcePoint" />
+            <mxPoint x="-300" y="2948" as="sourcePoint" />
             <mxPoint x="-80" y="2948.17" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -1676,7 +1676,7 @@
             <mxPoint x="-810" y="2910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-30" value="创建cond_id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-30" value="MakeCondition&lt;br&gt;创建cond_id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-945.86" y="2950" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -1722,10 +1722,31 @@
           <mxGeometry x="100" y="3050" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="2635" width="1770" height="685" as="geometry" />
+          <mxGeometry x="-1000" y="2660" width="1980" height="630" as="geometry" />
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-45" value="分布式条件系统框架" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-160" y="2700" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-47" value="RegisterCondModuleCallback" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="788" y="3051" width="171" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-48" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="3040" as="sourcePoint" />
+            <mxPoint x="710" y="3020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-49" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="3100" as="sourcePoint" />
+            <mxPoint x="710" y="3120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-50" value="预注册" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="767" y="2997" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-51" value="预注册" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770.75" y="3123.75" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
