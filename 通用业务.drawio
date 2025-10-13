@@ -1640,10 +1640,10 @@
             <mxPoint x="420" y="2950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-22" value="从cond_id中解析出cfg_id，找到相应配置，找出相应的cond_mgr，创建相应的cond" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-22" value="从cond_id中解析出cfg_id，找到相应配置，找出相应的cond_mgr，创建相应的&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;cond&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="431.25" y="2920" width="258.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-23" value="cond更新进度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-23" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;cond&lt;/font&gt;更新进度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-560" y="3036" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -1689,7 +1689,7 @@
           <mxGeometry x="-537" y="3160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="2897" width="770" height="333" as="geometry" />
+          <mxGeometry x="-70" y="2890" width="770" height="340" as="geometry" />
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1722,7 +1722,7 @@
           <mxGeometry x="100" y="3050" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="2660" width="1980" height="630" as="geometry" />
+          <mxGeometry x="-1000" y="2660" width="1980" height="610" as="geometry" />
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-45" value="分布式条件系统框架" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-160" y="2700" width="140" height="30" as="geometry" />
@@ -1747,6 +1747,17 @@
         </mxCell>
         <mxCell id="ktIxs7Ug5M2pJxSjeDK6-51" value="预注册" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="770.75" y="3123.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ktIxs7Ug5M2pJxSjeDK6-52" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ktIxs7Ug5M2pJxSjeDK6-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="2960" as="sourcePoint" />
+            <mxPoint x="-490" y="3020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="2950" />
+              <mxPoint x="40" y="2870" />
+              <mxPoint x="-240" y="2900" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
