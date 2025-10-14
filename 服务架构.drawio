@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="6L0QKgz08H0uk4aZn0Ru">
-    <mxGraphModel dx="1367" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1986" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1469,7 +1469,103 @@
           <mxGeometry x="1760" y="5113" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="5040" width="680" height="510" as="geometry" />
+          <mxGeometry x="1160" y="5040" width="680" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-65" target="mz4dMBTAXkOpJP8oKUuX-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-65" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2044.5" y="5093" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-67" target="mz4dMBTAXkOpJP8oKUuX-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-67" value="tconnd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2044.5" y="5183" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-69" target="mz4dMBTAXkOpJP8oKUuX-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-69" value="根据玩家选择的区服，确定world_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="5273" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-70" target="mz4dMBTAXkOpJP8oKUuX-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-70" value="进入world，创角时生成uid，&lt;br&gt;初次通过负载均衡，选择actor实例&lt;br&gt;记录玩家在线。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="5363" width="209" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-72" target="mz4dMBTAXkOpJP8oKUuX-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-72" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2323" y="5092" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-74" target="mz4dMBTAXkOpJP8oKUuX-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-74" value="tconnd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2323" y="5182" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-76" target="mz4dMBTAXkOpJP8oKUuX-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-76" value="根据玩家选择的区服，确定world_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2278.5" y="5272" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-77" target="mz4dMBTAXkOpJP8oKUuX-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-77" value="进入world&lt;br&gt;根据uid-actor的绑定缓存，&lt;br&gt;找不到缓存从DB查询绑定关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2277.5" y="5362" width="209" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-78" value="创角" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2073.5" y="5062" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-79" value="登录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2355" y="5062" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-80" value="重复登录，&lt;br&gt;踢旧留新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2545" y="5065" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-83" value="进入actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="5471" width="209" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-87" value="进入actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2277.5" y="5470" width="209" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-92" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1926" y="5040" width="704" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-93" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;分区分服路由策略&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1944" y="5050" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-94" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="5530" as="sourcePoint" />
+            <mxPoint x="1840" y="5670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-95" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="5530" as="sourcePoint" />
+            <mxPoint x="1930" y="5670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-96" value="区别：全区全服初次是通过物理位置（靠近哪个机房近）和负载均衡选择玩家进入的服。&lt;br&gt;分区分服初次是通过玩家手动选择来确定进入哪个服。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1663.5" y="5680" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-97" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1136" y="5020" width="1534" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-98" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=10.588235294117647;endSize=14.141176470588235;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2430" y="5540" as="sourcePoint" />
+            <mxPoint x="2430" y="5610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-99" value="&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;单服world唯一，actor集群。&lt;br&gt;本质上是一种分层负载均衡机制&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="5620" width="280" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
