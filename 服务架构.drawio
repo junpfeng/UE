@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="6L0QKgz08H0uk4aZn0Ru">
-    <mxGraphModel dx="1698" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1162" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1778,6 +1778,17 @@
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-174" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;对于排行榜的跳表来说：&lt;br&gt;增加logN&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;删除，通过hash表快速定位O(1)&lt;br&gt;改=先删后增。&lt;br&gt;查，通过hash表快速定位O(1)，然后通过span，logN知道排名&lt;br&gt;遍历那只能O(N)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1580" y="5870" width="250" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-175" target="mz4dMBTAXkOpJP8oKUuX-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="712" y="5080" />
+              <mxPoint x="420" y="5080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-175" value="后台管理员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="652" y="5100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
