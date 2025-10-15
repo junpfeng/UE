@@ -1974,7 +1974,7 @@
           <mxGeometry x="2221" y="6560" width="580" height="330" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-272" value="组队" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2221" y="6660" width="60" height="30" as="geometry" />
+          <mxGeometry x="2245" y="6600" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
