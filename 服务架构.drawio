@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="6L0QKgz08H0uk4aZn0Ru">
-    <mxGraphModel dx="1162" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3534" dy="2294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1303,269 +1303,158 @@
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-2" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;AI行为树的一些笔记，核心只有下面这个图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620.5" y="2920" width="255" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-4" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="73.5" y="5452" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-5" value="全服邮件服&lt;br&gt;中心节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="5100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-6" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="123.5" y="5251" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-7" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="88" y="5462" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-8" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="253.5" y="5451" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-9" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="103.5" y="5472" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-12" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="138.5" y="5260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-13" value="大区邮件服集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="153.5" y="5270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-14" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="593.5" y="5250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-15" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="608.5" y="5259" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-16" value="大区邮件服集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="623.5" y="5269" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-17" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="268.5" y="5461" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-18" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="287" y="5471" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-19" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="5452" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-20" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="544.5" y="5462" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-21" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="5452" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-22" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="5472" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-23" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="725" y="5462" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-24" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="743.5" y="5472" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-26" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="203.5" y="5440" as="sourcePoint" />
-            <mxPoint x="203.5" y="5340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-27" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="679.55" y="5440" as="sourcePoint" />
-            <mxPoint x="679.55" y="5340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-28" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="180" y="5250" as="sourcePoint" />
-            <mxPoint x="340" y="5120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-29" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="660" y="5240" as="sourcePoint" />
-            <mxPoint x="500" y="5120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-30" value="一致性hash&lt;br&gt;路由和负载均衡" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="213.5" y="5380" width="106.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-31" value="一致性hash&lt;br&gt;路由和负载均衡" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="702.25" y="5370" width="106.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-32" value="分帧广播" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="269.99" y="5183" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-33" value="分帧广播" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="524.5" y="5182" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-34" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;...&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="5249" width="60" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-35" value="中心节点层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="905" y="5090" width="81" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-36" value="集群负载均衡层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="5284" width="111" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-37" value="gamesvr层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="892.25" y="5485" width="111" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="5040" width="990" height="510" as="geometry" />
-        </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-39" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;全服邮件架构&lt;br&gt;特点：最终一致性、实时性要求不高&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="44" y="5050" width="206" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-41" target="mz4dMBTAXkOpJP8oKUuX-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-41" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1276" y="5144" width="120" height="60" as="geometry" />
+          <mxGeometry x="156" y="5104" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-42" target="mz4dMBTAXkOpJP8oKUuX-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-42" value="tconnd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1276" y="5234" width="120" height="60" as="geometry" />
+          <mxGeometry x="156" y="5194" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-43" target="mz4dMBTAXkOpJP8oKUuX-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-43" value="选服策略：&lt;br&gt;首先，地理位置更近的world集群&lt;br&gt;然后再负载均衡策略，例如一致性hash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1231.5" y="5324" width="209" height="60" as="geometry" />
+          <mxGeometry x="111.5" y="5284" width="209" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-49" value="world，生成uid，uid绑定world_id，&lt;br&gt;记录玩家在线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230.5" y="5414" width="209" height="40" as="geometry" />
+          <mxGeometry x="110.5" y="5374" width="209" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-52" target="mz4dMBTAXkOpJP8oKUuX-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-52" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1554.5" y="5143" width="120" height="60" as="geometry" />
+          <mxGeometry x="434.5" y="5103" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-54" target="mz4dMBTAXkOpJP8oKUuX-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-54" value="tconnd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1554.5" y="5233" width="120" height="60" as="geometry" />
+          <mxGeometry x="434.5" y="5193" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-56" target="mz4dMBTAXkOpJP8oKUuX-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-56" value="路由策略：查表&lt;br&gt;查询uid--world_id缓存绑定，&lt;br&gt;查不到再尝试查询DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="5323" width="209" height="60" as="geometry" />
+          <mxGeometry x="390" y="5283" width="209" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-57" value="进入world" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1509" y="5413" width="209" height="40" as="geometry" />
+          <mxGeometry x="389" y="5373" width="209" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-58" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;全区全服角色服路由策略&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1179" y="5050" width="164" height="30" as="geometry" />
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-58" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 22px;&quot;&gt;全区全服角色服路由策略&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="59" y="5010" width="271" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-59" value="创角" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1305" y="5113" width="60" height="30" as="geometry" />
+          <mxGeometry x="185" y="5073" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-60" value="登录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1586.5" y="5113" width="60" height="30" as="geometry" />
+          <mxGeometry x="466.5" y="5073" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-61" value="重复登录，&lt;br&gt;踢旧留新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="5113" width="80" height="30" as="geometry" />
+          <mxGeometry x="640" y="5073" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="5040" width="680" height="480" as="geometry" />
+          <mxGeometry x="40" y="5010" width="680" height="470" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-65" target="mz4dMBTAXkOpJP8oKUuX-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-65" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2044.5" y="5093" width="120" height="60" as="geometry" />
+          <mxGeometry x="924.5" y="5053" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-67" target="mz4dMBTAXkOpJP8oKUuX-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-67" value="tconnd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2044.5" y="5183" width="120" height="60" as="geometry" />
+          <mxGeometry x="924.5" y="5143" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-69" target="mz4dMBTAXkOpJP8oKUuX-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-69" value="根据玩家选择的区服，确定world_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="5273" width="209" height="60" as="geometry" />
+          <mxGeometry x="880" y="5233" width="209" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-70" target="mz4dMBTAXkOpJP8oKUuX-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-70" value="进入world，创角时生成uid，&lt;br&gt;初次通过负载均衡，选择actor实例&lt;br&gt;记录玩家在线。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="5363" width="209" height="76" as="geometry" />
+          <mxGeometry x="880" y="5323" width="209" height="76" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-72" target="mz4dMBTAXkOpJP8oKUuX-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-72" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2323" y="5092" width="120" height="60" as="geometry" />
+          <mxGeometry x="1203" y="5052" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-74" target="mz4dMBTAXkOpJP8oKUuX-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-74" value="tconnd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2323" y="5182" width="120" height="60" as="geometry" />
+          <mxGeometry x="1203" y="5142" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-76" target="mz4dMBTAXkOpJP8oKUuX-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-76" value="根据玩家选择的区服，确定world_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2278.5" y="5272" width="209" height="60" as="geometry" />
+          <mxGeometry x="1158.5" y="5232" width="209" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-77" target="mz4dMBTAXkOpJP8oKUuX-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-77" value="进入world&lt;br&gt;根据uid-actor的绑定缓存，&lt;br&gt;找不到缓存从DB查询绑定关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2277.5" y="5362" width="209" height="77" as="geometry" />
+          <mxGeometry x="1157.5" y="5322" width="209" height="77" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-78" value="创角" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2073.5" y="5062" width="60" height="30" as="geometry" />
+          <mxGeometry x="953.5" y="5022" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-79" value="登录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2355" y="5062" width="60" height="30" as="geometry" />
+          <mxGeometry x="1235" y="5022" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-80" value="重复登录，&lt;br&gt;踢旧留新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2545" y="5065" width="80" height="30" as="geometry" />
+          <mxGeometry x="1425" y="5025" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-83" value="进入actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="5471" width="209" height="40" as="geometry" />
+          <mxGeometry x="880" y="5431" width="209" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-87" value="进入actor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2277.5" y="5470" width="209" height="40" as="geometry" />
+          <mxGeometry x="1157.5" y="5430" width="209" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-92" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1926" y="5040" width="704" height="480" as="geometry" />
+          <mxGeometry x="806" y="5000" width="704" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-93" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;分区分服路由策略&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1944" y="5050" width="106" height="30" as="geometry" />
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-93" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 22px;&quot;&gt;分区分服路由策略&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1017" y="5005" width="206" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-94" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1490" y="5530" as="sourcePoint" />
-            <mxPoint x="1840" y="5670" as="targetPoint" />
+            <mxPoint x="370" y="5490" as="sourcePoint" />
+            <mxPoint x="720" y="5630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-95" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2280" y="5530" as="sourcePoint" />
-            <mxPoint x="1930" y="5670" as="targetPoint" />
+            <mxPoint x="1160" y="5490" as="sourcePoint" />
+            <mxPoint x="810" y="5630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-96" value="区别：全区全服初次是通过物理位置（靠近哪个机房近）和负载均衡选择玩家进入的服。&lt;br&gt;分区分服初次是通过玩家手动选择来确定进入哪个服。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1663.5" y="5680" width="470" height="50" as="geometry" />
+          <mxGeometry x="543.5" y="5640" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-97" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1136" y="5020" width="1534" height="720" as="geometry" />
+          <mxGeometry x="16" y="4970" width="1534" height="730" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-98" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=10.588235294117647;endSize=14.141176470588235;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2430" y="5540" as="sourcePoint" />
-            <mxPoint x="2430" y="5610" as="targetPoint" />
+            <mxPoint x="1310" y="5500" as="sourcePoint" />
+            <mxPoint x="1310" y="5570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-99" value="&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;单服world唯一，actor集群。&lt;br&gt;本质上是一种分层负载均衡机制&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2340" y="5620" width="280" height="70" as="geometry" />
+          <mxGeometry x="1220" y="5580" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-100" target="mz4dMBTAXkOpJP8oKUuX-106">
           <mxGeometry relative="1" as="geometry" />
@@ -1773,22 +1662,262 @@
             <mxPoint x="1400" y="6040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-172" value="最终一致性，&lt;br&gt;实时性要求不高" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="381" y="5183" width="93" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-174" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;对于排行榜的跳表来说：&lt;br&gt;增加logN&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;删除，通过hash表快速定位O(1)&lt;br&gt;改=先删后增。&lt;br&gt;查，通过hash表快速定位O(1)，然后通过span，logN知道排名&lt;br&gt;遍历那只能O(N)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1580" y="5870" width="250" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-175" target="mz4dMBTAXkOpJP8oKUuX-5">
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-177" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2007.5" y="6382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-178" value="前1000名排行榜" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2210.5" y="6025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-179" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2057.5" y="6181" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-180" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2022" y="6392" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-181" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2187.5" y="6381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-182" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2037.5" y="6402" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-183" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2072.5" y="6190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-184" value="大区rank svr集群&lt;br&gt;主备节点容灾" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2087.5" y="6200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-185" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2527.5" y="6180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-186" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2542.5" y="6189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-187" value="大区rank svr集群&lt;br&gt;主备节点容灾" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2557.5" y="6199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-188" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2202.5" y="6391" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-189" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2221" y="6401" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-190" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2464" y="6382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-191" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2478.5" y="6392" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-192" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2644" y="6382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-193" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2494" y="6402" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-194" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2659" y="6392" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-195" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2677.5" y="6402" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-196" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2137.5" y="6370" as="sourcePoint" />
+            <mxPoint x="2137.5" y="6270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-197" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2613.55" y="6370" as="sourcePoint" />
+            <mxPoint x="2613.55" y="6270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-198" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2120" y="6170" as="sourcePoint" />
+            <mxPoint x="2200" y="6050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-199" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2594" y="6170" as="sourcePoint" />
+            <mxPoint x="2270" y="6100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-200" value="一致性hash&lt;br&gt;路由和负载均衡" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2147.5" y="6310" width="106.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-201" value="一致性hash&lt;br&gt;路由和负载均衡" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2628.5" y="6310" width="106.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-204" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;...&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2348" y="6179" width="60" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-205" value="（主）中心节点层，分片" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="6040" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-206" value="集群负载均衡层，主节点一致性，备节点容灾" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="6214" width="186" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-207" value="gamesvr层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2839" y="6407" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-209" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#ff0000&quot;&gt;全服排行榜架构&lt;br&gt;共享数据，且实时性要求高，&lt;br&gt;但是可以分层、分片处理&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1965.5" y="5887.5" width="271" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-213" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1971.5" y="5452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-214" value="全服邮件服&lt;br&gt;中心节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2258" y="5100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-215" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2021.5" y="5251" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-216" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1986" y="5462" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-217" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2151.5" y="5451" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-218" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2001.5" y="5472" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-219" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2036.5" y="5260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-220" value="大区邮件服集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2051.5" y="5270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-221" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2491.5" y="5250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-222" value="邮件集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2506.5" y="5259" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-223" value="大区邮件服集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2521.5" y="5269" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-224" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2166.5" y="5461" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-225" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2185" y="5471" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-226" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2428" y="5452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-227" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2442.5" y="5462" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-228" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2608" y="5452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-229" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2458" y="5472" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-230" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2623" y="5462" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-231" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2641.5" y="5472" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-232" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2101.5" y="5440" as="sourcePoint" />
+            <mxPoint x="2101.5" y="5340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-233" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2577.55" y="5440" as="sourcePoint" />
+            <mxPoint x="2577.55" y="5340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-234" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2078" y="5250" as="sourcePoint" />
+            <mxPoint x="2238" y="5120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-235" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2558" y="5240" as="sourcePoint" />
+            <mxPoint x="2398" y="5120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-236" value="一致性hash&lt;br&gt;路由和负载均衡" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2111.5" y="5380" width="106.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-237" value="一致性hash&lt;br&gt;路由和负载均衡" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2600.25" y="5370" width="106.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-238" value="分帧广播" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2167.99" y="5183" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-239" value="分帧广播" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2422.5" y="5182" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-240" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;...&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2312" y="5249" width="60" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-241" value="（主）中心节点层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2778" y="5090" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-242" value="集群负载均衡层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2788" y="5284" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-243" value="gamesvr层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2790.25" y="5485" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-244" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1938" y="5040" width="990" height="715" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-245" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 22px;&quot;&gt;全服邮件架构&lt;br&gt;特点：最终一致性、实时性要求不高&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1942" y="5050" width="206" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-246" value="最终一致性，&lt;br&gt;实时性要求不高" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2279" y="5183" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mz4dMBTAXkOpJP8oKUuX-248" target="mz4dMBTAXkOpJP8oKUuX-214">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="712" y="5080" />
-              <mxPoint x="420" y="5080" />
+              <mxPoint x="2610" y="5080" />
+              <mxPoint x="2318" y="5080" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-175" value="后台管理员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="652" y="5100" width="120" height="60" as="geometry" />
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-248" value="后台管理员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="5100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-249" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;邮件数据是所有人独立的，不是共享数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2001.5" y="5605" width="398" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-250" value="全部排行榜" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="6025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-251" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2440" y="6100" as="sourcePoint" />
+            <mxPoint x="2181.5" y="6170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-252" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2630" y="6160" as="sourcePoint" />
+            <mxPoint x="2510" y="6050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-253" value="强一致性，高实时性，实时同步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="5995" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-254" value="最终一致性，低实时性，分帧同步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2369.5" y="5995" width="190.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-255" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1938" y="5850" width="1072" height="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
