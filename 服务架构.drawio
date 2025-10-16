@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="6L0QKgz08H0uk4aZn0Ru">
-    <mxGraphModel dx="1169" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1902" dy="2204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1975,6 +1975,54 @@
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-272" value="组队" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2245" y="6600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-273" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142.51" y="6660" width="296" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-274" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150.76" y="6669" width="296" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-275" value="假设使用redis&lt;br&gt;作为分布式锁&lt;br&gt;（&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;本质&lt;/font&gt;还是中心节点作为分布式节点的共享数据&lt;br&gt;一切能进行原子操作的中心节点都可以作为分布式锁）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159.01" y="6679" width="296" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-276" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512.51" y="6660" as="sourcePoint" />
+            <mxPoint x="462.51" y="6720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-277" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="482.51" y="6630" as="sourcePoint" />
+            <mxPoint x="442.51" y="6650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-278" value="主从节点redis集群&lt;br&gt;从节点做容灾，时刻复制主节点数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="483.51" y="6610" width="119.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-279" value="分布式集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="233.01" y="6860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-280" value="分布式集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.51" y="6870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-282" value="分布式集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252.51" y="6880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-283" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="302.51" y="6854" as="sourcePoint" />
+            <mxPoint x="302.51" y="6744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-284" value="获取和释放分布式锁，三个操作SETNX（获取锁，本质就是CAS原子操作，如果成功赋值就是加锁成功，保证原子项）；EXPIRE超时，防止死锁；DELETE释放锁。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="44" y="6770" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-286" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="23.75" y="6600" width="585" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-287" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 22px;&quot;&gt;分布式锁&lt;/font&gt;&lt;br&gt;原理就是中心节点的原子操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="38.25" y="6610" width="164" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
