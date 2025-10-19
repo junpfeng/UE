@@ -1304,7 +1304,7 @@
           <mxGeometry x="1253" y="1890" width="232" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0DlNR2DuPFBUaRmSfoXK-147" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1850" width="1990" height="750" as="geometry" />
+          <mxGeometry x="120" y="1850" width="1990" height="400" as="geometry" />
         </mxCell>
         <mxCell id="0DlNR2DuPFBUaRmSfoXK-152" value="输入缓冲区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="131" y="2720" width="120" height="30" as="geometry" />
@@ -1552,6 +1552,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1710" y="2440" as="sourcePoint" />
             <mxPoint x="1760" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0DlNR2DuPFBUaRmSfoXK-261" value="不可靠bunch和可靠bunch，在同一个channel分两个队列处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="2300" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0DlNR2DuPFBUaRmSfoXK-262" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0DlNR2DuPFBUaRmSfoXK-261" target="0DlNR2DuPFBUaRmSfoXK-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="2370" as="sourcePoint" />
+            <mxPoint x="1050" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0DlNR2DuPFBUaRmSfoXK-263" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0DlNR2DuPFBUaRmSfoXK-261" target="0DlNR2DuPFBUaRmSfoXK-97">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="2410" as="sourcePoint" />
+            <mxPoint x="810" y="2360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
