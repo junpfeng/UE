@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="第 1 页" id="6L0QKgz08H0uk4aZn0Ru">
-    <mxGraphModel dx="1958" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2938" dy="1566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1339,11 +1339,11 @@
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mz4dMBTAXkOpJP8oKUuX-56" target="mz4dMBTAXkOpJP8oKUuX-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-56" value="路由策略：查表&lt;br&gt;查询uid--world_id缓存绑定，&lt;br&gt;查不到再尝试查询DB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="5283" width="209" height="60" as="geometry" />
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-56" value="路由策略：查表&lt;br&gt;查询uid--world_id缓存绑定，&lt;br&gt;查不到说明没有重复登录，直接通过uid进行策略路由（分片或者一致性hash)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="379.5" y="5284" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-57" value="进入world" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="389" y="5373" width="209" height="40" as="geometry" />
+          <mxGeometry x="390" y="5373" width="209" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-58" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 22px;&quot;&gt;全区全服角色服路由策略&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="59" y="5010" width="271" height="30" as="geometry" />
@@ -1405,7 +1405,7 @@
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mz4dMBTAXkOpJP8oKUuX-77" target="mz4dMBTAXkOpJP8oKUuX-87" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mz4dMBTAXkOpJP8oKUuX-77" value="进入world&lt;br&gt;根据uid-actor的绑定缓存，&lt;br&gt;找不到缓存从DB查询绑定关系" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mz4dMBTAXkOpJP8oKUuX-77" value="进入world&lt;br&gt;根据uid-actor的绑定缓存，&lt;br&gt;查不到说明不在线，直接根据uid进行策略路由（随机、一致性hash等）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1157.5" y="5322" width="209" height="77" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-78" value="创角" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -1445,7 +1445,7 @@
           <mxGeometry x="543.5" y="5640" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-97" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="16" y="4970" width="1534" height="730" as="geometry" />
+          <mxGeometry x="16" y="5510" width="1534" height="190" as="geometry" />
         </mxCell>
         <mxCell id="mz4dMBTAXkOpJP8oKUuX-98" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=10.588235294117647;endSize=14.141176470588235;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1995,55 +1995,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-1" value="玩家先负载均衡进入随机服务（网关）&lt;div&gt;根据uid分片到指定缓存服&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1933.5" y="5068" width="170" height="46" as="geometry" />
+          <mxGeometry x="1742.5" y="5159" width="170" height="46" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-2" value="缓存服务&lt;br&gt;查询玩家个人服&lt;br&gt;缓存没有就查DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1958.5" y="5172" width="120" height="60" as="geometry" />
+          <mxGeometry x="1767.5" y="5263" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-4" value="全区全服" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1983.5" y="5024" width="60" height="30" as="geometry" />
+          <mxGeometry x="1792.5" y="5115" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-5" value="分区分服" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2298.5" y="5024" width="60" height="30" as="geometry" />
+          <mxGeometry x="2107.5" y="5115" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="--7NxHf6M5lHdeINfl4l-6" target="--7NxHf6M5lHdeINfl4l-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-6" value="玩家手动选区服" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2243.5" y="5069" width="170" height="36" as="geometry" />
+          <mxGeometry x="2052.5" y="5160" width="170" height="36" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="--7NxHf6M5lHdeINfl4l-7" target="--7NxHf6M5lHdeINfl4l-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-7" value="tconnd集群路由到指定小区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2243.5" y="5124" width="170" height="36" as="geometry" />
+          <mxGeometry x="2052.5" y="5215" width="170" height="36" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-9" value="小区唯一中心服world" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2243.5" y="5186" width="170" height="36" as="geometry" />
+          <mxGeometry x="2052.5" y="5277" width="170" height="36" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-11" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="1853.5" y="5086" width="50" height="138" as="geometry" />
+          <mxGeometry x="1662.5" y="5177" width="50" height="138" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-12" value="使用uid分片查询" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1753.5" y="5142" width="90" height="30" as="geometry" />
+          <mxGeometry x="1562.5" y="5233" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-13" value="全区全服和分区分区，定位玩家个人所在服：&lt;br&gt;本质都是基于ID的分片查询，&lt;br&gt;全区全服是基于个人ID分片查询，分区分服是基于玩家选择的区服分片查询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1731.5" y="4964" width="722" height="60" as="geometry" />
+          <mxGeometry x="1540.5" y="5055" width="722" height="60" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1731.5" y="4964" width="722" height="280" as="geometry" />
+          <mxGeometry x="1540.5" y="5055" width="722" height="280" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-15" value="路由策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2428.5" y="5740" width="120" height="60" as="geometry" />
+          <mxGeometry x="1860" y="5643" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-16" value="负载均衡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2428.5" y="5665" width="120" height="60" as="geometry" />
+          <mxGeometry x="1860" y="5568" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-17" value="有无状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2428.5" y="5510" width="120" height="60" as="geometry" />
+          <mxGeometry x="1860" y="5413" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-18" value="一致性要求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2428.5" y="5591" width="120" height="60" as="geometry" />
+          <mxGeometry x="1860" y="5494" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="--7NxHf6M5lHdeINfl4l-20" value="gamesvr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1992.5" y="6364.5" width="120" height="60" as="geometry" />
