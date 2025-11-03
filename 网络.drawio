@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="yRRZaPeO-JIJeqCieerl">
-    <mxGraphModel dx="3221" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4419" dy="1475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2018,46 +2018,104 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-101" value="TbusppClient::Proc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="187" y="2300" width="120" height="60" as="geometry" />
+          <mxGeometry x="370.17" y="2320.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XjUebr9xF_pN6PqK57L8-102" target="XjUebr9xF_pN6PqK57L8-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-102" value="BizMsgMgr::NetProcRecv()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="7.000000000000014" y="2300" width="149" height="60" as="geometry" />
+          <mxGeometry x="190.17" y="2320.5" width="149" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XjUebr9xF_pN6PqK57L8-103" target="XjUebr9xF_pN6PqK57L8-102">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-103" value="BizMsgMgr::NetProc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-133" y="2300" width="120" height="60" as="geometry" />
+          <mxGeometry x="50.17" y="2320.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XjUebr9xF_pN6PqK57L8-104" target="XjUebr9xF_pN6PqK57L8-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-104" value="BizMsgMgr::StartNetProc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-343" y="2300" width="180" height="60" as="geometry" />
+          <mxGeometry x="-159.83" y="2320.5" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XjUebr9xF_pN6PqK57L8-105" target="XjUebr9xF_pN6PqK57L8-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-105" value="ns_app_init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="2300" width="120" height="60" as="geometry" />
+          <mxGeometry x="-306.83" y="2320.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XjUebr9xF_pN6PqK57L8-110" target="XjUebr9xF_pN6PqK57L8-112">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-110" value="从tbuspp_client中&lt;br&gt;取出字节流。（tbuspp_client使用普通内存）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="187.54000000000002" y="2395" width="120" height="60" as="geometry" />
+          <mxGeometry x="370.71000000000004" y="2415.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XjUebr9xF_pN6PqK57L8-112" target="XjUebr9xF_pN6PqK57L8-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-112" value="打包塞进业务进程的共享内存队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="0.5400000000000063" y="2395" width="120" height="60" as="geometry" />
+          <mxGeometry x="183.71" y="2415.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XjUebr9xF_pN6PqK57L8-114" value="业务循环peek处理数据包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-172.92" y="2395" width="120" height="60" as="geometry" />
+          <mxGeometry x="10.250000000000012" y="2415.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-116" value="tbuspp_agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-167.83" y="2556.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-117" value="tbuspp_client&lt;br&gt;负责字节流打包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83.63000000000001" y="2556.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-118" value="业务&lt;br&gt;负责处理消息包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333.17" y="2556.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-119" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-39.89" y="2586.08" as="sourcePoint" />
+            <mxPoint x="80.11" y="2586.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-120" value="共享内存&lt;br&gt;字节流" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-11.83" y="2597.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-121" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="204.67" y="2586.08" as="sourcePoint" />
+            <mxPoint x="324.67" y="2586.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-122" value="共享内存消息包" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="232.73" y="2597.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-123" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XjUebr9xF_pN6PqK57L8-120" target="XjUebr9xF_pN6PqK57L8-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="133.17" y="2790.5" as="sourcePoint" />
+            <mxPoint x="183.17" y="2740.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="53.17" y="2700.5" />
+              <mxPoint x="223.17" y="2700.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-124" value="拷贝过程" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="113.63000000000001" y="2710.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-125" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-324.83" y="2292.5" width="828" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-126" value="网络线程" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-227.83" y="2425.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-127" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140.4" y="2549.5" as="sourcePoint" />
+            <mxPoint x="103.17" y="2500.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-128" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-336.83" y="2255.5" width="940" height="505" as="geometry" />
+        </mxCell>
+        <mxCell id="XjUebr9xF_pN6PqK57L8-129" value="大的逻辑框架" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-306.83" y="2633.53" width="90" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
