@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="3-S_MTWsGbCbe-uagDEO">
-    <mxGraphModel dx="2760" dy="2498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3892" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2898,6 +2898,9 @@
         </mxCell>
         <mxCell id="Gt28nuoWF9p5EOCFaLfY-58" value="CPU store、load 缓存同步" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1360" y="20.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt28nuoWF9p5EOCFaLfY-59" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;tc_malloc相比于malloc在小内存对象频繁申请和释放的优势：&lt;br&gt;tc_malloc线程缓存级，线程独占，避免锁开销；&lt;br&gt;tc_malloc释放的内存会暂存在用户空间，避免系统调用；&lt;br&gt;tc_malloc划分的小内存对象种类更多，内存使用效率更高；&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4900" y="1122" width="530" height="138" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
