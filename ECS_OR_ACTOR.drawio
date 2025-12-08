@@ -1,23 +1,23 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="Fcpdy8m_4iDXxwe1Zrjc">
-    <mxGraphModel dx="1280" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1948" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9079rN038caJIGS5k0Qq-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Entity" vertex="1">
-          <mxGeometry height="60" width="120" x="142.5" y="100" as="geometry" />
+          <mxGeometry height="60" width="120" x="142.5" y="75" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component1" vertex="1">
-          <mxGeometry height="60" width="120" x="262.5" y="100" as="geometry" />
+          <mxGeometry height="60" width="120" x="262.5" y="75" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component2" vertex="1">
-          <mxGeometry height="60" width="120" x="382.5" y="100" as="geometry" />
+          <mxGeometry height="60" width="120" x="382.5" y="75" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component3" vertex="1">
-          <mxGeometry height="60" width="120" x="502.5" y="100" as="geometry" />
+          <mxGeometry height="60" width="120" x="502.5" y="75" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="..." vertex="1">
-          <mxGeometry height="60" width="120" x="622.5" y="100" as="geometry" />
+          <mxGeometry height="60" width="120" x="622.5" y="75" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="entity_id" vertex="1">
           <mxGeometry height="60" width="120" x="52.5" y="395" as="geometry" />
@@ -71,55 +71,55 @@
           <mxGeometry height="60" width="120" x="412.5" y="300" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Entity" vertex="1">
-          <mxGeometry height="60" width="120" x="152.5" y="110" as="geometry" />
+          <mxGeometry height="60" width="120" x="152.5" y="85" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component1" vertex="1">
-          <mxGeometry height="60" width="120" x="272.5" y="110" as="geometry" />
+          <mxGeometry height="60" width="120" x="272.5" y="85" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component2" vertex="1">
-          <mxGeometry height="60" width="120" x="392.5" y="110" as="geometry" />
+          <mxGeometry height="60" width="120" x="392.5" y="85" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component3" vertex="1">
-          <mxGeometry height="60" width="120" x="512.5" y="110" as="geometry" />
+          <mxGeometry height="60" width="120" x="512.5" y="85" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="..." vertex="1">
-          <mxGeometry height="60" width="120" x="632.5" y="110" as="geometry" />
+          <mxGeometry height="60" width="120" x="632.5" y="85" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Entity" vertex="1">
-          <mxGeometry height="60" width="120" x="162.5" y="120" as="geometry" />
+          <mxGeometry height="60" width="120" x="162.5" y="95" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component1" vertex="1">
-          <mxGeometry height="60" width="120" x="282.5" y="120" as="geometry" />
+          <mxGeometry height="60" width="120" x="282.5" y="95" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component2" vertex="1">
-          <mxGeometry height="60" width="120" x="402.5" y="120" as="geometry" />
+          <mxGeometry height="60" width="120" x="402.5" y="95" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component3" vertex="1">
-          <mxGeometry height="60" width="120" x="522.5" y="120" as="geometry" />
+          <mxGeometry height="60" width="120" x="522.5" y="95" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="..." vertex="1">
-          <mxGeometry height="60" width="120" x="642.5" y="120" as="geometry" />
+          <mxGeometry height="60" width="120" x="642.5" y="95" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Entity" vertex="1">
-          <mxGeometry height="60" width="120" x="172.5" y="130" as="geometry" />
+          <mxGeometry height="60" width="120" x="172.5" y="105" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component1" vertex="1">
-          <mxGeometry height="60" width="120" x="292.5" y="130" as="geometry" />
+          <mxGeometry height="60" width="120" x="292.5" y="105" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component2" vertex="1">
-          <mxGeometry height="60" width="120" x="412.5" y="130" as="geometry" />
+          <mxGeometry height="60" width="120" x="412.5" y="105" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="component3" vertex="1">
-          <mxGeometry height="60" width="120" x="532.5" y="130" as="geometry" />
+          <mxGeometry height="60" width="120" x="532.5" y="105" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="..." vertex="1">
-          <mxGeometry height="60" width="120" x="652.5" y="130" as="geometry" />
+          <mxGeometry height="60" width="120" x="652.5" y="105" as="geometry" />
         </mxCell>
-        <mxCell id="9079rN038caJIGS5k0Qq-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="传统ECS模型" vertex="1">
-          <mxGeometry height="30" width="80" x="142.5" y="40" as="geometry" />
+        <mxCell id="9079rN038caJIGS5k0Qq-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="传统ECS模型，又称为AOS，结构体数组" vertex="1">
+          <mxGeometry height="30" width="257.5" x="142.5" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="9079rN038caJIGS5k0Qq-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据导向ECS模型" vertex="1">
-          <mxGeometry height="30" width="100" x="22.5" y="240" as="geometry" />
+        <mxCell id="9079rN038caJIGS5k0Qq-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据导向ECS模型，又称为SOA，数组的结构体" vertex="1">
+          <mxGeometry height="30" width="267.5" x="22.5" y="240" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-50" edge="1" parent="1" source="9079rN038caJIGS5k0Qq-16" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="9079rN038caJIGS5k0Qq-29" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -140,31 +140,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="entity_id" vertex="1">
-          <mxGeometry height="90" width="60" x="17.5" y="95" as="geometry" />
+          <mxGeometry height="90" width="60" x="17.5" y="70" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-57" edge="1" parent="1" source="9079rN038caJIGS5k0Qq-53" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="107.5" y="270" as="sourcePoint" />
-            <mxPoint x="137.5" y="120" as="targetPoint" />
+            <mxPoint x="107.5" y="245" as="sourcePoint" />
+            <mxPoint x="137.5" y="95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-58" edge="1" parent="1" source="9079rN038caJIGS5k0Qq-53" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9079rN038caJIGS5k0Qq-33" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="87.5" y="165" as="sourcePoint" />
-            <mxPoint x="207.5" y="140" as="targetPoint" />
+            <mxPoint x="87.5" y="140" as="sourcePoint" />
+            <mxPoint x="207.5" y="115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-59" edge="1" parent="1" source="9079rN038caJIGS5k0Qq-53" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9079rN038caJIGS5k0Qq-38" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="117.5" y="185" as="sourcePoint" />
-            <mxPoint x="252.5" y="180" as="targetPoint" />
+            <mxPoint x="117.5" y="160" as="sourcePoint" />
+            <mxPoint x="252.5" y="155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-60" edge="1" parent="1" source="9079rN038caJIGS5k0Qq-53" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9079rN038caJIGS5k0Qq-43" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="187.5" y="225" as="sourcePoint" />
-            <mxPoint x="322.5" y="220" as="targetPoint" />
+            <mxPoint x="187.5" y="200" as="sourcePoint" />
+            <mxPoint x="322.5" y="195" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9079rN038caJIGS5k0Qq-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;struct ENTITY&amp;nbsp;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;T1 component1 [];&lt;/span&gt;&lt;/div&gt;&lt;div&gt;T2 component2 [];&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;};&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ENTITY entity;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="307" x="643" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9079rN038caJIGS5k0Qq-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;struct ENTITY {&lt;/div&gt;&lt;div&gt;T1 component1;&lt;/div&gt;&lt;div&gt;T2 component2;&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ENTITY&lt;/span&gt;&amp;nbsp;entity[];&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="307" x="820" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="9079rN038caJIGS5k0Qq-64" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1140" y="130" as="sourcePoint" />
+            <mxPoint x="1280" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9079rN038caJIGS5k0Qq-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="天刀 or 启元，其实就是这种模型，而不是ACTOR模型。" vertex="1">
+          <mxGeometry height="110" width="170" x="1290" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
