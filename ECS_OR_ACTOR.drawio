@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="Fcpdy8m_4iDXxwe1Zrjc">
-    <mxGraphModel dx="1948" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1299" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,16 +170,28 @@
           <mxGeometry height="100" width="307" x="643" y="260" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;struct ENTITY {&lt;/div&gt;&lt;div&gt;T1 component1;&lt;/div&gt;&lt;div&gt;T2 component2;&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ENTITY&lt;/span&gt;&amp;nbsp;entity[];&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="307" x="820" y="75" as="geometry" />
+          <mxGeometry height="100" width="180" x="840" y="75" as="geometry" />
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-64" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1140" y="130" as="sourcePoint" />
-            <mxPoint x="1280" y="130" as="targetPoint" />
+            <mxPoint x="1030" y="129.32999999999998" as="sourcePoint" />
+            <mxPoint x="1100" y="129.32999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9079rN038caJIGS5k0Qq-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="天刀 or 启元，其实就是这种模型，而不是ACTOR模型。" vertex="1">
-          <mxGeometry height="110" width="170" x="1290" y="70" as="geometry" />
+          <mxGeometry height="110" width="170" x="1120" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="9079rN038caJIGS5k0Qq-66" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="310" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9079rN038caJIGS5k0Qq-67" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="780" y="129.33" as="sourcePoint" />
+            <mxPoint x="830" y="129.66" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
