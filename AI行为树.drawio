@@ -92,7 +92,7 @@
             <mxPoint x="470" y="909.76" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MOzzzRUpAzljYCfOQZ9g-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="调用NPC行动" vertex="1">
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="业务侧根据行动计划写业务，解耦合" vertex="1">
           <mxGeometry height="60" width="120" x="470" y="880" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -103,18 +103,6 @@
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="OnUpdate&lt;br&gt;状态转换的回调" vertex="1">
           <mxGeometry height="60" width="120" x="125" y="1425" as="geometry" />
-        </mxCell>
-        <mxCell id="MOzzzRUpAzljYCfOQZ9g-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="外部事件驱动，&lt;br&gt;状态机状态改变" vertex="1">
-          <mxGeometry height="60" width="120" x="310" y="990" as="geometry" />
-        </mxCell>
-        <mxCell id="MOzzzRUpAzljYCfOQZ9g-28" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="369.58" y="1060" as="sourcePoint" />
-            <mxPoint x="369.58" y="1100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MOzzzRUpAzljYCfOQZ9g-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Update" vertex="1">
-          <mxGeometry height="60" width="120" x="310" y="1109" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Onleave&lt;div&gt;离开这个状态的回调&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="125" y="1305" as="geometry" />
