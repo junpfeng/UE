@@ -116,7 +116,7 @@
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="状态机" vertex="1">
           <mxGeometry height="80" width="80" x="500" y="1280" as="geometry" />
         </mxCell>
-        <mxCell id="MOzzzRUpAzljYCfOQZ9g-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="有限的几种状态之间的可转换的顺序是写死的，在尝试转换状态时，需要判断是否满足" vertex="1">
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="每种状态都存储了自身可以转换的其他状态，&lt;br&gt;约束有限的状态转换" vertex="1">
           <mxGeometry height="30" width="260" x="140" y="1540" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-47" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-20" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="MOzzzRUpAzljYCfOQZ9g-46" value="">
