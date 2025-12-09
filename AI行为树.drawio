@@ -72,7 +72,7 @@
           <mxGeometry height="60" width="190" x="290" y="450" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="当处理目标变化过快情况下的决策，如果等待上一次的决策执行结束后，再修改决策会让AI显得很笨。因此通过几个策略，提前修改决策，例如，当目标变化的值超过一定阈值，或者超时更新决策，或者AI收到外部的攻击，更新决策，等等" vertex="1">
-          <mxGeometry height="90" width="300" x="270" y="710" as="geometry" />
+          <mxGeometry height="90" width="300" x="240" y="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
