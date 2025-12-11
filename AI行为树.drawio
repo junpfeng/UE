@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="_zMOHDMj_IDJZ2Gv6XkA">
-    <mxGraphModel dx="1554" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1828" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -403,6 +403,39 @@
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-144" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="5" vertex="1">
           <mxGeometry height="80" width="80" x="1080" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-152" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-151" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="update_dungron_scene" vertex="1">
+          <mxGeometry height="37.5" width="140" x="1570" y="1132" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-154" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-153" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-151" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="update" vertex="1">
+          <mxGeometry height="37.5" width="140" x="1570" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-159" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-158" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-153" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="run" vertex="1">
+          <mxGeometry height="37.5" width="140" x="1570" y="1292.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-162" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-161" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-157" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="refresh_monster" vertex="1">
+          <mxGeometry height="60" width="120" x="1580" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-160" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-157" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-158" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="tick_enemy_refresh" vertex="1">
+          <mxGeometry height="60" width="120" x="1580" y="1372.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-161" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="create_entity_for_spawn_info" vertex="1">
+          <mxGeometry height="60" width="120" x="1580" y="1570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
