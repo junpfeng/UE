@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="_zMOHDMj_IDJZ2Gv6XkA">
-    <mxGraphModel dx="1294" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="1266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -436,6 +436,33 @@
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-161" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="create_entity_for_spawn_info" vertex="1">
           <mxGeometry height="60" width="120" x="1580" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-163" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NPC刷新" vertex="1">
+          <mxGeometry height="30" width="60" x="1610" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-166" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-165" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-164" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="tick_bt_ai_system" vertex="1">
+          <mxGeometry height="40" width="130" x="1860" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-165" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="game_tick" vertex="1">
+          <mxGeometry height="40" width="130" x="1860" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-168" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NodeType::LeafNode&lt;br&gt;也就是动作节点" vertex="1">
+          <mxGeometry height="60" width="120" x="1760" y="2370" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-169" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NodeType::DecoratorNode&lt;br&gt;也就是装饰节点" vertex="1">
+          <mxGeometry height="60" width="150" x="1918" y="2370" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-170" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NodeType::ControlNode&lt;br&gt;也就是控制节点" vertex="1">
+          <mxGeometry height="60" width="150" x="2100" y="2370" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-171" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="黑板存取共享的临时数据" vertex="1">
+          <mxGeometry height="60" width="120" x="1933" y="2218" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-172" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="npc_entity 存取持久数据" vertex="1">
+          <mxGeometry height="60" width="120" x="1933" y="2278" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
