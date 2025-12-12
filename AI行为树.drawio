@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="_zMOHDMj_IDJZ2Gv6XkA">
-    <mxGraphModel dx="1252" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="908" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -535,6 +535,15 @@
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-195" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="前序DFS递归构造行为树实例" vertex="1">
           <mxGeometry height="60" width="120" x="1980" y="3250" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-199" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-198" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-197" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="前序DFS构造" vertex="1">
+          <mxGeometry height="60" width="120" x="2350" y="2960" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-198" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="递归函数：{&lt;div&gt;先创建当前节点；&lt;/div&gt;&lt;div&gt;再遍历当前节点的子节点进行&quot;递归&quot;；&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="135" width="270" x="2275" y="3072.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
