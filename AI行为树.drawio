@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="_zMOHDMj_IDJZ2Gv6XkA">
-    <mxGraphModel dx="2391" dy="1266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2175" dy="1127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -463,6 +463,42 @@
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-172" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="npc_entity 存取持久数据" vertex="1">
           <mxGeometry height="60" width="120" x="1933" y="2278" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-173" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;pub trait TreeNode: TreeNodeStatus {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 关联类型定义&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type TickAction: TreeNode;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type BlackBoardValue;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type TickEvent;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type TickFunc: ?Sized;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type World;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type Entity;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 核心方法&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fn control_tick(...) -&amp;gt; (Status, f64);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fn action_tick(...) -&amp;gt; Status;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fn reset(...);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fn node_idx() -&amp;gt; i32;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fn node_name() -&amp;gt; &amp;amp;&#39;static str;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fn node_type() -&amp;gt; NodeType;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fn children(...) -&amp;gt; Vec&amp;lt;&amp;amp;Box&amp;lt;dyn TreeNode&amp;lt;...&amp;gt;&amp;gt;&amp;gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fn visualize(...) -&amp;gt; std::fmt::Result;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="290" width="320" x="1760" y="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-180" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MOzzzRUpAzljYCfOQZ9g-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-181" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-174" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="NPC1" vertex="1">
+          <mxGeometry height="80" width="80" x="2370" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-182" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MOzzzRUpAzljYCfOQZ9g-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-183" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MOzzzRUpAzljYCfOQZ9g-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-175" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="NPC2" vertex="1">
+          <mxGeometry height="80" width="80" x="2560" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-176" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="行为树1" vertex="1">
+          <mxGeometry height="60" width="120" x="2220" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-177" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="行为树2" vertex="1">
+          <mxGeometry height="60" width="120" x="2410" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-178" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="行为树3" vertex="1">
+          <mxGeometry height="60" width="120" x="2610" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-179" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="行为树4" vertex="1">
+          <mxGeometry height="60" width="120" x="2770" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-184" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="一个行为树实例只归属于一个npc实例，一个npc实例可以有多个行为树实例" vertex="1">
+          <mxGeometry height="30" width="410" x="2320" y="2490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
