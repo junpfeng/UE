@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="7cUMBOlWYrW2X3_th4NZ">
-    <mxGraphModel>
+    <mxGraphModel dx="2326" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-3" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="道具栏" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-5" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-7" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="类背包系统" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="堆叠" vertex="1">
+          <mxGeometry height="60" width="120" x="-30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-9" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="不堆叠" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-11" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="枪械、宝物" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="枪械不具有唯一性" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="480" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
