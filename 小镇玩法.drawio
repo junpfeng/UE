@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="7cUMBOlWYrW2X3_th4NZ">
-    <mxGraphModel dx="1821" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3258" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qx7x8McwO07xSiQUq4gq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="道具栏" vertex="1">
-          <mxGeometry height="60" width="120" x="-620" y="60" as="geometry" />
+          <mxGeometry height="60" width="120" x="-520" y="50" as="geometry" />
         </mxCell>
         <mxCell id="Qx7x8McwO07xSiQUq4gq-13" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Qx7x8McwO07xSiQUq4gq-12">
           <mxGeometry relative="1" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qx7x8McwO07xSiQUq4gq-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="类背包系统" vertex="1">
-          <mxGeometry height="60" width="120" x="-620" y="150" as="geometry" />
+          <mxGeometry height="60" width="120" x="-520" y="140" as="geometry" />
         </mxCell>
         <mxCell id="Qx7x8McwO07xSiQUq4gq-17" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-6">
           <mxGeometry relative="1" as="geometry" />
@@ -60,6 +60,54 @@
         </mxCell>
         <mxCell id="Qx7x8McwO07xSiQUq4gq-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="物品ID--&amp;gt;该物品所在的所有格子列表" vertex="1">
           <mxGeometry height="60" width="120" x="-420" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="效果系统" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-29" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-31" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-33" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-35" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-37" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-39" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-41" edge="1" parent="1" source="Qx7x8McwO07xSiQUq4gq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qx7x8McwO07xSiQUq4gq-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gas系统" vertex="1">
+          <mxGeometry height="60" width="120" x="1110" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="能力系统" vertex="1">
+          <mxGeometry height="60" width="120" x="860" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gas系统" vertex="1">
+          <mxGeometry height="60" width="120" x="970" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gas系统" vertex="1">
+          <mxGeometry height="60" width="120" x="1470" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gas系统" vertex="1">
+          <mxGeometry height="60" width="120" x="1310" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gas系统" vertex="1">
+          <mxGeometry height="60" width="120" x="1320" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gas系统" vertex="1">
+          <mxGeometry height="60" width="120" x="960" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx7x8McwO07xSiQUq4gq-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gas系统" vertex="1">
+          <mxGeometry height="60" width="120" x="1150" y="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
