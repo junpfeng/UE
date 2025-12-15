@@ -504,37 +504,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-185" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置管理&lt;div&gt;json&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1760" y="2970" as="geometry" />
+          <mxGeometry height="60" width="120" x="1870" y="2960" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-188" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-187" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-186" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="config.toml 配置文件&lt;br&gt;标记行为树配置路径" vertex="1">
-          <mxGeometry height="60" width="120" x="1760" y="3070" as="geometry" />
+          <mxGeometry height="60" width="120" x="1870" y="3060" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-190" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-189" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-187" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="行为树初始化读取配置" vertex="1">
-          <mxGeometry height="60" width="120" x="1760" y="3160" as="geometry" />
+          <mxGeometry height="60" width="120" x="1870" y="3150" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-189" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="使用行为树序列化器" vertex="1">
-          <mxGeometry height="60" width="120" x="1760" y="3250" as="geometry" />
+          <mxGeometry height="60" width="120" x="1870" y="3240" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-194" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-193" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-192" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化" vertex="1">
-          <mxGeometry height="60" width="120" x="1980" y="2970" as="geometry" />
+          <mxGeometry height="60" width="120" x="2090" y="2960" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-196" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-195" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-193" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="读取内存的行为树配置" vertex="1">
-          <mxGeometry height="60" width="120" x="1980" y="3110" as="geometry" />
+          <mxGeometry height="60" width="120" x="2090" y="3100" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-195" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="前序DFS递归构造行为树实例" vertex="1">
-          <mxGeometry height="60" width="120" x="1980" y="3250" as="geometry" />
+          <mxGeometry height="60" width="120" x="2090" y="3240" as="geometry" />
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-199" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-198" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -544,6 +544,69 @@
         </mxCell>
         <mxCell id="MOzzzRUpAzljYCfOQZ9g-198" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="递归函数：{&lt;div&gt;先创建当前节点；&lt;/div&gt;&lt;div&gt;再遍历当前节点的子节点进行&quot;递归&quot;；&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="135" width="270" x="2275" y="3072.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-203" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-202" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-206" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-205" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-200" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入是什么" vertex="1">
+          <mxGeometry height="60" width="120" x="2790" y="2985" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-201" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输出是什么" vertex="1">
+          <mxGeometry height="60" width="120" x="3170" y="2985" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-202" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="行为树节点配置" vertex="1">
+          <mxGeometry height="60" width="120" x="2660" y="3080" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-205" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="黑板配置" vertex="1">
+          <mxGeometry height="60" width="120" x="2940" y="3070" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-207" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="instantiate_tree(idx, tree_name, bb_map, ref_map)&lt;br&gt;初始化行为树实例" vertex="1">
+          <mxGeometry height="60" width="280" x="1800" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-210" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-209" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-208" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置读取问题" vertex="1">
+          <mxGeometry height="60" width="120" x="1690" y="2960" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-209" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="热加载问题" vertex="1">
+          <mxGeometry height="60" width="120" x="1690" y="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-211" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="to_tree_state" vertex="1">
+          <mxGeometry height="60" width="120" x="1780" y="4180" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-213" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-211" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-212" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="to_context" vertex="1">
+          <mxGeometry height="60" width="120" x="1780" y="4080" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-215" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-212" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-214" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="instantiate_tree" vertex="1">
+          <mxGeometry height="60" width="120" x="1780" y="3970" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-217" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-214" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-216" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="get_bt_instance" vertex="1">
+          <mxGeometry height="60" width="120" x="1780" y="3870" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-219" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-216" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-218" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="get_bt_instance" vertex="1">
+          <mxGeometry height="60" width="120" x="1780" y="3770" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-221" edge="1" parent="1" source="MOzzzRUpAzljYCfOQZ9g-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MOzzzRUpAzljYCfOQZ9g-218" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MOzzzRUpAzljYCfOQZ9g-220" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;BehaviorTreeComp&lt;/div&gt;new" vertex="1">
+          <mxGeometry height="60" width="120" x="1780" y="3670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
