@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="ZLxag14Zkiy9PbXhCapn">
-    <mxGraphModel dx="1740" dy="1213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2833" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,192 @@
         </mxCell>
         <mxCell id="jlau44kMH1EpEcnD0pRC-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="上下文" vertex="1">
           <mxGeometry height="60" width="120" x="780" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-16" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="道具栏" vertex="1">
+          <mxGeometry height="60" width="120" x="910" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-18" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jlau44kMH1EpEcnD0pRC-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-19" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jlau44kMH1EpEcnD0pRC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="类背包系统" vertex="1">
+          <mxGeometry height="60" width="120" x="910" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-21" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="堆叠系统" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-23" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="堆叠/不堆叠" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-25" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="枪械、宝物不堆叠" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="枪械不具有唯一性" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="1465" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-28" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="jlau44kMH1EpEcnD0pRC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="格子系统" vertex="1">
+          <mxGeometry height="60" width="120" x="810" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-30" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-31" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="索引系统" vertex="1">
+          <mxGeometry height="60" width="120" x="1010" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="格子索引--&amp;gt;物品" vertex="1">
+          <mxGeometry height="60" width="120" x="1180" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="物品ID--&amp;gt;该物品所在的所有格子列表" vertex="1">
+          <mxGeometry height="60" width="120" x="1010" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-35" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="道具使用" vertex="1">
+          <mxGeometry height="60" width="120" x="1660" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-37" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="trigger_use_item_effects" vertex="1">
+          <mxGeometry height="60" width="160" x="1640" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-39" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="execute_effect" vertex="1">
+          <mxGeometry height="60" width="160" x="1640" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-41" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="效果类型" vertex="1">
+          <mxGeometry height="80" width="80" x="1680" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-42" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-46" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="手持道具使用" vertex="1">
+          <mxGeometry height="60" width="120" x="2080" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-44" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="道具背包" vertex="1">
+          <mxGeometry height="60" width="120" x="2080" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="装备背包" vertex="1">
+          <mxGeometry height="60" width="120" x="2080" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-47" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-71" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="添加物品" vertex="1">
+          <mxGeometry height="60" width="120" x="830" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-49" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="物品数量和格子剩余数量比较" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-51" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-52" connectable="0" parent="jlau44kMH1EpEcnD0pRC-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="0.214" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-53" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-59" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-54" connectable="0" parent="jlau44kMH1EpEcnD0pRC-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.0462" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-55" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-56" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="物品数量小于格子剩余数量" vertex="1">
+          <mxGeometry height="80" width="80" x="700" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-57" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="直接堆叠" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-58" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-59" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="部分堆叠满，剩余找其他格子" vertex="1">
+          <mxGeometry height="60" width="120" x="830" y="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-60" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-65" value="是">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-61" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-66" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-62" connectable="0" parent="jlau44kMH1EpEcnD0pRC-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1231" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-63" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="还有其他格子" vertex="1">
+          <mxGeometry height="80" width="80" x="850" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-64" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="jlau44kMH1EpEcnD0pRC-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="2090" />
+              <mxPoint x="480" y="1810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-65" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="重复上述" vertex="1">
+          <mxGeometry height="60" width="100" x="670" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-66" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="添加失败" vertex="1">
+          <mxGeometry height="60" width="120" x="990" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-67" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jlau44kMH1EpEcnD0pRC-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-68" connectable="0" parent="jlau44kMH1EpEcnD0pRC-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="找到" vertex="1">
+          <mxGeometry relative="1" x="-0.2603" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-69" edge="1" parent="1" source="jlau44kMH1EpEcnD0pRC-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jlau44kMH1EpEcnD0pRC-72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-70" connectable="0" parent="jlau44kMH1EpEcnD0pRC-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1231" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-71" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="查找格子" vertex="1">
+          <mxGeometry height="80" width="80" x="850" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="jlau44kMH1EpEcnD0pRC-72" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="添加失败" vertex="1">
+          <mxGeometry height="60" width="120" x="1017" y="1670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
